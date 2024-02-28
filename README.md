@@ -69,7 +69,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
 * [Hooton's Homegrown Pick Your Own](https://maps.app.goo.gl/APmwK9qKEVkm6SDB6)
    * seasonal fruit picking
    * Get your pumpkins here!
-* Moely-Don (crabbing, but you need your stuff ready- no shops.)
+* Moely-Don - apparently its possible to go crabbing here, but probably not worth going out of your way.
 * Welsh highland railway 25th March - caenarfon 
 * Penman Point
     * Best view of Puffin Island I think (no boat trips from here)
