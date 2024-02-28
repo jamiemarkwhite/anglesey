@@ -47,6 +47,8 @@
     * Monuts (incredible doughnuts)
 * Trearddur Bay
     * Good beach
+    * [lovely coffee with a view](https://maps.app.goo.gl/5bubvFtvdfrzmF8d6)
+    * Watch the lifeboats go in the water for training - Sundays @ 10am
     * Sea shanty restaurant (ice cream & restaurant)
     * Kids playground at top of beach
 * Hootons fruit picking
