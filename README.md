@@ -63,6 +63,7 @@
 * Puffin Island
     * Boat trips available from Beumaris
     * Penman point is great for viewing from a beach.
+    * Apparently David Attenborough used to go here a lot as a child.
 * Nant-Y-Pandy nature walk Llangefni
     * Red Squirrel woodland walk
     * Dingle pay and display (free blue badge)
