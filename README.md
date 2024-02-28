@@ -81,8 +81,8 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
 
 ## Other Guides
 
-* https://www.visitanglesey.co.uk
-* https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey
+* [https://www.visitanglesey.co.uk](https://www.visitanglesey.co.uk)
+* [https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey](https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey)
 
 ## Supermarkets
 * All major supermarkets are pretty much in Llangefni (ASDA; LIDL; ALDI) and Holyhead (Loads.) or go over the bridge near Bangor for Tesco.
