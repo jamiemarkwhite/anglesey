@@ -25,7 +25,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Best Beach on Anglesey in my opinion
     * Coffee / ice cream van / toilet block
     * Woodland walks
-    * Walk onto island when tide out 
+    * Ynys_Llanddwyn: Walk onto the island
       * [Check the tide](https://www.tidetimes.org.uk/llanddwyn-island-tide-times ) - or you'll be wading accross
       * https://en.wikipedia.org/wiki/Ynys_Llanddwyn
 * Aberffraw - Local dunes / walks, pub, has coffee van some days
