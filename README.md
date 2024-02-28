@@ -24,11 +24,10 @@
 * Plas Newydd - National Trust House, Gardens and Adventure Playground
 * Rhosneigher
     * Loads of food places
-       * Pizzas (open from 5pm, usually take card, but not always - be ready with cash in case)
+       * Aydins Pizzas (open from 5pm, usually take card, but not always - be ready with cash in case)
+       * Fish & chips
     * Oyster catcher - nice pub (great parking)
     * Water sports
-    * Takeaway Pizza
-    * Fish & chips
     * Cafes
 * Moelfre
     * Lifeboat museum
