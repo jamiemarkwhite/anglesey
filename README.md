@@ -23,7 +23,8 @@
 * Aberffraw - Local dunes / walks, pub, has coffee van some days
 * Plas Newydd - National Trust House, Gardens and Adventure Playground
 * Rhosneigher
-    * Good food
+    * Loads of food places
+       * Pizzas (open from 5pm, usually take card, but not always - be ready with cash in case)
     * Oyster catcher - nice pub (great parking)
     * Water sports
     * Takeaway Pizza
