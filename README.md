@@ -86,11 +86,15 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Great cafe and shop
     * Popty Pizza (posh Neapolitan)
 
+## Supermarkets
+* All major supermarkets are pretty much in Llangefni (ASDA; LIDL; ALDI) and Holyhead (Loads.) or go over the bridge near Bangor for Tesco.
+* If you're desperate for a McDonalds, you will need to go to Bangor or Holyhead 🍔
+
 ## Other Guides
 
 * [https://www.visitanglesey.co.uk](https://www.visitanglesey.co.uk)
 * [https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey](https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey)
 
-## Supermarkets
-* All major supermarkets are pretty much in Llangefni (ASDA; LIDL; ALDI) and Holyhead (Loads.) or go over the bridge near Bangor for Tesco.
-* If you're desperate for a McDonalds, you will need to go to Bangor or Holyhead 🍔
+## Mainland
+
+* 
