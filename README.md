@@ -3,7 +3,8 @@
 Disclaimer: Some things just seem to be randomly closed depending on weather and the season. Don't always trust opening times on websites. Sometimes they are open when they say they aren't too.
 
 * Foel farm
-* [Pili Palas](https://www.pilipalas.co.uk/) (animals, reptiles, butterfly, soft play)
+* [Pili Palas](https://www.pilipalas.co.uk/)
+   * animals, reptiles, butterfly & bugs. also has a soft play
 * Sea zoo
     * Crazy golf
     * Play area
@@ -32,7 +33,9 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
    * Local dunes / walks
    * pub (re-opening soon, recently closed)
    * coffee / ice cream van in high season
-* Plas Newydd - National Trust House, Gardens and Adventure Playground
+* Plas Newydd - National Trust House & Gardens
+   * Also has playground & disc golf
+   * Cafe / Shop & Ice creams
 * Rhosneigher
     * Loads of food places
        * Aydins Pizzas (open from 5pm, usually take card, but not always - be ready with cash in case)
@@ -44,7 +47,8 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Lifeboat museum
     * Small waterfall thing
     * Tiny beach
-    * Nice cafe
+    * Nice cafe - good for lunch (Anns Pantry)
+    * Has an ok pub too with views when sat outdoors.
 * South Stack Lighthouse
     * RSPB centre / viewing point
     * See dolphins if you’re lucky.
