@@ -73,3 +73,4 @@
 
 ## Supermarkets
 * All major supermarkets are pretty much in Llangefni (ASDA; LIDL; ALDI) and Holyhead (Loads.) or go over the bridge near Bangor for Tesco.
+* If you're desperate for a McDonalds, you will need to go to Bangor or Holyhead 🍔
