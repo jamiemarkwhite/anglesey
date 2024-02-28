@@ -45,7 +45,6 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
 * South Stack Lighthouse
     * RSPB centre / viewing point
     * See dolphins if you’re lucky.
-* Good Guide for play - https://www.visitanglesey.co.uk/media/822511/acc30568-anglesey-playable-spaces-english-2017-web.pdf
 * Bryn Celli Ddu Burial Chamber
 * Anglesey Model village
     * Has a fence maze
@@ -78,6 +77,11 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
 * Oriel Môn (Llangefni museum and gallery)
     * Great cafe and shop
     * Popty Pizza (posh Neapolitan)
+
+## Other Guides
+
+* https://www.visitanglesey.co.uk
+* https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey
 
 ## Supermarkets
 * All major supermarkets are pretty much in Llangefni (ASDA; LIDL; ALDI) and Holyhead (Loads.) or go over the bridge near Bangor for Tesco.
