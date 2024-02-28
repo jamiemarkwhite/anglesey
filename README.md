@@ -28,7 +28,10 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Ynys_Llanddwyn: Walk onto the island
       * [Check the tide](https://www.tidetimes.org.uk/llanddwyn-island-tide-times ) - or you'll be wading accross
       * https://en.wikipedia.org/wiki/Ynys_Llanddwyn
-* Aberffraw - Local dunes / walks, pub, has coffee van some days
+* Aberffraw
+   * Local dunes / walks
+   * pub (re-opening soon, recently closed)
+   * coffee / ice cream van in high season
 * Plas Newydd - National Trust House, Gardens and Adventure Playground
 * Rhosneigher
     * Loads of food places
