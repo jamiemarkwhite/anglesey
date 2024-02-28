@@ -51,7 +51,9 @@
     * Watch the lifeboats go in the water for training - Sundays @ 10am
     * Sea shanty restaurant (ice cream & restaurant)
     * Kids playground at top of beach
-* Hootons fruit picking
+* [Hooton's Homegrown Pick Your Own](https://maps.app.goo.gl/APmwK9qKEVkm6SDB6)
+   * seasonal fruit picking
+   * Get your pumpkins here!
 * Moely-Don (crabbing, but you need your stuff ready- no shops.)
 * Welsh highland railway 25th March - caenarfon 
 * Penman Point 
