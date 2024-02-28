@@ -14,7 +14,7 @@
     * Kids playground
     * Puffin Island Cruise
 * Parys mountain
-    * Old Copper Mine (Mountain)
+    * Old Copper Mine Quarry. It's really incredible.
 * Newborough (best beach & forest)
     * Best Beach on Anglesey in my opinion
     * Coffee / ice cream van / toilet block
