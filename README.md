@@ -94,7 +94,4 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
 
 * [https://www.visitanglesey.co.uk](https://www.visitanglesey.co.uk)
 * [https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey](https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey)
-
-## Mainland
-
-* 
+  
