@@ -68,6 +68,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Kids playground at top of beach
 * [Hooton's Homegrown Pick Your Own](https://maps.app.goo.gl/APmwK9qKEVkm6SDB6)
    * seasonal fruit picking
+   * [Check their Facebook page to see what's going on](https://www.facebook.com/HootonsFarmShops)
    * Get your pumpkins here!
 * Moely-Don - apparently its possible to go crabbing here, but probably not worth going out of your way.
 * Welsh highland railway 25th March - caenarfon 
