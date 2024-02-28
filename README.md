@@ -59,7 +59,8 @@
 * Penman Point 
     * Nice cafe
     * £3 toll (includes car park near cafe)
-* Nant-Y-Pandy nature walk Llangefni 
+* Nant-Y-Pandy nature walk Llangefni
+    * Red Squirrel woodland walk
     * Dingle pay and display (free blue badge)
 * Oriel Môn (Llangefni museum and gallery)
     * Great cafe and shop
