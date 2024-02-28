@@ -1,5 +1,7 @@
 # Anglesey
 
+Disclaimer: Some things just seem to be randomly closed depending on weather and the season. Don't always trust opening times on websites. Sometimes they are open when they say they aren't too.
+
 * Foel farm
 * Pili Palas (animals, reptiles, butterfly, soft play)
 * Sea zoo
