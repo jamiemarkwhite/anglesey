@@ -11,7 +11,11 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Free bouncy castle (April - October)
 * Beaumaris
     * Castle
-    * Crabbing - [best going at high tide](https://www.thebeachguide.co.uk/north-wales/anglesey/beaumaris-weather.htm)
+    * Crabbing
+      * [best going at high tide](https://www.thebeachguide.co.uk/north-wales/anglesey/beaumaris-weather.htm)
+      * You can buy the eqipment for about £12 near the pier or at the sweet shop.
+      * Bait: Use a slice of cheap bacon from Spar.
+      * Fill bucket with sea water, and grab a few sensible sized stones as weights for your net.
     * Wildlife cruises
     * Kids playground
     * Puffin Island Cruise
