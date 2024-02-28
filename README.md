@@ -13,8 +13,8 @@
     * Wildlife cruises
     * Kids playground
     * Puffin Island Cruise
-* Parys mountain
-    * Old Copper Mine Quarry. It's really incredible.
+* [Parys mountain](https://maps.app.goo.gl/eSW1vpRxTuRA3344A)
+    * Old Copper Mine Quarry. [It's really incredible](https://www.google.com/maps/place/Mynydd+Parys+%7C+Parys+Mountain+Copper+Mine/@53.3879778,-4.3510932,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOooEJs02TwJOaD5y7qt3haL80CySkjsMuWVqmP!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOooEJs02TwJOaD5y7qt3haL80CySkjsMuWVqmP%3Dw152-h86-k-no!7i4000!8i2252!4m7!3m6!1s0x4864522fc0d28e93:0x7c1882f33642f1cb!8m2!3d53.3879778!4d-4.3510932!10e5!16s%2Fg%2F11ckvby9lw?entry=ttu)
 * Newborough (best beach & forest)
     * Best Beach on Anglesey in my opinion
     * Coffee / ice cream van / toilet block
