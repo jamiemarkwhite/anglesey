@@ -56,9 +56,13 @@
    * Get your pumpkins here!
 * Moely-Don (crabbing, but you need your stuff ready- no shops.)
 * Welsh highland railway 25th March - caenarfon 
-* Penman Point 
+* Penman Point
+    * Best view of Puffin Island I think (no boat trips from here)
     * Nice cafe
     * £3 toll (includes car park near cafe)
+* Puffin Island
+    * Boat trips available from Beumaris
+    * Penman point is great for viewing from a beach.
 * Nant-Y-Pandy nature walk Llangefni
     * Red Squirrel woodland walk
     * Dingle pay and display (free blue badge)
