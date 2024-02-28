@@ -11,7 +11,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Free bouncy castle (April - October)
 * Beaumaris
     * Castle
-    * Crabbing
+    * Crabbing - [best going at high tide](https://www.thebeachguide.co.uk/north-wales/anglesey/beaumaris-weather.htm)
     * Wildlife cruises
     * Kids playground
     * Puffin Island Cruise
