@@ -11,7 +11,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Refreshments & cafe
     * Free bouncy castle (April - October)
 * Menai
-    * lovlely walk {i need to link to car park- ask me about this}
+    * lovlely walk [walk on an island (park at Coed Cyrnol Car Park, menai, and walk around Church Island)
     * Dylans restaurant -very good!
 * Beaumaris
     * Castle
