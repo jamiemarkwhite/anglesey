@@ -40,7 +40,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Loads of food places
        * Aydins Pizzas (open from 5pm, usually take card, but not always - be ready with cash in case)
        * Fish & chips
-    * Oyster catcher - nice pub (great parking)
+    * Oyster catcher - nice pub, incredible food (great parking)
     * Water sports
     * Cafes
 * Moelfre
@@ -66,7 +66,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Small playground accross road from lifeboat station
     * [lovely coffee with a view](https://maps.app.goo.gl/5bubvFtvdfrzmF8d6)
     * Watch the lifeboats go in the water for training - Sundays @ 10am
-    * Sea shanty restaurant (ice cream & restaurant)
+    * Sea shanty restaurant (ice cream & restaurant with fantastic food)
     * Kids playground at top of beach
 * [Hooton's Homegrown Pick Your Own](https://maps.app.goo.gl/APmwK9qKEVkm6SDB6)
    * seasonal fruit picking
