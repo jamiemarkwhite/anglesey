@@ -10,6 +10,9 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Play area
     * Refreshments & cafe
     * Free bouncy castle (April - October)
+* Menai
+    * lovlely walk {i need to link to car park- ask me about this}
+    * Dylans restaurant -very good!
 * Beaumaris
     * Castle
     * Crabbing
