@@ -51,6 +51,8 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Has an ok pub too with views when sat outdoors.
 * South Stack Lighthouse
     * RSPB centre / viewing point
+    * cafe serving coffe.
+    * smallest play area ever tucked around the back, has a swing with a good view of sea
     * See dolphins if you’re lucky.
 * Bryn Celli Ddu Burial Chamber
 * Anglesey Model village
