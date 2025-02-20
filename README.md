@@ -32,6 +32,7 @@ Disclaimer: Some things just seem to be randomly closed depending on weather and
     * Ynys_Llanddwyn: Walk onto the island
       * [Check the tide](https://www.tidetimes.org.uk/llanddwyn-island-tide-times ) - or you'll be wading accross
       * https://en.wikipedia.org/wiki/Ynys_Llanddwyn
+* Transport Museum - old vehicles; military; planes. Good cafe on site. Small outdoor play area too.
 * Aberffraw
    * Local dunes / walks
    * pub (re-opening soon, recently closed)
