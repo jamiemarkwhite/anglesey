@@ -2,7 +2,7 @@
 
 Welcome to Anglesey (Ynys Môn in Welsh), a beautiful island off the northwest coast of Wales connected to the mainland by the iconic Menai Suspension Bridge. With its stunning coastline, ancient history, and relaxed pace of life, Anglesey offers something for everyone — from pristine sandy beaches and dramatic clifftop walks to medieval castles and quirky family attractions. Whether you're chasing puffins, exploring copper mines, or simply enjoying fish and chips by the sea, this guide will help you make the most of your visit to this Welsh gem.
 
-**Disclaimer:** Some things just seem to be randomly closed depending on weather and the season. Don't always trust opening times on websites. Sometimes they are open when they say they aren't too.
+**Disclaimer:** Some places seem to be randomly closed depending on weather and season. Don't always trust opening times on websites — and sometimes they're open when they say they aren't!
 
 ---
 
@@ -32,10 +32,10 @@ Wales' largest aquarium and marine conservation centre on Anglesey's south coast
 - Part of marine animal rescue network
 - First UK aquarium powered by solar energy
 - Crazy golf on site
-- Play area and free bouncy castle (April - October)
+- Play area and free bouncy castle (April–October)
 - Café and refreshments
 
-### [Tacla Taid - Anglesey Transport Museum](https://angleseytransportmuseum.co.uk/)
+### [Tacla Taid — Anglesey Transport Museum](https://angleseytransportmuseum.co.uk/)
 The largest transport and agriculture museum in Wales, set in a replica 1940s cobbled street.
 - Over 100 classic vehicles from the 1920s onwards
 - Vintage cars, motorbikes, tractors, military vehicles, and a jet plane
@@ -69,22 +69,28 @@ Arguably the best beach on Anglesey — a vast expanse of golden sand backed by 
   - Historic lighthouse and St Dwynwen's church ruins
   - [More about Llanddwyn](https://en.wikipedia.org/wiki/Ynys_Llanddwyn)
 - Parking: £5 for 2 hours, max £15/day
-- Dogs allowed year-round (restrictions west of car park May-Sept)
+- Dogs allowed year-round (restrictions west of car park May–Sept)
 
-### Trearddur Bay
-Popular family beach with excellent facilities on Holy Island.
+### [Trearddur Bay](https://www.visitanglesey.co.uk/en-gb/explore/trearddur-bay)
+Popular family beach with excellent facilities on Holy Island. The name derives from the Welsh for "Arthur's Town" and it's one of Anglesey's premier Blue Flag beaches.
 - Sandy beach with rock pools to explore
+- Sheltered bay ideal for swimming and watersports
 - Kids playground at top of beach
 - Small playground across road from lifeboat station
 - [Lovely coffee with a view](https://maps.app.goo.gl/5bubvFtvdfrzmF8d6)
 - Watch lifeboat training — Sundays at 10am
 - Sea Shanty restaurant — great food and ice cream
+- Nearby: [Trefignath burial chamber](https://cadw.gov.wales/visit/places-to-visit/trefignath-burial-chamber) — Neolithic site maintained by Cadw
 
-### Aberffraw
-Historic village with beautiful dunes and beach walks.
-- Scenic dune walks to the beach
+### [Aberffraw](https://www.visitanglesey.co.uk/en-gb/explore/wildlife/aberffraw-dunes-and-traeth-mawr-beach)
+Historic village and former seat of the Princes of Gwynedd, with beautiful dunes and an unspoilt beach.
+- Scenic dune walks to Traeth Mawr beach
+- Dunes are a Site of Special Scientific Interest
+- Charming 1730s stone bridge in the village
 - Coffee/ice cream van in high season
-- Quiet and unspoilt
+- Dog-friendly beach with no restrictions
+- Quiet and peaceful — far enough from parking to stay uncrowded
+- **Note:** Strong currents around rocky areas and river mouth
 
 ---
 
@@ -99,7 +105,7 @@ Edward I's unfinished masterpiece — a UNESCO World Heritage Site and perhaps t
 - Excellent crabbing nearby:
   - [Best at high tide](https://www.thebeachguide.co.uk/north-wales/anglesey/beaumaris-weather.htm)
   - Buy equipment (~£12) near the pier or sweet shop
-  - Bait: cheap bacon from Spar works great
+  - Bait: cheap bacon from Spar works well
   - Fill bucket with seawater, add stones as weights
 - Kids playground in town
 - [Puffin Island cruises](#puffin-island--wildlife-cruises) depart from the pier
@@ -110,7 +116,7 @@ One of Britain's most evocative prehistoric monuments — a 5,000-year-old buria
 - Originally a henge with a stone circle
 - Famous for its summer solstice alignment — sunlight illuminates the inner chamber
 - Free entry, managed by Cadw
-- Guided tours available May-August
+- Guided tours available May–August
 - Near Llanddaniel Fab
 
 ### [Plas Newydd](https://www.nationaltrust.org.uk/visit/wales/plas-newydd-house-and-garden)
@@ -118,7 +124,7 @@ Stunning National Trust house and gardens on the banks of the Menai Strait.
 - Grade 1 listed ancestral home of the Marquess of Anglesey
 - Rex Whistler's famous 58ft mural
 - 40 acres of gardens with Snowdonia views
-- Over 100 red squirrels in the grounds!
+- Over 100 red squirrels in the grounds
 - Disc golf course and playground
 - Café, shop and ice cream
 - EV charging points available
@@ -153,8 +159,15 @@ The only working windmill in Wales, dating from 1775.
 - **Monuts** — incredible artisan doughnuts!
 - Note: Mill sails not currently operating
 
-### Stone Science
-Hands-on geology and fossil experience.
+### [Stone Science](https://stonescience.co.uk/)
+A hands-on geology and fossil museum near Pentraeth, home to one of the largest fossil collections in Wales.
+- Over 650 million years of Earth history across two floors
+- Touch real fossils including dinosaur eggs, teeth, and coprolites (dino poo!)
+- Thousands of minerals, crystals, and Native American artefacts
+- Life-size dinosaur reconstructions and interactive displays
+- Gift shop with fossils, minerals, and crystal specimens
+- Combine with fossil hunting on nearby beaches
+- Open 10am–4pm daily (closed December–January)
 - [Location on Google Maps](https://maps.app.goo.gl/72MJssQhs98WMCpb6)
 
 ---
@@ -165,16 +178,18 @@ Hands-on geology and fossil experience.
 Wildlife boat trips departing from Beaumaris Pier.
 - 80-minute Puffin Island cruise (£18 adults, £12 children)
 - See puffins, guillemots, razorbills, seals and possibly dolphins
-- Best wildlife viewing April-July
+- Best wildlife viewing April–July
 - Carbon neutral tours
 - Dogs welcome on board
 - Also offer Menai Strait bridge cruises
 
-### Puffin Island
-A bird sanctuary just off the coast, home to thousands of seabirds.
-- Best viewed by boat from Beaumaris
-- Or walk to **Penmon Point** for views from shore:
-  - Nice café
+### [Puffin Island (Ynys Seiriol)](https://en.wikipedia.org/wiki/Puffin_Island_(Anglesey))
+A bird sanctuary just off the coast, home to thousands of seabirds and one of Britain's largest cormorant colonies.
+- Landing is not permitted — view by boat from Beaumaris
+- Site of a 6th-century hermitage and 12th-century monastery ruins
+- Best viewing April–July for puffins, guillemots, and razorbills
+- Or visit **Penmon Point** for views from shore:
+  - [Nice café](https://www.tripadvisor.co.uk/Restaurant_Review-g186444-d4774180-Reviews-Pilot_House_Cafe-Pentraeth_Anglesey_North_Wales_Wales.html)
   - £3 toll (includes parking)
   - David Attenborough reportedly visited as a child!
 
@@ -182,24 +197,30 @@ A bird sanctuary just off the coast, home to thousands of seabirds.
 
 ## Towns & Villages
 
-### Menai Bridge
-Pretty town on the strait with great views of Telford's suspension bridge.
-- Lovely walk to Church Island (park at Coed Cyrnol Car Park)
+### [Menai Bridge](https://www.visitanglesey.co.uk/en-gb/explore/towns/menai-bridge)
+Pretty Victorian town on the strait with great views of Telford's iconic 1826 suspension bridge — the world's first iron suspension bridge.
+- Walk the Belgian Promenade beneath the bridge (built by WWI refugees)
+- Lovely walk to Church Island and St Tysilio's 15th-century church (park at Coed Cyrnol Car Park)
+- [Plas Cadnant Hidden Gardens](https://plascadnant.co.uk/) — restored Victorian gardens with waterfalls and woodland walks
 - **[Dylan's Restaurant](https://dylansrestaurant.co.uk/restaurant/locations/menai-bridge)** — award-winning waterfront dining
   - Famous for wood-fired pizza and local seafood
   - Menai mussels, lobster, sea bass
   - Stunning views from every table
 
-### Rhosneigr
-Popular surf village with great food scene.
-- Sandy beach ideal for water sports
+### [Rhosneigr](https://www.visitanglesey.co.uk/en-gb/explore/rhosneigr-beach)
+Popular surf village on the west coast with two broad sandy beaches and a great food scene. A former Edwardian holiday hotspot that retains its charm.
+- Sandy beaches (Traeth Crigyll and Traeth Llydan) ideal for watersports
+- Windsurfing, paddleboarding, and kayaking
+- Rock pools full of anemones and hermit crabs
 - Loads of cafés and restaurants:
   - **Aydin's Pizzas** — opens 5pm (cash backup advised)
+  - **Mojo's** — restaurant, bar and creperie
   - Fish & chips shops
-- **Oyster Catcher** — excellent gastropub with great parking
+- **[Oyster Catcher](https://www.oystercatcheranglesey.co.uk/)** — excellent gastropub by the dunes with great parking
+- [Anglesey Golf Club](https://www.theangleseygolfclub.com/) — the island's only links course, 5 mins away
 
 ### [Moelfre](https://rnli.org/find-my-nearest/museums/moelfre-rnli-seawatch-centre)
-Charming fishing village with maritime heritage.
+Charming fishing village with rich maritime heritage on the east coast.
 - **RNLI Seawatch Centre** — free museum with retired lifeboat
   - 37 medals for gallantry in station history
   - Statue of legendary Coxswain Richard "Dic" Evans
@@ -208,20 +229,25 @@ Charming fishing village with maritime heritage.
 - Small waterfall and tiny beach
 - Pub with outdoor sea views
 
-### Llangefni
-The island's main town with all amenities.
+### [Llangefni](https://www.visitanglesey.co.uk/en-gb/explore/towns/llangefni)
+The island's county town and commercial centre, situated at the heart of Anglesey on the River Cefni. A stronghold of the Welsh language with an authentic local atmosphere.
 
 #### [Oriel Môn](https://www.orielmon.org/)
 Anglesey's museum and art gallery — free admission.
 - World's largest collection of Sir Kyffin Williams' work
 - Charles Tunnicliffe wildlife art collection
 - Local history exhibits
-- Great café and shop
+- Great café (Blas Mwy) and shop (Jac Do)
 - **Popty Pizza** — posh Neapolitan pizzas
 
-#### Nant-Y-Pandy Nature Walk
-Peaceful woodland walk from the town.
-- Red squirrel spotting
+#### [Nant-Y-Pandy (The Dingle) Nature Reserve](https://www.anglesey.gov.wales/en/Residents/Countryside/Dingle-Nant-y-Pandy-Nature-Reserve-Llangefni.aspx)
+A 25-acre wooded valley rich in wildlife and history, just minutes from the town centre.
+- 1.5-mile boardwalk suitable for wheelchairs and pushchairs
+- Extend to a 6-mile loop around Cefni Reservoir
+- Red squirrel spotting — often seen on the boardwalk handrails
+- Kingfishers, woodpeckers, bluebells in spring
+- Sculptures including a giant dragonfly and carved oak poetry
+- Weekly Parkrun
 - Dingle pay & display parking (free blue badge)
 
 ---
@@ -229,7 +255,7 @@ Peaceful woodland walk from the town.
 ## Day Trips (Near Anglesey)
 
 ### [Welsh Highland Railway](https://www.festrail.co.uk/)
-Britain's longest heritage railway — 25 miles from Caernarfon to Porthmadog.
+Britain's longest heritage railway — 25 miles from Caernarfon to Porthmadog through stunning Snowdonia scenery.
 - Powerful narrow-gauge steam locomotives
 - Climbs to 650ft on Snowdon's foothills
 - Passes through Beddgelert and the stunning Aberglaslyn Pass
@@ -252,7 +278,7 @@ Family farm for seasonal fruit picking.
 
 All major supermarkets are in **Llangefni** (ASDA, Lidl, Aldi) and **Holyhead**. Cross the bridge to Bangor for Tesco.
 
-If you're desperate for a McDonald's, head to Bangor or Holyhead. 🍔
+If you're desperate for a McDonald's, head to Bangor or Holyhead.
 
 ---
 
