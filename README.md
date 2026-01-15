@@ -1,5 +1,7 @@
 # Anglesey
 
+Welcome to Anglesey (Ynys Môn in Welsh), a beautiful island off the northwest coast of Wales connected to the mainland by the iconic Menai Suspension Bridge. With its stunning coastline, ancient history, and relaxed pace of life, Anglesey offers something for everyone — from pristine sandy beaches and dramatic clifftop walks to medieval castles and quirky family attractions. Whether you're chasing puffins, exploring copper mines, or simply enjoying fish and chips by the sea, this guide will help you make the most of your visit to this Welsh gem.
+
 Disclaimer: Some things just seem to be randomly closed depending on weather and the season. Don't always trust opening times on websites. Sometimes they are open when they say they aren't too.
 
 * Foel farm
