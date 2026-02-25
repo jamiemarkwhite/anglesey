@@ -274,11 +274,15 @@ Family farm for seasonal fruit picking.
 
 ---
 
-## Supermarkets
+## Supermarkets & Convenience Stores
 
 All major supermarkets are in **Llangefni** (ASDA, Lidl, Aldi) and **Holyhead**. Cross the bridge to Bangor for Tesco.
 
 If you're desperate for a McDonald's, head to Bangor or Holyhead.
+
+### Premier Stores
+
+There are Premier convenience stores in both **Bethel** and **Nerborough** on the south of the island. Both stores will soon have walk-in beer chillers — perfect for grabbing cold beers to take to the beach! 🏖️
 
 ---
 
