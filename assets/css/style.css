@@ -6,18 +6,18 @@
 }
 
 :root {
-  --color-primary: #6d4c41;
-  --color-primary-light: #8d6e63;
-  --color-accent: #d4a574;
-  --color-bg: #f5f0e6;
-  --color-card: #fffef8;
-  --color-text: #3e2723;
-  --color-text-light: #5d4037;
-  --color-border: #d7ccc8;
-  --color-link: #6d4c41;
-  --color-link-hover: #4e342e;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --color-primary: #5f9189;
+  --color-primary-light: #7fafa6;
+  --color-accent: #deb4b8;
+  --color-bg: #f6f9f8;
+  --color-card: #ffffff;
+  --color-text: #2a3a36;
+  --color-text-light: #4a6560;
+  --color-border: #d8e2de;
+  --color-link: #437069;
+  --color-link-hover: #2d544e;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
   --radius: 12px;
   --max-width: 900px;
 }
@@ -57,7 +57,7 @@ body {
 
 .site-tagline {
   font-size: 1.15rem;
-  opacity: 0.9;
+  opacity: 0.95;
   font-weight: 400;
 }
 
