@@ -11,5 +11,5 @@ summary: "Pentref syrffio poblogaidd ar yr arfordir gorllewinol gyda dau draeth 
   - **Aydin's Pizzas** - ar agor o 5pm (dewch ag arian parod rhag ofn)
   - **Mojo's** - bwyty, bar a chreperie
   - Siopau pysgod a sglodion
-- **[Oyster Catcher](https://www.oystercatcheranglesey.co.uk/)** - tafarn fwyd ardderchog ger y twyni gyda digon o le parcio
+- **[Oyster Catcher](/cy/places/oyster-catcher)** - tafarn fwyd ardderchog ger y twyni gyda digon o le parcio
 - [Anglesey Golf Club](https://www.theangleseygolfclub.com/) - unig gwrs golff glan môr (links) yr ynys, 5 munud i ffwrdd

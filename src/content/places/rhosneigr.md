@@ -20,5 +20,5 @@ credit:
   - **Aydin's Pizzas** — opens 5pm (cash backup advised)
   - **Mojo's** — restaurant, bar and creperie
   - Fish & chips shops
-- **[Oyster Catcher](https://www.oystercatcheranglesey.co.uk/)** — excellent gastropub by the dunes with great parking
+- **[Oyster Catcher](/places/oyster-catcher)** — excellent gastropub by the dunes with great parking
 - [Anglesey Golf Club](https://www.theangleseygolfclub.com/) — the island's only links course, 5 mins away

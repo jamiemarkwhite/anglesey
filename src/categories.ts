@@ -5,6 +5,7 @@ export const categoryIds = [
   'unique',
   'wildlife',
   'towns',
+  'pubs',
   'day-trips',
   'seasonal',
 ] as const;
