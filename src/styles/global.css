@@ -32,6 +32,37 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; color: var(--blue); 
   padding: 28px 16px 48px;
 }
 
+.lang {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+
+.lang a {
+  padding: 5px 8px;
+  background: #fff;
+  border: 2px solid var(--blue);
+  font: 700 12px/1 var(--body);
+  text-decoration: none;
+}
+
+.lang a + a { border-left: 0; }
+
+.lang a:hover { background: var(--soft); }
+
+.lang a[aria-current] { background: var(--blue); color: var(--paper); }
+
+.mt-note {
+  max-width: 600px;
+  margin-bottom: 22px;
+  padding: 2px 0 2px 10px;
+  border-left: 4px solid var(--pink);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.mt-note a { color: inherit; }
+
 .tag {
   display: inline-block;
   background: var(--blue);
