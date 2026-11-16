@@ -24,7 +24,6 @@ const boards = categoryIds
   }))
   .filter((board) => board.places.length > 0);
 const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.title.localeCompare(b.data.title));
-const walks = places.filter((p) => p.data.walk).sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
 <Base locale={locale} path="/">
@@ -56,24 +55,10 @@ const walks = places.filter((p) => p.data.walk).sort((a, b) => a.data.title.loca
 
   <nav aria-label={strings.categoriesLabel}>
     <ul class="jump">
-      {walks.length > 0 && <li><a href="#walks">{strings.walksHeading}</a></li>}
       {boards.map((b) => <li><a href={`#${b.id}`}>{b.name}</a></li>)}
       <li><a href="#shops">{strings.shopsNav}</a></li>
     </ul>
   </nav>
-
-  {
-    walks.length > 0 && (
-      <section class="section" id="walks">
-        <h2>{strings.walksHeading}</h2>
-        <ul class="cards">
-          {walks.map((p) => (
-            <PlaceCard place={p} locale={locale} note={p.data.walk} />
-          ))}
-        </ul>
-      </section>
-    )
-  }
 
   {
     boards.map((b) => (

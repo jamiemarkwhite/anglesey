@@ -5,7 +5,6 @@ category: unique
 order: 3
 url: "https://www.visitanglesey.co.uk/en-gb/explore/llynon-mill"
 summary: "The only working windmill in Wales, dating from 1775."
-walk: "2-mile family-friendly Llynon Trail"
 emoji: "🍩"
 ---
 

@@ -2,7 +2,6 @@
 title: "Melin Llynnon"
 tagline: "melin wynt a Monuts"
 summary: "Yr unig felin wynt sy'n dal i weithio yng Nghymru, yn dyddio o 1775."
-walk: "Llwybr Llynnon 2 filltir, addas i deuluoedd"
 ---
 
 - Melin wynt â thŵr carreg ger Llanddeusant

@@ -5,7 +5,6 @@ category: towns
 order: 6
 url: "https://www.anglesey.gov.wales/en/Residents/Countryside/Dingle-Nant-y-Pandy-Nature-Reserve-Llangefni.aspx"
 summary: "A 25-acre wooded valley on the edge of Llangefni, with a flat boardwalk along the river and red squirrels in the trees."
-walk: "1.5-mile flat boardwalk, or a 6-mile loop round Cefni Reservoir"
 area: "Llangefni"
 photo: "./the-dingle.jpg"
 credit:

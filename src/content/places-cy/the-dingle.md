@@ -2,7 +2,6 @@
 title: "Gwarchodfa Natur Nant y Pandy (y Dingle)"
 tagline: "llwybr pren a gwiwerod"
 summary: "Dyffryn coediog 25 erw ar gyrion Llangefni, gyda llwybr pren gwastad ar hyd yr afon a gwiwerod coch yn y coed."
-walk: "Llwybr pren gwastad 1.5 milltir, neu gylchdaith 6 milltir o gwmpas Llyn Cefni"
 ---
 
 Gwarchodfa natur leol yw'r Dingle, sy'n cael ei rheoli gan Gyngor Sir Ynys Môn. Mae'n dilyn Afon Cefni i fyny dyffryn coediog o Eglwys Sant Cyngar yn Llangefni tuag at Lyn Cefni. Mae mynediad am ddim.

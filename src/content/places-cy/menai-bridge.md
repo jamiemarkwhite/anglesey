@@ -2,7 +2,6 @@
 title: "Porthaethwy"
 tagline: "tref a phont Fictoraidd"
 summary: "Tref Fictoraidd hardd ar lan Afon Menai gyda golygfeydd gwych o bont grog eiconig Telford o 1826 - pont grog haearn gyntaf y byd."
-walk: "Promenâd y Belgiaid o dan y bont, ac Ynys Tysilio"
 ---
 
 - Cerddwch ar hyd Promenâd y Belgiaid o dan y bont (a adeiladwyd gan ffoaduriaid yn y Rhyfel Byd Cyntaf)

@@ -5,7 +5,6 @@ category: beaches
 order: 3
 url: "https://www.visitanglesey.co.uk/en-gb/explore/wildlife/aberffraw-dunes-and-traeth-mawr-beach"
 summary: "Historic village and former seat of the Princes of Gwynedd, with beautiful dunes and an unspoilt beach."
-walk: "Dune walk to Traeth Mawr"
 photo: "./aberffraw.jpg"
 credit:
   author: "Llywelyn2000"

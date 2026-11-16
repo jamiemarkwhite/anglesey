@@ -2,7 +2,6 @@
 title: "Traeth a Choedwig Niwbwrch"
 tagline: "traeth gorau'r ynys"
 summary: "Gellid dadlau mai dyma draeth gorau Ynys Môn - ehangder mawr o dywod euraidd gyda choedwig hynafol y tu ôl iddo."
-walk: "Llwybrau'r goedwig, ac allan i Landdwyn ar drai"
 ---
 
 - Rhan o Warchodfa Natur Genedlaethol
