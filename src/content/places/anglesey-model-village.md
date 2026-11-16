@@ -1,6 +1,5 @@
 ---
 title: "Anglesey Model Village"
-emoji: "🏘️"
 tagline: "Anglesey at 1/12th scale"
 category: family
 order: 5

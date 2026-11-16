@@ -1,6 +1,5 @@
 ---
 title: "Stone Science"
-emoji: "🦕"
 tagline: "fossils & dino poo"
 category: unique
 order: 4

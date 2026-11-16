@@ -1,11 +1,16 @@
 ---
 title: "Beaumaris Castle"
-emoji: "🏰"
 tagline: "castle & crabbing"
 category: history
 order: 1
 url: "https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle"
 summary: "Edward I's unfinished masterpiece — a UNESCO World Heritage Site and perhaps the greatest castle never completed."
+photo: "./beaumaris-castle.jpg"
+credit:
+  author: "Mike Peel (www.mikepeel.net)"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Beaumaris_Castle_2015_003.jpg"
 ---
 
 - Near-perfect symmetrical design with concentric defences

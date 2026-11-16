@@ -1,11 +1,16 @@
 ---
 title: "Aberffraw"
-emoji: "🌾"
 tagline: "quiet dunes"
 category: beaches
 order: 3
 url: "https://www.visitanglesey.co.uk/en-gb/explore/wildlife/aberffraw-dunes-and-traeth-mawr-beach"
 summary: "Historic village and former seat of the Princes of Gwynedd, with beautiful dunes and an unspoilt beach."
+photo: "./aberffraw.jpg"
+credit:
+  author: "Llywelyn2000"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Eglwys_Sant_Beuno,_Aberffraw_ar_Ynys_M%C3%B4n_-_St_Beuno%27s_Church,_Aberffraw_parish_church_in_Anglesey,_Wales_31.png"
 ---
 
 - Scenic dune walks to Traeth Mawr beach

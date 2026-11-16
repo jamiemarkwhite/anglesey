@@ -1,6 +1,5 @@
 ---
 title: "Melin Llynnon"
-emoji: "🍩"
 tagline: "windmill & Monuts"
 category: unique
 order: 3

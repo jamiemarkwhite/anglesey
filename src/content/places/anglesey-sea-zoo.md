@@ -1,11 +1,16 @@
 ---
 title: "Anglesey Sea Zoo"
-emoji: "🐙"
 tagline: "Wales' largest aquarium"
 category: family
 order: 3
 url: "https://www.angleseyseazoo.co.uk/"
 summary: "Wales' largest aquarium and marine conservation centre on Anglesey's south coast."
+photo: "./anglesey-sea-zoo.jpg"
+credit:
+  author: "Bill Harrison"
+  license: "CC BY-SA 2.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Anglesey_Sea_Zoo_-_geograph.org.uk_-_7357768.jpg"
 ---
 
 - Over 40 tanks displaying 150+ native British marine species

@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Credit from './Credit.astro';
+import Photo from './Photo.astro';
+
+interface Props {
+  place: CollectionEntry<'places'>;
+}
+
+const { place } = Astro.props;
+---
+
+<li class="card">
+  <a href={`/places/${place.id}`} class="card-link">
+    <Photo src={place.data.photo} />
+    <h3>{place.data.title}</h3>
+    <p class="tagline">{place.data.tagline}</p>
+  </a>
+  <Credit credit={place.data.credit} />
+</li>

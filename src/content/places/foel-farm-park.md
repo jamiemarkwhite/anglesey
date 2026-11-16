@@ -1,6 +1,5 @@
 ---
 title: "Foel Farm Park"
-emoji: "🐄"
 tagline: "animals & tractor rides"
 category: family
 order: 1

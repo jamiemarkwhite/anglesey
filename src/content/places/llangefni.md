@@ -1,6 +1,5 @@
 ---
 title: "Llangefni"
-emoji: "🏛️"
 tagline: "county town"
 category: towns
 order: 4

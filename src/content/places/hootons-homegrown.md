@@ -1,6 +1,5 @@
 ---
 title: "Hooton's Homegrown"
-emoji: "🍓"
 tagline: "pick your own"
 category: seasonal
 order: 1

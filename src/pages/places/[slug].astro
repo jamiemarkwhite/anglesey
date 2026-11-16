@@ -1,7 +1,9 @@
 ---
 import { getCollection, render } from 'astro:content';
-import PlaceRow from '../../components/PlaceRow.astro';
 import Base from '../../layouts/Base.astro';
+import Credit from '../../components/Credit.astro';
+import Photo from '../../components/Photo.astro';
+import PlaceCard from '../../components/PlaceCard.astro';
 import { getCategory } from '../../categories';
 import { editPlaceUrl } from '../../site';
 
@@ -20,26 +22,33 @@ const category = getCategory(place.data.category);
 
 <Base title={place.data.title} description={place.data.summary}>
   <a class="back" href={`/#${category.id}`}>← {category.name}</a>
-  <article class="place">
-    <div class="place-emoji" aria-hidden="true">{place.data.emoji}</div>
-    <p class="place-meta">{category.name}{place.data.area && ` · ${place.data.area}`}</p>
-    <h1>{place.data.title}</h1>
-    <p class="intro">{place.data.summary}</p>
-    <div class="prose"><Content /></div>
+  <article>
+    <span class="tag">{category.name}{place.data.area && ` · ${place.data.area}`}</span>
+    <h1 class="shadow place-title">{place.data.title}</h1>
+    <p class="lede">{place.data.summary}</p>
+    {
+      place.data.photo && (
+        <>
+          <Photo src={place.data.photo} class="hero" widths={[720, 1280]} sizes="(max-width: 760px) 100vw, 720px" loading="eager" />
+          <Credit credit={place.data.credit} />
+        </>
+      )
+    }
+    <div class="prose body"><Content /></div>
     {
       nearby.length > 0 && (
-        <section class="board">
+        <section class="section">
           <h2>In {place.data.title}</h2>
-          <ul class="rows">
+          <ul class="cards">
             {nearby.map((p) => (
-              <PlaceRow place={p} />
+              <PlaceCard place={p} />
             ))}
           </ul>
         </section>
       )
     }
     <p class="actions">
-      <a class="visit" href={place.data.url} rel="noopener">Website ↗</a>
+      <a class="button" href={place.data.url} rel="noopener">Website ↗</a>
       <a class="edit" href={editPlaceUrl(place.id)}>Something out of date? Edit this page</a>
     </p>
   </article>

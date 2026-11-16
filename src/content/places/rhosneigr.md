@@ -1,11 +1,16 @@
 ---
 title: "Rhosneigr"
-emoji: "🏄"
 tagline: "surf village"
 category: towns
 order: 2
 url: "https://www.visitanglesey.co.uk/en-gb/explore/rhosneigr-beach"
 summary: "Popular surf village on the west coast with two broad sandy beaches and a great food scene. A former Edwardian holiday hotspot that retains its charm."
+photo: "./rhosneigr.jpg"
+credit:
+  author: "Stephen McKay"
+  license: "CC BY-SA 2.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Rhosneigr_Beach_-_geograph.org.uk_-_5770581.jpg"
 ---
 
 - Sandy beaches (Traeth Crigyll and Traeth Llydan) ideal for watersports

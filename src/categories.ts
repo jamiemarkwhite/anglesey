@@ -1,12 +1,12 @@
 export const categories = [
-  { id: 'family', name: 'Family attractions', emoji: '🎡' },
-  { id: 'beaches', name: 'Beaches & nature', emoji: '🏖️' },
-  { id: 'history', name: 'Historic sites', emoji: '🏰' },
-  { id: 'unique', name: 'Unique experiences', emoji: '✨' },
-  { id: 'wildlife', name: 'Puffin Island & wildlife cruises', emoji: '⛴️' },
-  { id: 'towns', name: 'Towns & villages', emoji: '🏘️' },
-  { id: 'day-trips', name: 'Day trips', emoji: '🚂' },
-  { id: 'seasonal', name: 'Seasonal & pick your own', emoji: '🍓' },
+  { id: 'family', name: 'Family attractions' },
+  { id: 'beaches', name: 'Beaches & nature' },
+  { id: 'history', name: 'Historic sites' },
+  { id: 'unique', name: 'Unique experiences' },
+  { id: 'wildlife', name: 'Puffin Island & wildlife cruises' },
+  { id: 'towns', name: 'Towns & villages' },
+  { id: 'day-trips', name: 'Day trips' },
+  { id: 'seasonal', name: 'Seasonal & pick your own' },
 ] as const;
 
 export type CategoryId = (typeof categories)[number]['id'];

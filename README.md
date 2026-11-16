@@ -15,7 +15,7 @@ npm run dev
 
 ## Content
 
-Each place is a Markdown file in `src/content/places/`. The frontmatter sets the name, emoji, short tagline shown on the home page, category, sort order and website link. The body is the bullet list on the place's own page.
+Each place is a Markdown file in `src/content/places/`. The frontmatter sets the name, short tagline shown on the home page, category, sort order, website link, and an optional photo with its credit. Photos sit next to the Markdown file. The body is the bullet list on the place's own page.
 
 Categories live in `src/categories.ts`. The build fails if a place uses a category that isn't listed there.
 

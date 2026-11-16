@@ -1,6 +1,5 @@
 ---
 title: "Parys Mountain"
-emoji: "⛰️"
 tagline: "Mars-like copper mine"
 category: unique
 order: 1

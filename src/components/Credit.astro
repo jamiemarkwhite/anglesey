@@ -1,0 +1,19 @@
+---
+import type { z } from 'astro/zod';
+import type { credit as creditSchema } from '../content.config';
+
+interface Props {
+  credit?: z.infer<typeof creditSchema>;
+}
+
+const { credit } = Astro.props;
+---
+
+{
+  credit && (
+    <p class="credit">
+      Photo: {credit.source ? <a href={credit.source}>{credit.author}</a> : credit.author},{' '}
+      {credit.licenseUrl ? <a href={credit.licenseUrl}>{credit.license}</a> : credit.license}
+    </p>
+  )
+}
