@@ -1,0 +1,23 @@
+name: Suggest a place
+description: Something worth adding to the guide
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Place name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Website or map link
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it's worth a visit
+      description: Practical details help - prices, parking, dogs, opening times, tips.
+    validations:
+      required: true

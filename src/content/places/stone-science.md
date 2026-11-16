@@ -1,0 +1,18 @@
+---
+title: "Stone Science"
+emoji: "🦕"
+tagline: "fossils & dino poo"
+category: unique
+order: 4
+url: "https://stonescience.co.uk/"
+summary: "A hands-on geology and fossil museum near Pentraeth, home to one of the largest fossil collections in Wales."
+---
+
+- Over 650 million years of Earth history across two floors
+- Touch real fossils including dinosaur eggs, teeth, and coprolites (dino poo!)
+- Thousands of minerals, crystals, and Native American artefacts
+- Life-size dinosaur reconstructions and interactive displays
+- Gift shop with fossils, minerals, and crystal specimens
+- Combine with fossil hunting on nearby beaches
+- Open 10am–4pm daily (closed December–January)
+- [Location on Google Maps](https://maps.app.goo.gl/72MJssQhs98WMCpb6)

@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import { repoUrl, suggestPlaceUrl } from '../site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'Things to do on the Isle of Anglesey (Ynys Môn): beaches, castles, puffins and more.',
+} = Astro.props;
+const fullTitle = title ? `${title} · Anglesey` : 'Anglesey · things to do on Ynys Môn';
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="awning" aria-hidden="true"></div>
+    <div class="wrap">
+      <slot />
+      <footer class="footer">
+        <p>Made with care for visitors to Anglesey 🐿️ 🦀 🍟</p>
+        <p>
+          <a href={suggestPlaceUrl}>Suggest a place</a> · <a href={repoUrl}>Open source on GitHub</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
