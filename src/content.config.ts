@@ -30,4 +30,14 @@ const places = defineCollection({
       .refine((d) => d.photo || d.emoji, { message: 'A place needs a photo or an emoji', path: ['photo'] }),
 });
 
-export const collections = { places };
+// Welsh translations of the text fields only. Everything else comes from the English file with the same name.
+const placesCy = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/places-cy' }),
+  schema: z.object({
+    title: z.string(),
+    tagline: z.string(),
+    summary: z.string(),
+  }),
+});
+
+export const collections = { places, placesCy };

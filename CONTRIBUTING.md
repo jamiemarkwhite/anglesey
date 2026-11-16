@@ -34,7 +34,7 @@ credit:
 | `order` | Position within its category, lowest first. |
 | `url` | The place's official website, or a map link if it has none. |
 | `summary` | One or two sentences shown at the top of the place's page. |
-| `area` | Optional. The `title` of a town. The place is then also listed on that town's page. |
+| `area` | Optional. The English `title` of a town. The place is then also listed on that town's page. |
 | `photo` | Optional. A landscape photo saved next to the Markdown file, named after it. |
 | `emoji` | Required if there is no photo. Shown large, with the same print tint, in place of the photo. |
 | `credit` | Required with a photo. `author` and `license`, plus `licenseUrl` and `source` links where there are any. |
@@ -54,6 +54,26 @@ Every photo gets the same pink and blue print treatment, so photos from differen
 - Photos must show the actual place.
 
 A place without a photo needs an `emoji` instead. It is shown large in the photo's place, with the same tint.
+
+## Welsh translations
+
+The Welsh site is under `/cy/`. Each place has a Welsh file with the same name in `src/content/places-cy/`. It holds only the text that changes between languages: `title`, `tagline`, `summary` and the bullet list. Everything else, such as the photo, category and website link, comes from the English file.
+
+```md
+---
+title: "Porthaethwy"
+tagline: "tref a phont Fictoraidd"
+summary: "Tref Fictoraidd hardd ar lan Afon Menai..."
+---
+
+- Cerddwch ar hyd Promenâd y Belgiaid o dan y bont
+```
+
+Keep facts, prices and links the same as in the English file. Links to other places start with `/cy/places/`. If a place has no Welsh file, its Welsh page shows the English text.
+
+The rest of the site's text, in both languages, is in `src/i18n/ui.ts`.
+
+The Welsh text is machine translated, and every Welsh page says so. Corrections from Welsh speakers are very welcome. Each Welsh page links to the file it comes from.
 
 ## What we accept
 

@@ -1,20 +1,22 @@
 ---
-import type { CollectionEntry } from 'astro:content';
 import Credit from './Credit.astro';
 import Photo from './Photo.astro';
+import { localePath, type Locale } from '../i18n/ui';
+import type { LocalizedPlace } from '../i18n/places';
 
 interface Props {
-  place: CollectionEntry<'places'>;
+  place: LocalizedPlace;
+  locale: Locale;
 }
 
-const { place } = Astro.props;
+const { place, locale } = Astro.props;
 ---
 
-<li class="card">
-  <a href={`/places/${place.id}`} class="card-link">
+<li class="card" lang={place.translated ? undefined : 'en-GB'}>
+  <a href={localePath(locale, `/places/${place.id}`)} class="card-link">
     <Photo src={place.data.photo} emoji={place.data.emoji} />
     <h3>{place.data.title}</h3>
     <p class="tagline">{place.data.tagline}</p>
   </a>
-  <Credit credit={place.data.credit} />
+  <Credit credit={place.data.credit} locale={locale} />
 </li>

@@ -1,0 +1,12 @@
+---
+import Place from '../../../views/Place.astro';
+import { getPlacePaths } from '../../../i18n/places';
+
+export function getStaticPaths() {
+  return getPlacePaths('cy');
+}
+
+const { place, town, nearby } = Astro.props;
+---
+
+<Place locale="cy" place={place} town={town} nearby={nearby} />

@@ -1,26 +1,36 @@
 ---
 import '../styles/global.css';
-import { repoUrl, suggestPlaceUrl } from '../site';
+import { languages, locales, localePath, t, translationNote, type Locale } from '../i18n/ui';
+import { editUiStringsUrl, repoUrl, suggestPlaceUrl } from '../site';
 
 interface Props {
+  locale: Locale;
+  // The page's address without a language prefix, e.g. `/places/moelfre`.
+  path: string;
   title?: string;
   description?: string;
+  // Where to correct this page's Welsh text.
+  translationUrl?: string;
+  untranslated?: boolean;
 }
 
-const {
-  title,
-  description = 'Things to do on the Isle of Anglesey (Ynys Môn): beaches, castles, puffins and more.',
-} = Astro.props;
-const fullTitle = title ? `${title} · Anglesey` : 'Anglesey · things to do on Ynys Môn';
+const { locale, path, title, translationUrl = editUiStringsUrl, untranslated = false } = Astro.props;
+const strings = t(locale);
+const description = Astro.props.description ?? strings.description;
+const fullTitle = title ? `${title} · ${strings.siteName}` : strings.homeTitle;
+const note = untranslated ? translationNote.missing : translationNote.translated;
+const absolute = (l: Locale) => new URL(localePath(l, path), Astro.site).href;
 ---
 
 <!doctype html>
-<html lang="en-GB">
+<html lang={languages[locale].htmlLang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={absolute(l)} />)}
+    <link rel="alternate" hreflang="x-default" href={absolute('en')} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,11 +41,32 @@ const fullTitle = title ? `${title} · Anglesey` : 'Anglesey · things to do on 
   </head>
   <body>
     <div class="wrap">
+      <nav class="lang" aria-label={strings.languageLabel}>
+        {
+          locales.map((l) => (
+            <a
+              href={localePath(l, path)}
+              lang={languages[l].htmlLang}
+              hreflang={l}
+              aria-current={l === locale ? 'page' : undefined}
+            >
+              {languages[l].name}
+            </a>
+          ))
+        }
+      </nav>
+      {
+        locale !== 'en' && (
+          <p class="mt-note">
+            {note.text} <a href={translationUrl}>{note.link}</a>
+          </p>
+        )
+      }
       <slot />
       <footer class="footer">
-        <p>Made with care for visitors to Anglesey.</p>
+        <p>{strings.footer}</p>
         <p>
-          <a href={suggestPlaceUrl}>Suggest a place</a> · <a href={repoUrl}>Open source on GitHub</a>
+          <a href={suggestPlaceUrl}>{strings.suggestPlace}</a> · <a href={repoUrl}>{strings.openSource}</a>
         </p>
       </footer>
     </div>
