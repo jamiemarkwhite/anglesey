@@ -64,7 +64,7 @@ const absolute = (l: Locale) => new URL(localePath(l, path), Astro.site).href;
       }
       <slot />
       <footer class="footer">
-        <p>{strings.footer}</p>
+        <p>{strings.footer} <a href="https://jamiewhite.dev">Jamie White</a>.</p>
         <p>
           <a href={suggestPlaceUrl}>{strings.suggestPlace}</a> · <a href={repoUrl}>{strings.openSource}</a>
         </p>

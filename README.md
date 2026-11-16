@@ -2,7 +2,7 @@
 
 A guide to things to do on Anglesey (Ynys Môn). Astro static site, hosted on Vercel.
 
-Live site: https://anglesey.vercel.app
+Live site: https://www.theangleseyguide.com
 
 ## Run it
 
