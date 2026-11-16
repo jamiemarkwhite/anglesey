@@ -1,11 +1,11 @@
 ---
 title: "Melin Llynnon"
-emoji: "🍩"
 tagline: "windmill & Monuts"
 category: unique
 order: 3
 url: "https://www.visitanglesey.co.uk/en-gb/explore/llynon-mill"
 summary: "The only working windmill in Wales, dating from 1775."
+emoji: "🍩"
 ---
 
 - Stone tower mill near Llanddeusant

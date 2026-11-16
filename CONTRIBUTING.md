@@ -9,12 +9,17 @@ Each place is one Markdown file in `src/content/places/`. Copy an existing file 
 ```md
 ---
 title: "Pili Palas"
-emoji: "🦋"
 tagline: "rainy day favourite"
 category: family
 order: 2
 url: "https://www.pilipalas.co.uk/"
 summary: "A tropical paradise housing exotic creatures from around the world."
+photo: "./pili-palas.jpg"
+credit:
+  author: "Alan Hughes"
+  license: "CC BY-SA 2.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Pili_Pala_-_geograph.org.uk_-_7573309.jpg"
 ---
 
 - Butterflies, birds, reptiles, insects and small animals
@@ -24,17 +29,51 @@ summary: "A tropical paradise housing exotic creatures from around the world."
 | Field | What it does |
 | --- | --- |
 | `title` | Place name. |
-| `emoji` | One emoji shown next to the name. The site uses emoji instead of photos. |
 | `tagline` | A few words shown on the home page. Keep it under about 30 characters. |
 | `category` | One of the ids in `src/categories.ts`. |
 | `order` | Position within its category, lowest first. |
 | `url` | The place's official website, or a map link if it has none. |
 | `summary` | One or two sentences shown at the top of the place's page. |
-| `area` | Optional. The `title` of a town. The place is then also listed on that town's page. |
+| `area` | Optional. The English `title` of a town. The place is then also listed on that town's page. |
+| `photo` | Optional. A landscape photo saved next to the Markdown file, named after it. |
+| `emoji` | Required if there is no photo. Shown large, with the same print tint, in place of the photo. |
+| `credit` | Required with a photo. `author` and `license`, plus `licenseUrl` and `source` links where there are any. |
 
 The file name becomes the page address, so `pili-palas.md` is `/places/pili-palas`. Use lower case and hyphens.
 
 The body is a bullet list of practical details: what's there, prices, parking, dogs, tips.
+
+## Photos
+
+Every photo gets the same pink and blue print treatment, so photos from different places and cameras look like one set. Use the original colour photo - the site applies the tint.
+
+- Landscape, at least 1280px wide. Keep files under about 500KB.
+- Your own photos are best. Credit yourself and pick a licence, e.g. `license: "CC BY 4.0"`.
+- Otherwise use photos with a licence that allows reuse, such as CC BY, CC BY-SA or CC0. [Wikimedia Commons](https://commons.wikimedia.org) and [Geograph](https://www.geograph.org.uk) cover most of the island.
+- Credit the author exactly as the source asks and link to the source page.
+- Photos must show the actual place.
+
+A place without a photo needs an `emoji` instead. It is shown large in the photo's place, with the same tint.
+
+## Welsh translations
+
+The Welsh site is under `/cy/`. Each place has a Welsh file with the same name in `src/content/places-cy/`. It holds only the text that changes between languages: `title`, `tagline`, `summary` and the bullet list. Everything else, such as the photo, category and website link, comes from the English file.
+
+```md
+---
+title: "Porthaethwy"
+tagline: "tref a phont Fictoraidd"
+summary: "Tref Fictoraidd hardd ar lan Afon Menai..."
+---
+
+- Cerddwch ar hyd Promenâd y Belgiaid o dan y bont
+```
+
+Keep facts, prices and links the same as in the English file. Links to other places start with `/cy/places/`. If a place has no Welsh file, its Welsh page shows the English text.
+
+The rest of the site's text, in both languages, is in `src/i18n/ui.ts`.
+
+The Welsh text is machine translated, and every Welsh page says so. Corrections from Welsh speakers are very welcome. Each Welsh page links to the file it comes from.
 
 ## What we accept
 

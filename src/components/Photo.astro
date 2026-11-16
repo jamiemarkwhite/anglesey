@@ -1,0 +1,27 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+interface Props {
+  src?: ImageMetadata;
+  emoji?: string;
+  widths?: number[];
+  sizes?: string;
+  class?: string;
+  loading?: 'lazy' | 'eager';
+}
+
+const {
+  src,
+  emoji,
+  widths = [400, 800],
+  sizes = '(max-width: 720px) 100vw, 240px',
+  class: className,
+  loading = 'lazy',
+} = Astro.props;
+---
+
+<div class:list={['duo', className]}>
+  {src && <Image src={src} alt="" widths={widths} sizes={sizes} loading={loading} quality={70} />}
+  {!src && emoji && <span class="duo-emoji" aria-hidden="true">{emoji}</span>}
+</div>

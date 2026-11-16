@@ -1,0 +1,91 @@
+---
+import Base from '../layouts/Base.astro';
+import Credit from '../components/Credit.astro';
+import Photo from '../components/Photo.astro';
+import PlaceCard from '../components/PlaceCard.astro';
+import { categoryIds } from '../categories';
+import { categoryNames, t, type Locale } from '../i18n/ui';
+import { getPlaces } from '../i18n/places';
+import homePhoto from '../assets/home.jpg';
+import homeCredit from '../assets/home.json';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const strings = t(locale);
+const places = await getPlaces(locale);
+const boards = categoryIds
+  .map((id) => ({
+    id,
+    name: categoryNames[locale][id],
+    places: places.filter((p) => p.data.category === id).sort((a, b) => a.data.order - b.data.order),
+  }))
+  .filter((board) => board.places.length > 0);
+const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<Base locale={locale} path="/">
+  <header class="masthead">
+    <span class="tag">{strings.tag}</span>
+    <h1 class="shadow">{strings.siteName}</h1>
+    <p class="lede">{strings.lede}</p>
+    <Photo src={homePhoto} class="hero" widths={[720, 1280]} sizes="(max-width: 760px) 100vw, 720px" loading="eager" />
+    <Credit credit={homeCredit} locale={locale} />
+    <p class="intro">{strings.intro}</p>
+    <p class="note">
+      <strong>{strings.headsUpLabel}</strong>
+      {strings.headsUp}
+    </p>
+  </header>
+
+  {
+    featured.length > 0 && (
+      <section class="section" id="featured">
+        <h2>{strings.featuredHeading}</h2>
+        <ul class="cards featured">
+          {featured.map((p) => (
+            <PlaceCard place={p} locale={locale} />
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <nav aria-label={strings.categoriesLabel}>
+    <ul class="jump">
+      {boards.map((b) => <li><a href={`#${b.id}`}>{b.name}</a></li>)}
+      <li><a href="#shops">{strings.shopsNav}</a></li>
+    </ul>
+  </nav>
+
+  {
+    boards.map((b) => (
+      <section class="section" id={b.id}>
+        <h2>{b.name}</h2>
+        <ul class="cards">
+          {b.places.map((p) => (
+            <PlaceCard place={p} locale={locale} />
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
+  <section class="section prose" id="shops">
+    <h2>{strings.shopsHeading}</h2>
+    {strings.shopsHtml.map((html) => <p set:html={html} />)}
+  </section>
+
+  <section class="section prose" id="other-guides">
+    <h2>{strings.otherGuidesHeading}</h2>
+    <ul>
+      <li><a href="https://www.visitanglesey.co.uk">Visit Anglesey</a> - {strings.visitAnglesey}</li>
+      <li>
+        <a href="https://www.dayoutwiththekids.co.uk/things-to-do/north-wales/isle-of-anglesey/anglesey">Day Out With The Kids</a>
+        - {strings.dayOut}
+      </li>
+    </ul>
+  </section>
+</Base>

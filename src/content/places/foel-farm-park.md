@@ -1,11 +1,11 @@
 ---
 title: "Foel Farm Park"
-emoji: "🐄"
 tagline: "animals & tractor rides"
 category: family
 order: 1
 url: "https://www.foelfarm.co.uk/"
 summary: "A small working family farm in a stunning coastal position overlooking the Menai Strait with views of Snowdonia and Caernarfon Castle."
+emoji: "🐄"
 ---
 
 - Meet and feed the animals, enjoy farm walks, tractor & trailer rides

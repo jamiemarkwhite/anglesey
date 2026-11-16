@@ -1,11 +1,16 @@
 ---
 title: "Trearddur Bay"
-emoji: "🏖️"
 tagline: "Blue Flag family beach"
 category: beaches
 order: 2
 url: "https://www.visitanglesey.co.uk/en-gb/explore/trearddur-bay"
 summary: "Popular family beach with excellent facilities on Holy Island. The name derives from the Welsh for \"Arthur's Town\" and it's one of Anglesey's premier Blue Flag beaches."
+photo: "./trearddur-bay.jpg"
+credit:
+  author: "Peter Barr"
+  license: "CC BY-SA 2.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Trearddur_Bay_-_geograph.org.uk_-_2401265.jpg"
 ---
 
 - Sandy beach with rock pools to explore

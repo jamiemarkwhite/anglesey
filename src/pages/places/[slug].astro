@@ -1,46 +1,12 @@
 ---
-import { getCollection, render } from 'astro:content';
-import PlaceRow from '../../components/PlaceRow.astro';
-import Base from '../../layouts/Base.astro';
-import { getCategory } from '../../categories';
-import { editPlaceUrl } from '../../site';
+import Place from '../../views/Place.astro';
+import { getPlacePaths } from '../../i18n/places';
 
-export async function getStaticPaths() {
-  const places = await getCollection('places');
-  return places.map((place) => ({
-    params: { slug: place.id },
-    props: { place, nearby: places.filter((p) => p.data.area === place.data.title) },
-  }));
+export function getStaticPaths() {
+  return getPlacePaths('en');
 }
 
-const { place, nearby } = Astro.props;
-const { Content } = await render(place);
-const category = getCategory(place.data.category);
+const { place, town, nearby } = Astro.props;
 ---
 
-<Base title={place.data.title} description={place.data.summary}>
-  <a class="back" href={`/#${category.id}`}>← {category.name}</a>
-  <article class="place">
-    <div class="place-emoji" aria-hidden="true">{place.data.emoji}</div>
-    <p class="place-meta">{category.name}{place.data.area && ` · ${place.data.area}`}</p>
-    <h1>{place.data.title}</h1>
-    <p class="intro">{place.data.summary}</p>
-    <div class="prose"><Content /></div>
-    {
-      nearby.length > 0 && (
-        <section class="board">
-          <h2>In {place.data.title}</h2>
-          <ul class="rows">
-            {nearby.map((p) => (
-              <PlaceRow place={p} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
-    <p class="actions">
-      <a class="visit" href={place.data.url} rel="noopener">Website ↗</a>
-      <a class="edit" href={editPlaceUrl(place.id)}>Something out of date? Edit this page</a>
-    </p>
-  </article>
-</Base>
+<Place locale="en" place={place} town={town} nearby={nearby} />

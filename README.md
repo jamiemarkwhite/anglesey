@@ -15,11 +15,13 @@ npm run dev
 
 ## Content
 
-Each place is a Markdown file in `src/content/places/`. The frontmatter sets the name, emoji, short tagline shown on the home page, category, sort order and website link. The body is the bullet list on the place's own page.
+Each place is a Markdown file in `src/content/places/`. The frontmatter sets the name, short tagline shown on the home page, category, sort order, website link, and an optional photo with its credit. Photos sit next to the Markdown file. The body is the bullet list on the place's own page.
 
-Categories live in `src/categories.ts`. The build fails if a place uses a category that isn't listed there.
+Category ids live in `src/categories.ts` and their names in `src/i18n/ui.ts`. The build fails if a place uses a category id that isn't in `src/categories.ts`.
 
-Set `area` to a town's title (e.g. `area: "Llangefni"`) to list a place on that town's page.
+Welsh text for each place is in `src/content/places-cy/`. See [CONTRIBUTING.md](CONTRIBUTING.md#welsh-translations).
+
+Set `area` to a town's English title (e.g. `area: "Llangefni"`) to list a place on that town's page.
 
 ## Contributing
 

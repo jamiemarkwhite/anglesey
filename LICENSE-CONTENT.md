@@ -6,4 +6,6 @@ The guide content in `src/content/` and the guide text in `src/pages/` is licens
 You can share and adapt it for any purpose, as long as you credit "Anglesey guide by Jamie White and contributors"
 and link to https://github.com/jamiemarkwhite/anglesey.
 
+Photos are not covered by this licence. Each photo is credited on the site and in its place's Markdown file, with its own author and licence.
+
 The site code is under the MIT licence in [LICENSE](LICENSE).

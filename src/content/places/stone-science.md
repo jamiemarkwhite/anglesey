@@ -1,11 +1,11 @@
 ---
 title: "Stone Science"
-emoji: "🦕"
 tagline: "fossils & dino poo"
 category: unique
 order: 4
 url: "https://stonescience.co.uk/"
 summary: "A hands-on geology and fossil museum near Pentraeth, home to one of the largest fossil collections in Wales."
+emoji: "🦕"
 ---
 
 - Over 650 million years of Earth history across two floors
