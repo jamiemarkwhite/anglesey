@@ -22,6 +22,8 @@ const places = defineCollection({
         url: z.url(),
         summary: z.string(),
         area: z.string().optional(),
+        featured: z.boolean().optional(),
+        walk: z.string().optional(),
         photo: image().optional(),
         emoji: z.string().optional(),
         credit: credit.optional(),
@@ -37,6 +39,7 @@ const placesCy = defineCollection({
     title: z.string(),
     tagline: z.string(),
     summary: z.string(),
+    walk: z.string().optional(),
   }),
 });
 

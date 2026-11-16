@@ -225,10 +225,25 @@ h1 {
 
 .card .credit { margin-top: 4px; }
 
+.cards.featured { grid-template-columns: repeat(2, 1fr); gap: 32px 22px; }
+
+.cards.featured h3 { font-size: clamp(22px, 4vw, 30px); }
+
+.walk {
+  display: inline-block;
+  margin: -8px 0 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--blue);
+  background: #fff;
+  font-size: 15px;
+}
+
 .prose ul { padding-left: 20px; margin: 12px 0 0; }
 .prose li { margin: 5px 0; }
 .prose li::marker { color: var(--pink); }
 .prose p + p { margin-top: 12px; }
+.prose h3 { font-size: 22px; line-height: 1.1; margin-top: 28px; }
+.prose h3 + ul { margin-top: 8px; }
 
 .body { margin-top: 24px; }
 

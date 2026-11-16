@@ -2,6 +2,7 @@
 title: "Aberffraw"
 tagline: "twyni tawel"
 summary: "Pentref hanesyddol a hen lys Tywysogion Gwynedd, gyda thwyni hardd a thraeth heb ei ddifetha."
+walk: "Taith drwy'r twyni i Draeth Mawr"
 ---
 
 - Teithiau cerdded braf drwy'r twyni i Draeth Mawr

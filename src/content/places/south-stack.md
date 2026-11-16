@@ -5,6 +5,7 @@ category: unique
 order: 2
 url: "https://www.trinityhouse.co.uk/lighthouse-visitor-centres/south-stack-lighthouse-visitor-centre"
 summary: "Dramatic clifftop lighthouse on Holy Island with spectacular seabird colonies."
+featured: true
 photo: "./south-stack.jpg"
 credit:
   author: "Denis Egan"

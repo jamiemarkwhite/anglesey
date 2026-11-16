@@ -5,6 +5,8 @@ category: beaches
 order: 1
 url: "https://naturalresources.wales/days-out/places-to-visit/north-west-wales/newborough/?lang=en"
 summary: "Arguably the best beach on Anglesey — a vast expanse of golden sand backed by ancient forest."
+walk: "Forest trails, and out to Llanddwyn at low tide"
+featured: true
 photo: "./newborough.jpg"
 credit:
   author: "James Merrington"

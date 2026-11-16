@@ -37,6 +37,13 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
     <span class="tag">{categoryName}{town && ` · ${town.data.title}`}</span>
     <h1 class="shadow place-title">{place.data.title}</h1>
     <p class="lede">{place.data.summary}</p>
+    {
+      place.data.walk && (
+        <p class="walk">
+          <strong>{strings.walkLabel}</strong> {place.data.walk}
+        </p>
+      )
+    }
     <Photo
       src={place.data.photo}
       emoji={place.data.emoji}

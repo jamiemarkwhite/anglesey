@@ -7,16 +7,17 @@ import type { LocalizedPlace } from '../i18n/places';
 interface Props {
   place: LocalizedPlace;
   locale: Locale;
+  note?: string;
 }
 
-const { place, locale } = Astro.props;
+const { place, locale, note } = Astro.props;
 ---
 
 <li class="card" lang={place.translated ? undefined : 'en-GB'}>
   <a href={localePath(locale, `/places/${place.id}`)} class="card-link">
     <Photo src={place.data.photo} emoji={place.data.emoji} />
     <h3>{place.data.title}</h3>
-    <p class="tagline">{place.data.tagline}</p>
+    <p class="tagline">{note ?? place.data.tagline}</p>
   </a>
   <Credit credit={place.data.credit} locale={locale} />
 </li>

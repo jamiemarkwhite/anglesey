@@ -5,6 +5,7 @@ category: history
 order: 1
 url: "https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle"
 summary: "Edward I's unfinished masterpiece — a UNESCO World Heritage Site and perhaps the greatest castle never completed."
+featured: true
 photo: "./beaumaris-castle.jpg"
 credit:
   author: "Mike Peel (www.mikepeel.net)"

@@ -5,6 +5,7 @@ category: unique
 order: 1
 url: "https://maps.app.goo.gl/eSW1vpRxTuRA3344A"
 summary: "A surreal, Mars-like landscape — the remains of what was once the world's largest copper mine."
+walk: "Easy trails round the old copper workings"
 emoji: "⛰️"
 ---
 

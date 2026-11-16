@@ -5,6 +5,8 @@ category: towns
 order: 1
 url: "https://www.visitanglesey.co.uk/en-gb/explore/towns/menai-bridge"
 summary: "Pretty Victorian town on the strait with great views of Telford's iconic 1826 suspension bridge — the world's first iron suspension bridge."
+walk: "Belgian Promenade under the bridge, and Church Island"
+featured: true
 photo: "./menai-bridge.jpg"
 credit:
   author: "Julian Herzog"
