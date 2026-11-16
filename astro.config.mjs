@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://anglesey.jamiewhite.dev',
+  site: 'https://www.theangleseyguide.com',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'cy'],

@@ -9,5 +9,7 @@ summary: "Goleudy trawiadol ar ben clogwyn ar Ynys Gybi, gyda nythfeydd adar mô
 - Gwelwch balod, gwylogod, llursod a brain coesgoch
 - Canolfan wylio Tŵr Ellin gyda thelesgopau a CCTV byw
 - Weithiau mae dolffiniaid i'w gweld
-- Caffi yn gweini coffi a chinio
+- Canolfan ymwelwyr yr RSPB gyda siop a chaffi yn gweini coffi a chinio (dim cŵn yn y caffi)
+- Meysydd parcio'r RSPB wrth y ganolfan ymwelwyr a Thŵr Ellin. Mae angen talu drwy'r flwyddyn
+- Llwybr gwastad o faes parcio Tŵr Ellin i'r man gwylio, sy'n addas i bramiau a chadeiriau olwyn
 - Ardal chwarae fach yn y cefn gyda golygfeydd o'r môr
