@@ -10,4 +10,5 @@ emoji: "🍓"
 
 - Strawberries, raspberries, and more in season
 - Pumpkin picking in autumn
+- Hot potatoes with really flipping nice toppings
 - [Check their Facebook](https://www.facebook.com/HootonsFarmShops) for what's available
