@@ -110,8 +110,18 @@ h1 {
   pointer-events: none;
 }
 
-.duo.empty::after { background: var(--soft); mix-blend-mode: normal; }
-.duo.empty::before { background-image: radial-gradient(circle, var(--pink) 1.4px, transparent 1.9px); opacity: .55; }
+.duo-emoji {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: clamp(72px, 40cqi, 260px);
+  line-height: 1;
+  filter: grayscale(1) contrast(1.35);
+  mix-blend-mode: multiply;
+}
+
+.duo { container-type: inline-size; }
 
 .hero {
   aspect-ratio: 16 / 9;

@@ -5,6 +5,7 @@ category: seasonal
 order: 1
 url: "https://maps.app.goo.gl/APmwK9qKEVkm6SDB6"
 summary: "Family farm for seasonal fruit picking."
+emoji: "🍓"
 ---
 
 - Strawberries, raspberries, and more in season

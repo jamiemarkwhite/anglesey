@@ -36,6 +36,7 @@ credit:
 | `summary` | One or two sentences shown at the top of the place's page. |
 | `area` | Optional. The `title` of a town. The place is then also listed on that town's page. |
 | `photo` | Optional. A landscape photo saved next to the Markdown file, named after it. |
+| `emoji` | Required if there is no photo. Shown large, with the same print tint, in place of the photo. |
 | `credit` | Required with a photo. `author` and `license`, plus `licenseUrl` and `source` links where there are any. |
 
 The file name becomes the page address, so `pili-palas.md` is `/places/pili-palas`. Use lower case and hyphens.
@@ -52,7 +53,7 @@ Every photo gets the same pink and blue print treatment, so photos from differen
 - Credit the author exactly as the source asks and link to the source page.
 - Photos must show the actual place.
 
-A place without a photo shows a plain tinted block.
+A place without a photo needs an `emoji` instead. It is shown large in the photo's place, with the same tint.
 
 ## What we accept
 

@@ -12,7 +12,7 @@ const { place } = Astro.props;
 
 <li class="card">
   <a href={`/places/${place.id}`} class="card-link">
-    <Photo src={place.data.photo} />
+    <Photo src={place.data.photo} emoji={place.data.emoji} />
     <h3>{place.data.title}</h3>
     <p class="tagline">{place.data.tagline}</p>
   </a>
