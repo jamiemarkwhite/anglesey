@@ -7,10 +7,10 @@ url: "https://www.visitanglesey.co.uk/en-gb/explore/rhosneigr-beach"
 summary: "Popular surf village on the west coast with two broad sandy beaches and a great food scene. A former Edwardian holiday hotspot that retains its charm."
 photo: "./rhosneigr.jpg"
 credit:
-  author: "Stephen McKay"
+  author: "Jeff Buck"
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
-  source: "https://commons.wikimedia.org/wiki/File:Rhosneigr_Beach_-_geograph.org.uk_-_5770581.jpg"
+  source: "https://commons.wikimedia.org/wiki/File:Rhosneigr_from_Traeth_Crigyll_-_geograph.org.uk_-_4970135.jpg"
 emoji: "🏄"
 lat: 53.22623
 lng: -4.52036

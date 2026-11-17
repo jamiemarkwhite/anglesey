@@ -8,26 +8,26 @@ Each place is one Markdown file in `src/content/places/`. Copy an existing file 
 
 ```md
 ---
-title: "Pili Palas"
-tagline: "rainy day favourite"
+title: "Anglesey Sea Zoo"
+tagline: "Wales' largest aquarium"
 category: family
-order: 2
-url: "https://www.pilipalas.co.uk/"
-summary: "A tropical paradise housing exotic creatures from around the world."
-photo: "./pili-palas.jpg"
+order: 3
+url: "https://www.angleseyseazoo.co.uk/"
+summary: "Wales' largest aquarium and marine conservation centre on Anglesey's south coast."
+photo: "./anglesey-sea-zoo.jpg"
 credit:
-  author: "Richard Hoare"
+  author: "Bill Harrison"
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
-  source: "https://commons.wikimedia.org/wiki/File:A_Millipede_at_Pili_Palas_-_geograph.org.uk_-_2422953.jpg"
-emoji: "🦋"
-lat: 53.23509
-lng: -4.18654
-activities: [wildlife, indoors, playgrounds]
+  source: "https://commons.wikimedia.org/wiki/File:Anglesey_Sea_Zoo_-_geograph.org.uk_-_7357768.jpg"
+emoji: "🐙"
+lat: 53.16379
+lng: -4.27885
+activities: [wildlife, indoors, playgrounds, food]
 ---
 
-- Butterflies, birds, reptiles, insects and small animals
-- Soft play area for children
+- Over 40 tanks displaying 150+ native British marine species
+- See octopus, lobsters, seahorses, conger eels and jellyfish
 ```
 
 | Field | What it does |
@@ -59,6 +59,7 @@ Photos show in full colour, with a small saturation lift so photos from differen
 - Otherwise use photos with a licence that allows reuse, such as CC BY, CC BY-SA or CC0. [Wikimedia Commons](https://commons.wikimedia.org) and [Geograph](https://www.geograph.org.uk) cover most of the island.
 - Credit the author exactly as the source asks and link to the source page.
 - Photos must show the actual place.
+- No photos where other people's children can be recognised. Your own children are fine if you're happy to share the photo.
 
 A place without a photo shows its `emoji` large in the photo's place, on a pink background.
 
