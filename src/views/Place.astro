@@ -61,15 +61,15 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
       )
     }
     <p class="actions">
-      <a class="button" href={place.data.url} rel="noopener">{strings.website} ↗</a>
+      <a class="button" href={place.data.url} target="_blank" rel="noopener">{strings.website} ↗</a>
       {
         place.data.tides && (
-          <a class="button" href={tideTableUrl(place.data.tides)} rel="noopener">
+          <a class="button" href={tideTableUrl(place.data.tides)} target="_blank" rel="noopener">
             {strings.tideTimes(tideStations[place.data.tides])} ↗
           </a>
         )
       }
-      <a class="edit" href={editUrl}>{strings.editPrompt}</a>
+      <a class="edit" href={editUrl} target="_blank" rel="noopener">{strings.editPrompt}</a>
     </p>
   </article>
 </Base>
