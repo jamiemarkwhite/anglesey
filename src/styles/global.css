@@ -90,10 +90,10 @@ h1 {
   font: 700 19px/1.35 var(--body);
   color: var(--blue);
   margin: 16px 0 24px;
-  max-width: 560px;
+  max-width: 760px;
 }
 
-.intro { margin-top: 22px; max-width: 600px; }
+.intro { margin-top: 22px; max-width: 880px; }
 
 .note {
   margin-top: 18px;
@@ -102,7 +102,7 @@ h1 {
   background: #fff;
   padding: 12px 14px;
   font-size: 14px;
-  max-width: 600px;
+  max-width: 880px;
 }
 
 /* Full-colour photos, lifted slightly so they sit together. */
@@ -328,4 +328,4 @@ h1 {
 
 .things-heading + nav .jump { margin-top: 18px; }
 
-.prose, .body { max-width: 680px; }
+.prose, .body { max-width: 880px; }
