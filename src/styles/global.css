@@ -105,7 +105,7 @@ h1 {
   max-width: 600px;
 }
 
-/* Full-colour photos, lifted slightly so they sit together, with a light halftone dot screen on top. */
+/* Full-colour photos, lifted slightly so they sit together. */
 .duo {
   position: relative;
   isolation: isolate;
@@ -120,15 +120,6 @@ h1 {
   height: 100%;
   object-fit: cover;
   filter: saturate(1.15) contrast(1.05);
-}
-
-.duo::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background: radial-gradient(circle, rgb(255 246 241 / .28) 1px, transparent 1.5px) 0 0 / 6px 6px;
-  pointer-events: none;
 }
 
 .duo-emoji {

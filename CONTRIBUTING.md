@@ -52,7 +52,7 @@ The body is a bullet list of practical details: what's there, prices, parking, d
 
 ## Photos
 
-Photos show in full colour, with a small saturation lift and a light halftone dot screen so photos from different places and cameras look like one set. Use the original colour photo.
+Photos show in full colour, with a small saturation lift so photos from different places and cameras look like one set. Use the original colour photo.
 
 - Landscape, at least 1280px wide. Keep files under about 500KB.
 - Your own photos are best. Credit yourself and pick a licence, e.g. `license: "CC BY 4.0"`.
