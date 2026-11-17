@@ -4,6 +4,7 @@ import CrabArt, { type Scene } from '../components/CrabArt.astro';
 import PlaceCard from '../components/PlaceCard.astro';
 import { localePath, t, type Locale } from '../i18n/ui';
 import { getPlaces } from '../i18n/places';
+import { tideTableUrl } from '../activities';
 
 interface Props {
   locale: Locale;
@@ -15,6 +16,9 @@ const guide = strings.crabbingGuide;
 const spots = (await getPlaces(locale))
   .filter((p) => p.data.activities.includes('crabbing'))
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
+const tides = spots
+  .filter((p) => p.data.tides)
+  .map((p) => ({ place: p.data.title, href: tideTableUrl(p.data.tides!) }));
 ---
 
 <Base locale={locale} path="/crabbing" title={guide.title} description={guide.description}>
@@ -33,6 +37,24 @@ const spots = (await getPlaces(locale))
               <span class="step-no">{i + 1}</span> {step.title}
             </h2>
             <p set:html={step.html} />
+            {
+              step.scene === 'tide' && (
+                <p class="tide-label">{guide.tidesLabel}</p>
+              )
+            }
+            {
+              step.scene === 'tide' && (
+                <ul class="tide-links">
+                  {tides.map((tide) => (
+                    <li>
+                      <a href={tide.href} target="_blank" rel="noopener">
+                        {tide.place} ↗
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )
+            }
           </div>
         </li>
       ))
@@ -85,6 +107,21 @@ const spots = (await getPlaces(locale))
     background: var(--blue);
     color: #fff;
     font-size: 15px;
+  }
+  .crab-steps .tide-label {
+    margin: 12px 0 0;
+    font-weight: 700;
+  }
+  .tide-links {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+    display: grid;
+    gap: 6px;
+  }
+  .tide-links a {
+    font-weight: 700;
+    font-size: 14px;
   }
   .crab-steps p {
     margin: 6px 0 0;
