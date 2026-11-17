@@ -31,6 +31,11 @@ export const ui = {
       "All the big supermarkets are in <strong>Llangefni</strong> (ASDA, Lidl, Aldi) and <strong>Holyhead</strong>. Cross the bridge to Bangor for Tesco. If you're desperate for a McDonald's, head to Bangor or Holyhead.",
       'There are Premier convenience stores in <strong>Bethel</strong> and <strong>Newborough</strong> on the south of the island. Both will soon have walk-in beer chillers for cold beers on the beach.',
     ],
+    rnliHeading: 'Support the RNLI',
+    rnliHtml: [
+      "The RNLI is the charity that runs the lifeboats around the coast, and its crews are volunteers. Anglesey has lifeboat stations at Beaumaris, Moelfre, Holyhead and Trearddur Bay.",
+      'If you enjoy the beaches here, please think about <a href="https://rnli.org" target="_blank" rel="noopener">giving something to the RNLI</a>. You can see the lifeboat station and the free RNLI Seawatch Centre at <a href="/places/moelfre">Moelfre</a>, and watch the crew train at <a href="/places/trearddur-bay">Trearddur Bay</a> on Sundays at 10am.',
+    ],
     otherGuidesHeading: 'Other guides',
     visitAnglesey: 'official tourism site',
     visitWales: "Wales' tourism site, Anglesey section",
@@ -79,6 +84,11 @@ export const ui = {
     shopsHtml: [
       "Mae'r holl archfarchnadoedd mawr yn <strong>Llangefni</strong> (ASDA, Lidl, Aldi) a <strong>Chaergybi</strong>. Croeswch y bont i Fangor am Tesco. Os oes rhaid i chi gael McDonald's, ewch i Fangor neu Gaergybi.",
       "Mae siopau cyfleus Premier ym <strong>Methel</strong> ac yn <strong>Niwbwrch</strong> yn ne'r ynys. Cyn bo hir bydd gan y ddwy oergelloedd cwrw y gallwch gerdded i mewn iddyn nhw, ar gyfer cwrw oer ar y traeth.",
+    ],
+    rnliHeading: "Cefnogwch yr RNLI",
+    rnliHtml: [
+      "Yr RNLI yw'r elusen sy'n rhedeg y badau achub o amgylch yr arfordir, ac mae'r criwiau yn wirfoddolwyr. Mae gorsafoedd bad achub ar Ynys Môn ym Miwmares, Moelfre, Caergybi a Bae Trearddur.",
+      'Os ydych chi\'n mwynhau\'r traethau yma, ystyriwch <a href="https://rnli.org" target="_blank" rel="noopener">roi rhywbeth i\'r RNLI</a>. Gallwch weld yr orsaf bad achub a Chanolfan Seawatch yr RNLI, sydd am ddim, ym <a href="/cy/places/moelfre">Moelfre</a>, a gwylio\'r criw yn ymarfer ym <a href="/cy/places/trearddur-bay">Mae Trearddur</a> ar ddydd Sul am 10am.',
     ],
     otherGuidesHeading: 'Canllawiau eraill',
     visitAnglesey: 'gwefan dwristiaeth swyddogol',
