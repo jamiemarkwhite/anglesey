@@ -69,6 +69,11 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
           </a>
         )
       }
+      {
+        place.data.activities.includes('crabbing') && (
+          <a class="button" href={localePath(locale, '/crabbing')}>🦀 {strings.crabbingGuide.nav}</a>
+        )
+      }
       <a class="edit" href={editUrl} target="_blank" rel="noopener">{strings.editPrompt}</a>
     </p>
   </article>
