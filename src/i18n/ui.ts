@@ -57,6 +57,8 @@ export const ui = {
     noMatches: 'Nothing matches that activity yet.',
     tideTimes: (station: string) => `Tide times: ${station}`,
     crabLabel: 'Pet crab. Press to make it jump.',
+    chipsLabel: 'Chips. Press to feed the seagull.',
+    gullLines: { grab: ['Mine!', 'Squawk!', 'Ta very much!', 'Chips!'], empty: 'All gone!', refill: 'Fresh chips!' },
     crabLines: {
       hi: ['Hiya!', 'Snip snip!', 'Off crabbing later?', 'Mind my toes', 'Wheee!', 'Bacon is the best bait'],
       big: ['Higher!', 'I can fly!', 'Weeeeee!'],
@@ -111,6 +113,8 @@ export const ui = {
     noMatches: "Does dim byd yn cyfateb i'r gweithgaredd hwnnw eto.",
     tideTimes: (station: string) => `Amseroedd y llanw: ${station}`,
     crabLabel: "Cranc anwes. Pwyswch i wneud iddo neidio.",
+    chipsLabel: "Sglodion. Pwyswch i fwydo'r wylan.",
+    gullLines: { grab: ["Fi pia!", 'Sgwawc!', 'Diolch yn fawr!', 'Sglodion!'], empty: "Dim ar ôl!", refill: 'Sglodion ffres!' },
     crabLines: {
       hi: ['Helô!', 'Snip snip!', 'Dal crancod wedyn?', "Gwylia fy nhraed", 'Wiii!'],
       big: ['Uwch!', 'Dw i\'n gallu hedfan!', 'Wiiiiii!'],
