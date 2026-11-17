@@ -30,6 +30,5 @@ An RSPB reserve of lakes, reedbeds and marsh right next to [RAF Valley](/places/
 ### Before you go
 - Small car park (12 spaces)
 - Paths are unsurfaced and can be very muddy, so take wellies in winter or after rain
-- No toilets. The nearest are in Valley, 3.5 miles away
 - Dogs on a lead at all times
 - No barbecues

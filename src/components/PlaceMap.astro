@@ -99,8 +99,11 @@ const pins = places.map((p) => ({
       const visible = markers.filter(({ pin }) => matches(pin.activities));
       for (const { marker } of markers) marker.remove();
       for (const { marker } of visible) marker.addTo(map);
-      if (visible.length > 0) {
-        map.fitBounds(L.latLngBounds(visible.map(({ pin }) => [pin.lat, pin.lng])), { padding: [36, 36], maxZoom: 13 });
+      // Frame the island; off-island day trips stay on the map but don't widen the view.
+      const onIsland = visible.filter(({ pin }) => pin.lat >= 53.1 && pin.lng <= -3.9);
+      const framed = onIsland.length > 0 ? onIsland : visible;
+      if (framed.length > 0) {
+        map.fitBounds(L.latLngBounds(framed.map(({ pin }) => [pin.lat, pin.lng])), { padding: [36, 36], maxZoom: 13 });
       }
       for (const card of cards) card.hidden = !matches((card.dataset.activities ?? '').split(' '));
       for (const section of sections) {

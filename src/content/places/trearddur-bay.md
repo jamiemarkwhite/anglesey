@@ -22,7 +22,9 @@ tides: "479"
 - Sheltered bay ideal for swimming and watersports
 - Kids playground at top of beach
 - Small playground across road from lifeboat station
+- Lôn Isallt Play Area, a small and very basic playground
 - [Lovely coffee with a view](https://maps.app.goo.gl/5bubvFtvdfrzmF8d6)
-- Watch lifeboat training — Sundays at 10am
-- Sea Shanty restaurant — great food and ice cream
-- Nearby: [Trefignath burial chamber](https://cadw.gov.wales/visit/places-to-visit/trefignath-burial-chamber) — Neolithic site maintained by Cadw
+- Watch lifeboat training on Sundays at 10am
+- Sea Shanty Cafe: lovely food, and an ice cream counter
+- Nearby: [Trefignath burial chamber](https://cadw.gov.wales/visit/places-to-visit/trefignath-burial-chamber), a Neolithic site looked after by Cadw
+- [Trearddur Bay Hotel](/places/trearddur-bay-hotel) is a good family pub
