@@ -24,7 +24,7 @@ The Dingle is a local nature reserve run by Anglesey County Council. It follows 
 
 - 1.5-mile boardwalk, suitable for wheelchairs and pushchairs
 - Mostly flat. The decking can be slippery after heavy rain
-- Extend to a 6-mile loop around Cefni Reservoir
+- The boardwalk leads up to Cefni Reservoir. Extend to a 6-mile loop around it
 - Weekly Parkrun
 
 ### Red squirrels
@@ -47,3 +47,4 @@ The Dingle is a local nature reserve run by Anglesey County Council. It follows 
 ### Parking
 
 - Dingle pay & display car park (free with a blue badge)
+- [Bodfordd Car Park](https://www.google.com/maps/place/Bodfordd+Car+Park/@53.2665208,-4.3548706,475m/data=!3m1!1e3!4m6!3m5!1s0x4865adc8b70b57eb:0x716b9116aceecb75!8m2!3d53.2666279!4d-4.3550157!16s%2Fg%2F11ptv7cnys) at the reservoir end. Park there and walk around the lake instead

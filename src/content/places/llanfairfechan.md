@@ -1,0 +1,26 @@
+---
+title: "Llanfairfechan"
+tagline: "paddling pool stop on the A55"
+category: en-route
+order: 1
+url: "https://en.wikipedia.org/wiki/Llanfairfechan"
+summary: "A seaside stop on the way to Anglesey, with a promenade, a rocky beach and an outdoor paddling pool for the kids."
+photo: "./llanfairfechan.jpg"
+credit:
+  author: "Ian Greig"
+  license: "CC BY-SA 2.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Llanfairfechan_promenade_-_geograph.org.uk_-_2494315.jpg"
+emoji: "🛝"
+lat: 53.25958
+lng: -3.98142
+activities: [beach, playgrounds, food]
+---
+
+A good place to break the journey to Anglesey.
+
+- Rocky beaches
+- Outdoor paddling pool for the kids
+- Playground
+- [Beach Pavilion Cafe](https://www.google.com/maps/place/Beach+Pavilion+Cafe/@53.258233,-3.9819748,445m/data=!3m1!1e3!4m6!3m5!1s0x486503b3f82466bb:0x2021f4dce99bb7de!8m2!3d53.2595838!4d-3.9814235!16s%2Fg%2F11sqdbx2pn) on the promenade
+- Toilets

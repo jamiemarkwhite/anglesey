@@ -22,7 +22,7 @@ tides: "479a"
 - Windsurfing, paddleboarding, and kayaking
 - Rock pools full of anemones and hermit crabs
 - Loads of cafés and restaurants:
-  - **Aydin's Pizzas** — opens 5pm (cash backup advised)
+  - **[Aydin's Pizza](/places/aydins-pizza)**: get the Rhosneigr Special
   - **Mojo's** — restaurant, bar and creperie
   - Fish & chips shops
 - **[Oyster Catcher](/places/oyster-catcher)** — excellent gastropub by the dunes with great parking

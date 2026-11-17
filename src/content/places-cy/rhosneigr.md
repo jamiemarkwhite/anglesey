@@ -8,7 +8,7 @@ summary: "Pentref syrffio poblogaidd ar yr arfordir gorllewinol gyda dau draeth 
 - Hwylfyrddio, padlfyrddio a chaiacio
 - Pyllau glan môr yn llawn anemonïau a chrancod meudwy
 - Llwyth o gaffis a bwytai:
-  - **Aydin's Pizzas** - ar agor o 5pm (dewch ag arian parod rhag ofn)
+  - **[Aydin's Pizza](/cy/places/aydins-pizza)**: archebwch y Rhosneigr Special
   - **Mojo's** - bwyty, bar a chreperie
   - Siopau pysgod a sglodion
 - **[Oyster Catcher](/cy/places/oyster-catcher)** - tafarn fwyd ardderchog ger y twyni gyda digon o le parcio

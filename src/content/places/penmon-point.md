@@ -19,4 +19,4 @@ activities: [wildlife, food]
 
 - Views of [Puffin Island](/places/puffin-island) from the shore
 - [Nice café](https://www.tripadvisor.co.uk/Restaurant_Review-g186444-d4774180-Reviews-Pilot_House_Cafe-Pentraeth_Anglesey_North_Wales_Wales.html)
-- £3 toll (includes parking)
+- Toll road to the point. It costs a few pounds and that includes parking

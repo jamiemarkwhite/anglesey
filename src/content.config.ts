@@ -28,7 +28,7 @@ const places = defineCollection({
         emoji: z.string(),
         credit: credit.optional(),
         lat: z.number().min(53.1).max(53.45),
-        lng: z.number().min(-4.75).max(-4.0),
+        lng: z.number().min(-4.75).max(-3.9),
         activities: z.array(z.enum(activityIds)).default([]),
         tides: z.enum(tideStationIds).optional(),
       })

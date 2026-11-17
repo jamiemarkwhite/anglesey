@@ -15,18 +15,13 @@ credit:
 emoji: "🏰"
 lat: 53.26483
 lng: -4.08976
-activities: [crabbing, history, playgrounds]
-tides: "472"
+activities: [history, playgrounds]
 ---
 
 - Near-perfect symmetrical design with concentric defences
 - Water-filled moat with its own dock
 - 300 arrow loops in the outer walls alone
 - Free public WiFi on site
-- Excellent crabbing nearby:
-  - [Best at high tide](https://www.thebeachguide.co.uk/north-wales/anglesey/beaumaris-weather.htm)
-  - Buy equipment (~£12) near the pier or sweet shop
-  - Bait: cheap bacon from Spar works well
-  - Fill bucket with seawater, add stones as weights
+- Excellent crabbing nearby at [Beaumaris Pier](/places/beaumaris-pier)
 - Kids playground in town
 - [Puffin Island cruises](/places/seacoast-safaris) depart from the pier
