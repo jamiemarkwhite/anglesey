@@ -43,6 +43,8 @@ const absolute = (l: Locale) => new URL(localePath(l, path), Astro.site).href;
   </head>
   <body>
     <div class="wrap">
+      <div class="topbar">
+      <a class="top-crab" href={localePath(locale, '/crabbing')}><span aria-hidden="true">🦀</span> {strings.crabbingGuide.nav}</a>
       <nav class="lang" aria-label={strings.languageLabel}>
         {
           locales.map((l) => (
@@ -57,6 +59,7 @@ const absolute = (l: Locale) => new URL(localePath(l, path), Astro.site).href;
           ))
         }
       </nav>
+      </div>
       {
         locale !== 'en' && (
           <p class="mt-note">
