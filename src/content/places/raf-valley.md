@@ -27,3 +27,9 @@ RAF Valley trains the RAF's fast-jet pilots, so there are often jets coming and 
 ### Where to watch
 - [Viewpoint on Warren Road](https://www.google.com/maps/@53.2382208,-4.5223077,232m/data=!3m1!1e3), near Rhosneigr, at the end of the runway
 - Or from [RSPB Valley Wetlands](/places/valley-wetlands), next to the airfield
+
+### Royal history
+- Prince William, now the Prince of Wales, trained here on the Sea King search and rescue helicopter, graduating in September 2010
+- He then flew Sea Kings from RAF Valley with C Flight, 22 Squadron, until September 2013, first as co-pilot and from June 2012 as captain
+- His first rescue as co-pilot was in October 2010, after a call from Liverpool Coastguard
+- He and Catherine lived in a cottage on the Bodorgan Estate on Anglesey from 2010 to 2014
