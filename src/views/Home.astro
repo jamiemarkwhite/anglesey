@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import Credit from '../components/Credit.astro';
 import Photo from '../components/Photo.astro';
 import PlaceCard from '../components/PlaceCard.astro';
+import PlaceMap from '../components/PlaceMap.astro';
 import { categoryIds } from '../categories';
 import { categoryNames, t, type Locale } from '../i18n/ui';
 import { getPlaces } from '../i18n/places';
@@ -52,6 +53,8 @@ const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.tit
       </section>
     )
   }
+
+  <PlaceMap places={places} locale={locale} />
 
   <nav aria-label={strings.categoriesLabel}>
     <ul class="jump">

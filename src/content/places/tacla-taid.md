@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Anglesey_Transport_and_Agriculture_Museum_-_Tacla_Taid_-_geograph.org.uk_-_4977957.jpg"
+emoji: "🚗"
+lat: 53.17387
+lng: -4.34753
+activities: [history, indoors, playgrounds, food]
 ---
 
 - Over 100 classic vehicles from the 1920s onwards

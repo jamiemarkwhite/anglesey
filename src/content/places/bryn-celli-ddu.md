@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Bryn_Celli_Ddu_Passage_Tomb_-_geograph.org.uk_-_4580295.jpg"
+emoji: "🪨"
+lat: 53.20772
+lng: -4.23614
+activities: [history]
 ---
 
 - Walk inside the ancient passage tomb

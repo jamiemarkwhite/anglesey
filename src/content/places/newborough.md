@@ -12,6 +12,11 @@ credit:
   license: "CC BY 3.0"
   licenseUrl: "https://creativecommons.org/licenses/by/3.0"
   source: "https://commons.wikimedia.org/wiki/File:Newborough_Beach,_Anglesey_-_panoramio_(2).jpg"
+emoji: "🌲"
+lat: 53.14079
+lng: -4.38395
+activities: [beach, walks, wildlife]
+tides: "480"
 ---
 
 - Part of a National Nature Reserve
@@ -19,7 +24,7 @@ credit:
 - Woodland walks with red squirrel sightings
 - Coffee/ice cream van and toilet facilities
 - **Ynys Llanddwyn:** Walk onto this romantic island at low tide
-  - [Check the tide times](https://www.tidetimes.org.uk/llanddwyn-island-tide-times) — or you'll be wading across!
+  - [Check the tide times](https://www.bbc.co.uk/weather/coast-and-sea/tide-tables/11/480) — or you'll be wading across!
   - Historic lighthouse and St Dwynwen's church ruins
   - [More about Llanddwyn](https://en.wikipedia.org/wiki/Ynys_Llanddwyn)
 - Parking: £5 for 2 hours, max £15/day

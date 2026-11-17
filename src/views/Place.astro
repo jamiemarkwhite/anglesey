@@ -6,6 +6,7 @@ import Photo from '../components/Photo.astro';
 import PlaceCard from '../components/PlaceCard.astro';
 import { categoryNames, localePath, t, type Locale } from '../i18n/ui';
 import type { LocalizedPlace } from '../i18n/places';
+import { tideStations, tideTableUrl } from '../activities';
 import { editPlaceTranslationUrl, editPlaceUrl, newPlaceTranslationUrl } from '../site';
 
 interface Props {
@@ -61,6 +62,13 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
     }
     <p class="actions">
       <a class="button" href={place.data.url} rel="noopener">{strings.website} ↗</a>
+      {
+        place.data.tides && (
+          <a class="button" href={tideTableUrl(place.data.tides)} rel="noopener">
+            {strings.tideTimes(tideStations[place.data.tides])} ↗
+          </a>
+        )
+      }
       <a class="edit" href={editUrl}>{strings.editPrompt}</a>
     </p>
   </article>

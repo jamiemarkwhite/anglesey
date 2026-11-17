@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Welsh_Highland_Railway_Loco_at_Caernarfon_-_geograph.org.uk_-_4083827.jpg"
+emoji: "🚂"
+lat: 53.13753
+lng: -4.27196
+activities: [history]
 ---
 
 - Powerful narrow-gauge steam locomotives

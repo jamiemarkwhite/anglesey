@@ -20,6 +20,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Pili_Pala_-_geograph.org.uk_-_7573309.jpg"
+emoji: "🦋"
+lat: 53.23509
+lng: -4.18654
+activities: [wildlife, indoors, playgrounds]
 ---
 
 - Butterflies, birds, reptiles, insects and small animals
@@ -36,7 +40,10 @@ credit:
 | `summary` | One or two sentences shown at the top of the place's page. |
 | `area` | Optional. The English `title` of a town. The place is then also listed on that town's page. |
 | `photo` | Optional. A landscape photo saved next to the Markdown file, named after it. |
-| `emoji` | Required if there is no photo. Shown large, with the same print tint, in place of the photo. |
+| `emoji` | Required. The place's pin on the map, and shown large with the print tint when there is no photo. |
+| `lat`, `lng` | Required. Where the pin goes on the map, in decimal degrees. Copy them from [OpenStreetMap](https://www.openstreetmap.org) (right-click, "Show address"). |
+| `activities` | Optional list for the activity filter: `beach`, `crabbing`, `rockpools`, `walks`, `wildlife`, `history`, `indoors`, `playgrounds`, `food`. |
+| `tides` | Optional BBC tide station id, for places where the tide matters. Adds a tide times button. The ids are in `src/activities.ts`. |
 | `credit` | Required with a photo. `author` and `license`, plus `licenseUrl` and `source` links where there are any. |
 
 The file name becomes the page address, so `pili-palas.md` is `/places/pili-palas`. Use lower case and hyphens.
@@ -53,7 +60,7 @@ Every photo gets the same pink and blue print treatment, so photos from differen
 - Credit the author exactly as the source asks and link to the source page.
 - Photos must show the actual place.
 
-A place without a photo needs an `emoji` instead. It is shown large in the photo's place, with the same tint.
+A place without a photo shows its `emoji` large in the photo's place, with the same tint.
 
 ## Welsh translations
 

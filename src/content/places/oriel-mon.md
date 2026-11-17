@@ -12,6 +12,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Oriel_Ynys_Mon,_Llangefni_-_geograph.org.uk_-_4321153.jpg"
+emoji: "🖼️"
+lat: 53.26348
+lng: -4.312
+activities: [history, indoors, food]
 ---
 
 - World's largest collection of Sir Kyffin Williams' work

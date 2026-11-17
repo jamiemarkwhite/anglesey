@@ -11,6 +11,11 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Trearddur_Bay_-_geograph.org.uk_-_2401265.jpg"
+emoji: "🏖️"
+lat: 53.27955
+lng: -4.61522
+activities: [beach, rockpools, playgrounds, food]
+tides: "479"
 ---
 
 - Sandy beach with rock pools to explore

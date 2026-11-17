@@ -11,6 +11,11 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Rhosneigr_Beach_-_geograph.org.uk_-_5770581.jpg"
+emoji: "🏄"
+lat: 53.22623
+lng: -4.52036
+activities: [beach, rockpools, food]
+tides: "479a"
 ---
 
 - Sandy beaches (Traeth Crigyll and Traeth Llydan) ideal for watersports

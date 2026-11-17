@@ -12,7 +12,7 @@ interface Props {
 const { place, locale } = Astro.props;
 ---
 
-<li class="card" lang={place.translated ? undefined : 'en-GB'}>
+<li class="card" data-activities={place.data.activities.join(' ')} lang={place.translated ? undefined : 'en-GB'}>
   <a href={localePath(locale, `/places/${place.id}`)} class="card-link">
     <Photo src={place.data.photo} emoji={place.data.emoji} />
     <h3>{place.data.title}</h3>
