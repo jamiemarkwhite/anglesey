@@ -33,7 +33,7 @@ export const ui = {
     ],
     rnliHeading: 'Support the RNLI',
     rnliHtml: [
-      "The RNLI is the charity that runs the lifeboats around the coast, and its crews are volunteers. Anglesey has lifeboat stations at Beaumaris, Moelfre, Holyhead and Trearddur Bay.",
+      "The RNLI is the charity that runs the lifeboats around the coast. It isn't funded by the government, so it relies on donations. The crews are volunteers: they give up their own time to train, for free, and when there's a call-out they drop everything and rush to help people in danger. Anglesey has lifeboat stations at Beaumaris, Moelfre, Holyhead and Trearddur Bay.",
       'If you enjoy the beaches here, please think about <a href="https://rnli.org" target="_blank" rel="noopener">giving something to the RNLI</a>. You can see the lifeboat station and the free RNLI Seawatch Centre at <a href="/places/moelfre">Moelfre</a>, and watch the crew train at <a href="/places/trearddur-bay">Trearddur Bay</a> on Sundays at 10am.',
     ],
     otherGuidesHeading: 'Other guides',
@@ -87,7 +87,7 @@ export const ui = {
     ],
     rnliHeading: "Cefnogwch yr RNLI",
     rnliHtml: [
-      "Yr RNLI yw'r elusen sy'n rhedeg y badau achub o amgylch yr arfordir, ac mae'r criwiau yn wirfoddolwyr. Mae gorsafoedd bad achub ar Ynys Môn ym Miwmares, Moelfre, Caergybi a Bae Trearddur.",
+      "Yr RNLI yw'r elusen sy'n rhedeg y badau achub o amgylch yr arfordir. Dydy hi ddim yn cael ei hariannu gan y llywodraeth, felly mae'n dibynnu ar roddion. Gwirfoddolwyr yw'r criwiau: maen nhw'n rhoi eu hamser eu hunain i hyfforddi, am ddim, a phan ddaw galwad maen nhw'n gollwng popeth ac yn rhuthro i helpu pobl mewn perygl. Mae gorsafoedd bad achub ar Ynys Môn ym Miwmares, Moelfre, Caergybi a Bae Trearddur.",
       'Os ydych chi\'n mwynhau\'r traethau yma, ystyriwch <a href="https://rnli.org" target="_blank" rel="noopener">roi rhywbeth i\'r RNLI</a>. Gallwch weld yr orsaf bad achub a Chanolfan Seawatch yr RNLI, sydd am ddim, ym <a href="/cy/places/moelfre">Moelfre</a>, a gwylio\'r criw yn ymarfer ym <a href="/cy/places/trearddur-bay">Mae Trearddur</a> ar ddydd Sul am 10am.',
     ],
     otherGuidesHeading: 'Canllawiau eraill',
