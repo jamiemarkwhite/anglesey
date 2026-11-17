@@ -7,10 +7,10 @@ url: "https://www.visitanglesey.co.uk/en-gb/explore/towns/beaumaris"
 summary: "Excellent crabbing, and a fishing spot too, on the Menai Strait by Beaumaris Castle."
 photo: "./beaumaris-pier.jpg"
 credit:
-  author: "Robin Drayton"
+  author: "Bob Abell"
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
-  source: "https://commons.wikimedia.org/wiki/File:Catching_crabs_from_Beaumaris_Pier_-_geograph.org.uk_-_1456785.jpg"
+  source: "https://commons.wikimedia.org/wiki/File:Beaumaris_Pier_-_geograph.org.uk_-_1357121.jpg"
 emoji: "🦀"
 lat: 53.26252
 lng: -4.09149
