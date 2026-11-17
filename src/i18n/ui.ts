@@ -51,6 +51,17 @@ export const ui = {
     allActivities: 'Everything',
     noMatches: 'Nothing matches that activity yet.',
     tideTimes: (station: string) => `Tide times: ${station}`,
+    crabLabel: 'Pet crab. Press to make it jump.',
+    crabHide: 'Send the crab home',
+    crabShow: 'Bring the crab back',
+    crabLines: {
+      hi: ['Hiya!', 'Snip snip!', 'Off crabbing later?', 'Mind my toes', 'Wheee!', 'Bacon is the best bait'],
+      big: ['Higher!', 'I can fly!', 'Weeeeee!'],
+      dizzy: ['I feel sick...', 'Too much!', 'Put me down!'],
+      scared: ['Eek!', 'Not the bucket!', 'Leave me be!'],
+      wake: ['Wha? I was asleep', '5 more minutes...'],
+      bye: 'Ta-ra!',
+    },
   },
   cy: {
     siteName: 'Ynys Môn',
@@ -92,6 +103,17 @@ export const ui = {
     allActivities: 'Popeth',
     noMatches: "Does dim byd yn cyfateb i'r gweithgaredd hwnnw eto.",
     tideTimes: (station: string) => `Amseroedd y llanw: ${station}`,
+    crabLabel: "Cranc anwes. Pwyswch i wneud iddo neidio.",
+    crabHide: "Anfon y cranc adref",
+    crabShow: "Dod â'r cranc yn ôl",
+    crabLines: {
+      hi: ['Helô!', 'Snip snip!', 'Dal crancod wedyn?', "Gwylia fy nhraed", 'Wiii!'],
+      big: ['Uwch!', 'Dw i\'n gallu hedfan!', 'Wiiiiii!'],
+      dizzy: ['Dw i\'n teimlo\'n sâl...', 'Gormod!', 'Rho fi i lawr!'],
+      scared: ['Help!', 'Dim y bwced!', 'Gad lonydd i mi!'],
+      wake: ['Be? Ro\'n i\'n cysgu', 'Pum munud arall...'],
+      bye: 'Hwyl!',
+    },
   },
 } satisfies Record<Locale, Record<string, unknown>>;
 
