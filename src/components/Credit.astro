@@ -14,8 +14,8 @@ const { credit, locale } = Astro.props;
 {
   credit && (
     <p class="credit">
-      {t(locale).photo} {credit.source ? <a href={credit.source}>{credit.author}</a> : credit.author},{' '}
-      {credit.licenseUrl ? <a href={credit.licenseUrl}>{credit.license}</a> : credit.license}
+      {t(locale).photo} {credit.source ? <a href={credit.source} target="_blank" rel="noopener">{credit.author}</a> : credit.author},{' '}
+      {credit.licenseUrl ? <a href={credit.licenseUrl} target="_blank" rel="noopener">{credit.license}</a> : credit.license}
     </p>
   )
 }

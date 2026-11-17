@@ -27,7 +27,7 @@ h1, h2, h3, p { margin: 0; }
 h1, h2, h3 { font-family: var(--display); font-weight: 400; color: var(--blue); }
 
 .wrap {
-  max-width: 760px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 28px 16px 48px;
 }
@@ -180,7 +180,7 @@ h1 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 26px 18px;
   margin: 0;
   padding: 0;
@@ -204,7 +204,7 @@ h1 {
 
 .card .credit { margin-top: 4px; }
 
-.cards.featured { grid-template-columns: repeat(2, 1fr); gap: 32px 22px; }
+.cards.featured { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px 22px; }
 
 .cards.featured h3 { font-size: clamp(22px, 4vw, 30px); }
 
@@ -288,7 +288,7 @@ h1 {
 .filter button[aria-pressed="true"] { background: var(--blue); color: var(--paper); }
 
 .map {
-  height: clamp(320px, 60vw, 460px);
+  height: clamp(320px, 62vw, 720px);
   background: var(--soft);
   box-shadow: 8px 8px 0 var(--pink);
   z-index: 0;
@@ -327,3 +327,5 @@ h1 {
 }
 
 .things-heading + nav .jump { margin-top: 18px; }
+
+.prose, .body { max-width: 680px; }

@@ -72,7 +72,7 @@ const pins = places.map((p) => ({
     const map = L.map(el, { scrollWheelZoom: false });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors',
     }).addTo(map);
 
     const escape = (text: string) =>
@@ -80,7 +80,7 @@ const pins = places.map((p) => ({
 
     const markers = pins.map((pin) => {
       const icon = L.divIcon({ className: 'pin', html: `<span>${pin.emoji}</span>`, iconSize: [36, 36] });
-      const tides = pin.tides ? `<a href="${pin.tides.href}" rel="noopener">${escape(pin.tides.label)} ↗</a>` : '';
+      const tides = pin.tides ? `<a href="${pin.tides.href}" target="_blank" rel="noopener">${escape(pin.tides.label)} ↗</a>` : '';
       const marker = L.marker([pin.lat, pin.lng], { icon, title: pin.title, alt: pin.title }).bindPopup(
         `<a class="pin-title" href="${pin.href}">${escape(pin.title)}</a><span>${escape(pin.tagline)}</span>${tides}`,
       );
