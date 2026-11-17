@@ -1,5 +1,5 @@
 ---
-export type Scene = 'bucket' | 'net' | 'tide' | 'stones' | 'sink' | 'bacon' | 'hold' | 'pier';
+export type Scene = 'bucket' | 'net' | 'tide' | 'stones' | 'sink' | 'bacon' | 'hold' | 'pier' | 'drop' | 'tie' | 'wait';
 
 interface Props {
   scene: Scene;
@@ -125,6 +125,55 @@ const red = '#e5332a';
         <circle cx="34" cy="40" r="3" fill="#fff" stroke={ink} stroke-width="1.5" />
         <circle cx="36" cy="52" r="2.5" fill="#fff" stroke={ink} stroke-width="1.5" />
         <path d="M118 30 l14 -10 M122 40 l18 -4" stroke="#9aa4bd" stroke-width="2.5" stroke-linecap="round" />
+      </g>
+    )
+  }
+  {
+    scene === 'drop' && (
+      <g>
+        <path d="M0 18 L160 18" stroke={ink} stroke-width="5" />
+        <path d="M30 18 L30 120 M130 18 L130 120" stroke={ink} stroke-width="4" />
+        <path d="M0 40 Q20 32 40 40 T80 40 T120 40 T160 40 V112 H0 Z" fill="#1239c6" opacity=".8" />
+        <path d="M0 112 L160 112 V120 H0 Z" fill="#c9b37a" />
+        <path d="M80 18 L80 98" stroke="#fff" stroke-width="2" />
+        <ellipse cx="80" cy="106" rx="34" ry="6" fill="#fff" stroke={ink} stroke-width="2.5" />
+        <path d="M50 104 L80 98 L110 104" fill="none" stroke="#fff" stroke-width="1.5" />
+        <path d="M68 103 L92 103" stroke="#f2998d" stroke-width="4" stroke-linecap="round" />
+        <use href={`#crab-${scene}`} transform="translate(118 80) scale(.38)" />
+        <path d="M74 60 l6 8 l6 -8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    )
+  }
+  {
+    scene === 'tie' && (
+      <g>
+        <rect x="64" y="10" width="26" height="104" fill="#a8794a" stroke={ink} stroke-width="3" />
+        <path d="M60 10 L94 10" stroke={ink} stroke-width="5" stroke-linecap="round" />
+        <g fill="none" stroke="#ffd400" stroke-width="5" stroke-linecap="round">
+          <path d="M60 44 Q77 54 94 44" />
+          <path d="M60 52 Q77 62 94 52" />
+          <path d="M60 60 Q77 70 94 60" />
+        </g>
+        <g fill="none" stroke={ink} stroke-width="1.5">
+          <path d="M60 44 Q77 54 94 44" />
+          <path d="M60 60 Q77 70 94 60" />
+        </g>
+        <path d="M94 60 Q120 70 128 120" fill="none" stroke="#ffd400" stroke-width="4" stroke-linecap="round" />
+        <use href={`#crab-${scene}`} transform="translate(4 70) scale(.55)" />
+        <path d="M118 22 l8 8 l16 -18" fill="none" stroke="#1239c6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    )
+  }
+  {
+    scene === 'wait' && (
+      <g>
+        <circle cx="100" cy="62" r="40" fill="#fff" stroke={ink} stroke-width="4" />
+        <rect x="93" y="12" width="14" height="10" fill={ink} />
+        <path d="M100 62 L100 34 M100 62 L120 72" stroke={ink} stroke-width="4" stroke-linecap="round" />
+        <path d="M100 22 A40 40 0 0 1 134 82 L100 62 Z" fill="#ffd400" opacity=".7" />
+        <circle cx="100" cy="62" r="4" fill={ink} />
+        <use href={`#crab-${scene}`} transform="translate(0 66) scale(.6)" />
+        <path d="M14 30 q6 -10 12 0 M30 22 q6 -10 12 0" fill="none" stroke="#1239c6" stroke-width="2.5" stroke-linecap="round" />
       </g>
     )
   }
