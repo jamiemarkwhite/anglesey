@@ -1,5 +1,5 @@
 ---
-export type Scene = 'bucket' | 'net' | 'tide' | 'stones' | 'sink' | 'bacon' | 'hold' | 'pier' | 'drop' | 'tie' | 'wait';
+export type Scene = 'bucket' | 'net' | 'tide' | 'stones' | 'sink' | 'bacon' | 'hold' | 'pier' | 'drop' | 'tie' | 'wait' | 'release';
 
 interface Props {
   scene: Scene;
@@ -174,6 +174,19 @@ const red = '#e5332a';
         <circle cx="100" cy="62" r="4" fill={ink} />
         <use href={`#crab-${scene}`} transform="translate(0 66) scale(.6)" />
         <path d="M14 30 q6 -10 12 0 M30 22 q6 -10 12 0" fill="none" stroke="#1239c6" stroke-width="2.5" stroke-linecap="round" />
+      </g>
+    )
+  }
+  {
+    scene === 'release' && (
+      <g>
+        <path d="M0 78 Q20 70 40 78 T80 78 T120 78 T160 78 V120 H0 Z" fill="#1239c6" />
+        <path d="M0 90 Q20 82 40 90 T80 90 T120 90 T160 90" fill="none" stroke="#fff" stroke-width="2.5" />
+        <use href={`#crab-${scene}`} transform="translate(46 22) rotate(-12 42 32) scale(.8)" />
+        <path d="M22 40 q-8 -14 4 -22 M28 54 q-14 -6 -14 -20" fill="none" stroke={ink} stroke-width="2" stroke-linecap="round" />
+        <circle cx="120" cy="66" r="3" fill="#fff" stroke={ink} stroke-width="1.5" />
+        <circle cx="130" cy="58" r="2" fill="#fff" stroke={ink} stroke-width="1.5" />
+        <path d="M118 18 l6 6 M124 18 l-6 6 M138 30 l6 6 M144 30 l-6 6" stroke="#ffd400" stroke-width="3" stroke-linecap="round" />
       </g>
     )
   }
