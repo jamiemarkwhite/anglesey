@@ -40,7 +40,7 @@ activities: [wildlife, indoors, playgrounds]
 | `summary` | One or two sentences shown at the top of the place's page. |
 | `area` | Optional. The English `title` of a town. The place is then also listed on that town's page. |
 | `photo` | Optional. A landscape photo saved next to the Markdown file, named after it. |
-| `emoji` | Required. The place's pin on the map, and shown large with the print tint when there is no photo. |
+| `emoji` | Required. The place's pin on the map, and shown large on a pink background when there is no photo. |
 | `lat`, `lng` | Required. Where the pin goes on the map, in decimal degrees (Anglesey plus the mainland along the A55 and Menai Strait). Copy them from [OpenStreetMap](https://www.openstreetmap.org) (right-click, "Show address"). |
 | `activities` | Optional list for the activity filter: `beach`, `crabbing`, `rockpools`, `walks`, `wildlife`, `history`, `indoors`, `playgrounds`, `food`. |
 | `tides` | Optional BBC tide station id, for places where the tide matters. Adds a tide times button. The ids are in `src/activities.ts`. |
@@ -52,7 +52,7 @@ The body is a bullet list of practical details: what's there, prices, parking, d
 
 ## Photos
 
-Every photo gets the same pink and blue print treatment, so photos from different places and cameras look like one set. Use the original colour photo - the site applies the tint.
+Photos show in full colour, with a small saturation lift and a light halftone dot screen so photos from different places and cameras look like one set. Use the original colour photo.
 
 - Landscape, at least 1280px wide. Keep files under about 500KB.
 - Your own photos are best. Credit yourself and pick a licence, e.g. `license: "CC BY 4.0"`.
@@ -60,7 +60,7 @@ Every photo gets the same pink and blue print treatment, so photos from differen
 - Credit the author exactly as the source asks and link to the source page.
 - Photos must show the actual place.
 
-A place without a photo shows its `emoji` large in the photo's place, with the same tint.
+A place without a photo shows its `emoji` large in the photo's place, on a pink background.
 
 ## Welsh translations
 
