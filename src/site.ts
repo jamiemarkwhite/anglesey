@@ -15,5 +15,5 @@ export function newPlaceTranslationUrl(id: string) {
 }
 
 // PostHog project API key (public, safe to commit). Analytics stays off while this is empty.
-export const posthogKey = '';
+export const posthogKey = 'phc_ufoRLXpmjDUdnJCzqd3tLmQogcw5eexmJav7UXpLiEo5';
 export const posthogHost = 'https://eu.i.posthog.com';
