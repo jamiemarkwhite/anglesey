@@ -13,3 +13,7 @@ export function editPlaceTranslationUrl(id: string) {
 export function newPlaceTranslationUrl(id: string) {
   return `${repoUrl}/new/main/src/content/places-cy?filename=${id}.md`;
 }
+
+// PostHog project API key (public, safe to commit). Analytics stays off while this is empty.
+export const posthogKey = 'phc_ufoRLXpmjDUdnJCzqd3tLmQogcw5eexmJav7UXpLiEo5';
+export const posthogHost = 'https://eu.i.posthog.com';

@@ -1,0 +1,26 @@
+---
+import { posthogHost, posthogKey } from '../site';
+---
+
+{
+  posthogKey && (
+    <script is:inline type="application/json" id="posthog-config" set:html={JSON.stringify({ key: posthogKey, host: posthogHost })} />
+  )
+}
+
+<script>
+  const config = document.getElementById('posthog-config');
+  if (config) {
+    const { key, host } = JSON.parse(config.textContent ?? '{}');
+    const { default: posthog } = await import('posthog-js');
+    // Cookieless: nothing is stored on the visitor's device, so no consent banner is needed.
+    posthog.init(key, {
+      api_host: host,
+      cookieless_mode: 'always',
+      persistence: 'memory',
+      person_profiles: 'identified_only',
+      disable_session_recording: true,
+      disable_surveys: true,
+    });
+  }
+</script>
