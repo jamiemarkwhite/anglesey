@@ -219,7 +219,8 @@ const strings = t(Astro.props.locale);
 
     type State = 'idle' | 'walk' | 'flee' | 'jump' | 'sleep';
     const size = () => crab.offsetWidth;
-    const maxX = () => innerWidth - size();
+    // Keep clear of the chips in the bottom-right corner.
+    const maxX = () => innerWidth - size() - (innerWidth > 600 ? 96 : 70);
     let x = Math.random() * Math.max(0, maxX() - 40) + 20;
     let target = x;
     let speed = 0;

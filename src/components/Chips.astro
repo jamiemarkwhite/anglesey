@@ -1,0 +1,279 @@
+---
+import { t, type Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+
+const strings = t(Astro.props.locale);
+const chips = [
+  { x: 14, r: -14, h: 30 },
+  { x: 20, r: -6, h: 36 },
+  { x: 26, r: 4, h: 32 },
+  { x: 31, r: -10, h: 38 },
+  { x: 36, r: 8, h: 34 },
+  { x: 41, r: -3, h: 37 },
+  { x: 46, r: 12, h: 31 },
+  { x: 51, r: 16, h: 28 },
+];
+---
+
+<div class="chips-zone" data-lines={JSON.stringify(strings.gullLines)} hidden>
+  <button type="button" class="chip-pack" aria-label={strings.chipsLabel}>
+    <svg viewBox="0 0 66 80" aria-hidden="true">
+      <g class="chip-stack">
+        {
+          chips.map((c) => (
+            <rect
+              class="chip"
+              x={c.x}
+              y={44 - c.h}
+              width="6"
+              height={c.h}
+              rx="1.5"
+              fill="#ffd400"
+              stroke="#0b1f5c"
+              stroke-width="1.5"
+              transform={`rotate(${c.r} ${c.x + 3} 44)`}
+            />
+          ))
+        }
+      </g>
+      <path d="M6 36 L60 36 L52 78 L14 78 Z" fill="#fff" stroke="#0b1f5c" stroke-width="2.5" stroke-linejoin="round" />
+      <path d="M8.5 48 L57.5 48 M10.5 58 L55.5 58 M12.5 68 L53.5 68" stroke="#1239c6" stroke-width="3" />
+    </svg>
+  </button>
+  <p class="gull-say" aria-live="polite"></p>
+</div>
+
+<div class="gull" aria-hidden="true">
+  <svg viewBox="0 0 90 60">
+    <g class="wing back"><path d="M44 26 Q30 2 8 6 Q26 14 36 30 Z" fill="#c9d0de" stroke="#0b1f5c" stroke-width="2" stroke-linejoin="round" /></g>
+    <path d="M18 34 Q30 22 52 26 Q66 24 74 30 Q66 40 50 42 Q30 46 18 34 Z" fill="#fff" stroke="#0b1f5c" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M18 34 L6 30 L10 38 Z" fill="#c9d0de" stroke="#0b1f5c" stroke-width="2" stroke-linejoin="round" />
+    <path d="M73 29 L86 32 L73 35 Z" fill="#ffd400" stroke="#0b1f5c" stroke-width="2" stroke-linejoin="round" />
+    <circle cx="80" cy="33.5" r="1.6" fill="#e5332a" />
+    <circle cx="66" cy="29" r="2" fill="#0b1f5c" />
+    <rect class="gull-chip" x="80" y="31" width="5" height="16" rx="1.5" fill="#ffd400" stroke="#0b1f5c" stroke-width="1.5" transform="rotate(-20 82 33)" />
+    <g class="wing front"><path d="M50 28 Q46 -2 20 0 Q38 12 40 32 Z" fill="#e6eaf2" stroke="#0b1f5c" stroke-width="2" stroke-linejoin="round" /></g>
+  </svg>
+</div>
+
+<style>
+  .chips-zone {
+    position: fixed;
+    right: 14px;
+    bottom: 6px;
+    z-index: 1100;
+  }
+  .chip-pack {
+    display: block;
+    width: 66px;
+    height: 80px;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.15s;
+  }
+  .chip-pack:hover {
+    transform: rotate(-4deg) scale(1.05);
+  }
+  .chip-pack:active {
+    transform: scale(0.95);
+  }
+  .chip-pack:focus-visible {
+    outline: 3px solid var(--blue);
+    outline-offset: 4px;
+  }
+  .chip-pack svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+  .chip {
+    transition: opacity 0.2s;
+  }
+  .chip.gone {
+    opacity: 0;
+  }
+  .chip-pack.shake svg {
+    animation: chips-shake 0.3s;
+  }
+  @keyframes chips-shake {
+    25% { transform: rotate(-6deg); }
+    75% { transform: rotate(6deg); }
+  }
+  .gull-say {
+    position: absolute;
+    right: 8px;
+    bottom: 88px;
+    margin: 0;
+    background: #fff;
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--yellow);
+    padding: 7px 10px;
+    font: 700 13px/1.2 Archivo, sans-serif;
+    color: var(--ink);
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .gull-say.on {
+    opacity: 1;
+    transform: none;
+  }
+  .gull {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 60px;
+    z-index: 1101;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .gull.flying {
+    visibility: visible;
+  }
+  .gull svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+  .wing {
+    transform-box: fill-box;
+    transform-origin: 80% 100%;
+  }
+  .gull.flying .wing {
+    animation: gull-flap 0.22s ease-in-out infinite alternate;
+  }
+  .gull.flying .wing.back {
+    animation-delay: -0.05s;
+  }
+  @keyframes gull-flap {
+    from { transform: scaleY(1); }
+    to { transform: scaleY(-0.6); }
+  }
+  .gull-chip {
+    visibility: hidden;
+  }
+  .gull.carrying .gull-chip {
+    visibility: visible;
+  }
+  @media (max-width: 600px) {
+    .chips-zone {
+      right: 8px;
+    }
+    .chip-pack {
+      width: 50px;
+      height: 61px;
+    }
+    .gull-say {
+      bottom: 68px;
+    }
+    .gull {
+      width: 70px;
+      height: 47px;
+    }
+  }
+</style>
+
+<script>
+  type Lines = { grab: string[]; empty: string; refill: string };
+  const zone = document.querySelector<HTMLElement>('.chips-zone');
+  const gull = document.querySelector<HTMLElement>('.gull');
+
+  if (zone && gull) {
+    zone.hidden = false;
+    const pack = zone.querySelector<HTMLButtonElement>('.chip-pack')!;
+    const say = zone.querySelector<HTMLElement>('.gull-say')!;
+    const chips = [...zone.querySelectorAll<SVGRectElement>('.chip')];
+    const lines: Lines = JSON.parse(zone.dataset.lines ?? '{}');
+    const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let busy = false;
+    let sayTimer = 0;
+
+    const pick = (list: string[]) => list[Math.floor(Math.random() * list.length)];
+    const left = () => chips.filter((c) => !c.classList.contains('gone'));
+
+    function talk(text: string, ms = 1400) {
+      say.textContent = text;
+      say.classList.add('on');
+      clearTimeout(sayTimer);
+      sayTimer = window.setTimeout(() => say.classList.remove('on'), ms);
+    }
+
+    function refill() {
+      chips.forEach((c) => c.classList.remove('gone'));
+      talk(lines.refill);
+    }
+
+    function takeChip() {
+      const remaining = left();
+      remaining[Math.floor(Math.random() * remaining.length)]?.classList.add('gone');
+      if (left().length === 0) {
+        setTimeout(() => talk(lines.empty, 2000), 700);
+        setTimeout(refill, 6000);
+      }
+    }
+
+    pack.addEventListener('click', () => {
+      if (busy || left().length === 0) {
+        pack.classList.remove('shake');
+        void pack.offsetWidth;
+        pack.classList.add('shake');
+        return;
+      }
+      if (still) {
+        takeChip();
+        talk(pick(lines.grab));
+        return;
+      }
+      busy = true;
+      const box = pack.getBoundingClientRect();
+      const w = gull.offsetWidth;
+      const h = gull.offsetHeight;
+      const fromRight = Math.random() < 0.5;
+      // Line the beak up with the chips; the beak sits on the right of the drawing until it is flipped.
+      const tx = box.left + box.width / 2 - w * (fromRight ? 0.06 : 0.94);
+      const ty = box.top - h * 0.45;
+      const startX = fromRight ? innerWidth + w : tx - innerWidth * 0.5;
+      const flip = fromRight ? ' scaleX(-1)' : '';
+      const pos = (x: number, y: number, r = 0) => `translate(${x}px, ${y}px) rotate(${r}deg)${flip}`;
+
+      gull.classList.add('flying');
+      gull.classList.remove('carrying');
+      const swoop = gull.animate(
+        [
+          { transform: pos(startX, -h * 2, 10) },
+          { transform: pos((startX + tx) / 2, ty - 160, 18), offset: 0.45 },
+          { transform: pos(tx, ty, 0) },
+        ],
+        { duration: 1000, easing: 'cubic-bezier(.3,.1,.4,1)', fill: 'forwards' },
+      );
+      swoop.onfinish = () => {
+        takeChip();
+        gull.classList.add('carrying');
+        talk(pick(lines.grab));
+        const away = gull.animate(
+          [
+            { transform: pos(tx, ty, 0) },
+            { transform: pos(tx, ty + 6, 0), offset: 0.12 },
+            { transform: pos(tx - (fromRight ? 260 : -260) * 0.4, ty - 200, -16), offset: 0.55 },
+            { transform: pos(fromRight ? -w * 2 : innerWidth + w * 2, -h * 3, -20) },
+          ],
+          { duration: 1300, easing: 'ease-in', fill: 'forwards' },
+        );
+        away.onfinish = () => {
+          gull.classList.remove('flying', 'carrying');
+          busy = false;
+        };
+      };
+    });
+  }
+</script>
