@@ -117,7 +117,7 @@ export const categoryNames: Record<Locale, Record<CategoryId, string>> = {
 export const activityNames: Record<Locale, Record<ActivityId, string>> = {
   en: {
     beach: 'Beaches',
-    crabbing: 'Crabbing',
+    crabbing: 'Crabbing & fishing',
     rockpools: 'Rock pools',
     walks: 'Walks',
     wildlife: 'Wildlife',
@@ -128,7 +128,7 @@ export const activityNames: Record<Locale, Record<ActivityId, string>> = {
   },
   cy: {
     beach: 'Traethau',
-    crabbing: 'Dal crancod',
+    crabbing: 'Dal crancod a physgota',
     rockpools: 'Pyllau glan môr',
     walks: 'Teithiau cerdded',
     wildlife: 'Bywyd gwyllt',
