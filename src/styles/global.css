@@ -339,3 +339,12 @@ h1 {
 .no-matches { margin-top: 14px; color: var(--muted); }
 
 [hidden] { display: none !important; }
+
+.things-heading {
+  font-size: clamp(28px, 6vw, 40px);
+  line-height: 1;
+  letter-spacing: -.02em;
+  margin-top: 52px;
+}
+
+.things-heading + nav .jump { margin-top: 18px; }

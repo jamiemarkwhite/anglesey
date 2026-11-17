@@ -56,6 +56,7 @@ const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.tit
 
   <PlaceMap places={places} locale={locale} />
 
+  <h2 class="things-heading" id="things-to-do">{strings.thingsHeading}</h2>
   <nav aria-label={strings.categoriesLabel}>
     <ul class="jump">
       {boards.map((b) => <li><a href={`#${b.id}`}>{b.name}</a></li>)}
