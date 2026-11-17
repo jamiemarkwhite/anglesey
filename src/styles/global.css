@@ -341,3 +341,11 @@ body::before {
   background-size: 220px 220px;
   opacity: .07;
 }
+
+.rnli {
+  border: 3px solid var(--blue);
+  box-shadow: 5px 5px 0 var(--yellow);
+  background: #fff;
+  padding: 4px 18px 8px;
+  max-width: 880px;
+}
