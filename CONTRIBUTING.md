@@ -40,7 +40,7 @@ activities: [wildlife, indoors, playgrounds, food]
 | `summary` | One or two sentences shown at the top of the place's page. |
 | `area` | Optional. The English `title` of a town. The place is then also listed on that town's page. |
 | `photo` | Optional. A landscape photo saved next to the Markdown file, named after it. |
-| `emoji` | Required. The place's pin on the map, and shown large on a pink background when there is no photo. |
+| `emoji` | Required. The place's pin on the map, and shown large on a pale yellow background when there is no photo. |
 | `lat`, `lng` | Required. Where the pin goes on the map, in decimal degrees (Anglesey plus the mainland along the A55 and Menai Strait). Copy them from [OpenStreetMap](https://www.openstreetmap.org) (right-click, "Show address"). |
 | `activities` | Optional list for the activity filter: `beach`, `crabbing`, `rockpools`, `walks`, `wildlife`, `history`, `indoors`, `playgrounds`, `food`. |
 | `tides` | Optional BBC tide station id, for places where the tide matters. Adds a tide times button. The ids are in `src/activities.ts`. |
@@ -61,7 +61,7 @@ Photos show in full colour, with a small saturation lift so photos from differen
 - Photos must show the actual place.
 - No photos where other people's children can be recognised. Your own children are fine if you're happy to share the photo.
 
-A place without a photo shows its `emoji` large in the photo's place, on a pink background.
+A place without a photo shows its `emoji` large in the photo's place, on a pale yellow background.
 
 ## Welsh translations
 
