@@ -12,6 +12,11 @@ credit:
   license: "CC BY-SA 4.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Beaumaris_Castle_2015_003.jpg"
+emoji: "🏰"
+lat: 53.26483
+lng: -4.08976
+activities: [crabbing, history, playgrounds]
+tides: "472"
 ---
 
 - Near-perfect symmetrical design with concentric defences

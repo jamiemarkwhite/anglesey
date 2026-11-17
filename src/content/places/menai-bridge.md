@@ -12,6 +12,10 @@ credit:
   license: "CC BY 4.0"
   licenseUrl: "https://creativecommons.org/licenses/by/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Menai_Suspension_Bridge_Gwynedd_2019_Day.jpg"
+emoji: "🌉"
+lat: 53.2222
+lng: -4.16507
+activities: [walks, history, food]
 ---
 
 - Walk the Belgian Promenade beneath the bridge (built by WWI refugees)

@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 4.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Plas_Newydd-Anglesey-National_Trust_03.jpg"
+emoji: "🌳"
+lat: 53.20281
+lng: -4.21617
+activities: [history, wildlife, playgrounds, food]
 ---
 
 - Grade 1 listed ancestral home of the Marquess of Anglesey

@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { activityIds, tideStationIds } from './activities';
 import { categoryIds } from './categories';
 
 export const credit = z.object({
@@ -24,11 +25,14 @@ const places = defineCollection({
         area: z.string().optional(),
         featured: z.boolean().optional(),
         photo: image().optional(),
-        emoji: z.string().optional(),
+        emoji: z.string(),
         credit: credit.optional(),
+        lat: z.number().min(53.1).max(53.45),
+        lng: z.number().min(-4.75).max(-4.0),
+        activities: z.array(z.enum(activityIds)).default([]),
+        tides: z.enum(tideStationIds).optional(),
       })
-      .refine((d) => !d.photo || d.credit, { message: 'A place with a photo needs a credit', path: ['credit'] })
-      .refine((d) => d.photo || d.emoji, { message: 'A place needs a photo or an emoji', path: ['photo'] }),
+      .refine((d) => !d.photo || d.credit, { message: 'A place with a photo needs a credit', path: ['credit'] }),
 });
 
 // Welsh translations of the text fields only. Everything else comes from the English file with the same name.

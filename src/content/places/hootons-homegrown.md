@@ -11,6 +11,10 @@ credit:
   license: "CC BY 4.0"
   licenseUrl: "https://creativecommons.org/licenses/by/4.0"
   source: "https://jamiewhite.dev"
+emoji: "🎃"
+lat: 53.19775
+lng: -4.23477
+activities: [food]
 ---
 
 - Strawberries, raspberries, and more in season

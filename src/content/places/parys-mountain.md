@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Parys_Mountain_-_geograph.org.uk_-_3397881.jpg"
+emoji: "⛰️"
+lat: 53.38794
+lng: -4.35112
+activities: [walks, history]
 ---
 
 People have dug copper out of Parys Mountain for about 4,000 years. What's left is a bare, orange and purple landscape that looks nothing like the rest of the island.

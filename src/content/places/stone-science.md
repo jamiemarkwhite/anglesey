@@ -6,6 +6,9 @@ order: 4
 url: "https://stonescience.co.uk/"
 summary: "A hands-on geology and fossil museum near Pentraeth, home to one of the largest fossil collections in Wales."
 emoji: "🦕"
+lat: 53.28236
+lng: -4.25174
+activities: [history, indoors]
 ---
 
 - Over 650 million years of Earth history across two floors

@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Pili_Pala_-_geograph.org.uk_-_7573309.jpg"
+emoji: "🦋"
+lat: 53.23509
+lng: -4.18654
+activities: [wildlife, indoors, playgrounds]
 ---
 
 - Butterflies, birds, reptiles, insects and small animals

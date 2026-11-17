@@ -12,6 +12,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Old_railway_bridge_over_Afon_Cefni_in_The_Dingle,_Llangefni_-_geograph.org.uk_-_2720984.jpg"
+emoji: "🐿️"
+lat: 53.26152
+lng: -4.3239
+activities: [walks, wildlife]
 ---
 
 The Dingle is a local nature reserve run by Anglesey County Council. It follows the Afon Cefni up a wooded valley from St Cyngar's Church in Llangefni towards Cefni Reservoir. Entry is free.

@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 3.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
   source: "https://commons.wikimedia.org/wiki/File:Puffin_Island_(Ynys_Seiriol),_Anglesey.JPG"
+emoji: "🐦"
+lat: 53.31869
+lng: -4.02713
+activities: [wildlife]
 ---
 
 - Landing is not permitted — view by boat from Beaumaris

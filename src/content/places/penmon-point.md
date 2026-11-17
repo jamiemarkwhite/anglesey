@@ -11,6 +11,10 @@ credit:
   license: "CC0 1.0"
   licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0"
   source: "https://commons.wikimedia.org/wiki/File:Lighthouse_at_Penmon_Point_(47478720361).jpg"
+emoji: "🔭"
+lat: 53.31059
+lng: -4.04199
+activities: [wildlife, food]
 ---
 
 - Views of [Puffin Island](/places/puffin-island) from the shore

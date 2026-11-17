@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Boat_at_the_end_of_Beaumaris_Pier_-_geograph.org.uk_-_4979584.jpg"
+emoji: "🚤"
+lat: 53.26183
+lng: -4.09064
+activities: [wildlife]
 ---
 
 - 80-minute Puffin Island cruise (£18 adults, £12 children)

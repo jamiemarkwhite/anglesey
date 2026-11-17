@@ -12,6 +12,10 @@ credit:
   license: "CC BY 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by/2.0"
   source: "https://commons.wikimedia.org/wiki/File:South_Stack_Lighthouse,_Wales-28May2007b.jpg"
+emoji: "🗼"
+lat: 53.30675
+lng: -4.69956
+activities: [wildlife, playgrounds, food]
 ---
 
 - 400 steps down to the lighthouse (and back up!)

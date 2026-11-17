@@ -1,3 +1,4 @@
+import type { ActivityId } from '../activities';
 import type { CategoryId } from '../categories';
 
 export const locales = ['en', 'cy'] as const;
@@ -40,6 +41,12 @@ export const ui = {
     editPrompt: 'Something out of date? Edit this page',
     photo: 'Photo:',
     inArea: (town: string) => `In ${town}`,
+    mapHeading: 'Map',
+    mapLabel: 'Map of places on Anglesey',
+    filterLabel: 'Filter by activity',
+    allActivities: 'Everything',
+    noMatches: 'Nothing matches that activity yet.',
+    tideTimes: (station: string) => `Tide times: ${station}`,
   },
   cy: {
     siteName: 'Ynys Môn',
@@ -71,6 +78,12 @@ export const ui = {
     editPrompt: "Rhywbeth wedi dyddio? Golygu'r dudalen hon",
     photo: 'Llun:',
     inArea: (town: string) => `Yn ardal ${town}`,
+    mapHeading: 'Map',
+    mapLabel: "Map o leoedd ar Ynys Môn",
+    filterLabel: 'Hidlo yn ôl gweithgaredd',
+    allActivities: 'Popeth',
+    noMatches: "Does dim byd yn cyfateb i'r gweithgaredd hwnnw eto.",
+    tideTimes: (station: string) => `Amseroedd y llanw: ${station}`,
   },
 } satisfies Record<Locale, Record<string, unknown>>;
 
@@ -98,6 +111,31 @@ export const categoryNames: Record<Locale, Record<CategoryId, string>> = {
     pubs: 'Tafarndai',
     'day-trips': 'Teithiau dydd',
     seasonal: 'Tymhorol a chasglu eich hun',
+  },
+};
+
+export const activityNames: Record<Locale, Record<ActivityId, string>> = {
+  en: {
+    beach: 'Beaches',
+    crabbing: 'Crabbing',
+    rockpools: 'Rock pools',
+    walks: 'Walks',
+    wildlife: 'Wildlife',
+    history: 'History',
+    indoors: 'Indoors',
+    playgrounds: 'Playgrounds',
+    food: 'Food & drink',
+  },
+  cy: {
+    beach: 'Traethau',
+    crabbing: 'Dal crancod',
+    rockpools: 'Pyllau glan môr',
+    walks: 'Teithiau cerdded',
+    wildlife: 'Bywyd gwyllt',
+    history: 'Hanes',
+    indoors: 'Dan do',
+    playgrounds: 'Meysydd chwarae',
+    food: 'Bwyd a diod',
   },
 };
 

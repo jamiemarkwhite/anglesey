@@ -11,6 +11,10 @@ credit:
   license: "CC BY-SA 4.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Eglwys_Sant_Beuno,_Aberffraw_ar_Ynys_M%C3%B4n_-_St_Beuno%27s_Church,_Aberffraw_parish_church_in_Anglesey,_Wales_31.png"
+emoji: "🏖️"
+lat: 53.192
+lng: -4.46339
+activities: [beach, walks, history]
 ---
 
 - Scenic dune walks to Traeth Mawr beach

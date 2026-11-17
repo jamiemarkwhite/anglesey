@@ -12,6 +12,10 @@ credit:
   license: "CC BY-SA 2.0"
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:The_Oyster_Catcher,_Rhosneigr_-_geograph.org.uk_-_6580769.jpg"
+emoji: "🍺"
+lat: 53.22292
+lng: -4.51069
+activities: [food]
 ---
 
 - Fancy restaurant
