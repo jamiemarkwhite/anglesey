@@ -2,8 +2,9 @@
 import '../styles/global.css';
 import Crab from '../components/Crab.astro';
 import Chips from '../components/Chips.astro';
+import Analytics from '../components/Analytics.astro';
 import { languages, locales, localePath, t, translationNote, type Locale } from '../i18n/ui';
-import { editUiStringsUrl, repoUrl, suggestPlaceUrl } from '../site';
+import { editUiStringsUrl, posthogKey, repoUrl, suggestPlaceUrl } from '../site';
 
 interface Props {
   locale: Locale;
@@ -73,9 +74,11 @@ const absolute = (l: Locale) => new URL(localePath(l, path), Astro.site).href;
         <p>
           <a href={suggestPlaceUrl} target="_blank" rel="noopener">{strings.suggestPlace}</a> · <a href={repoUrl} target="_blank" rel="noopener">{strings.openSource}</a>
         </p>
+        {posthogKey && <p class="privacy">{strings.privacy}</p>}
       </footer>
     </div>
     <Crab locale={locale} />
     <Chips locale={locale} />
+    <Analytics />
   </body>
 </html>
