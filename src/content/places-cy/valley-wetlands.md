@@ -17,6 +17,5 @@ Gwarchodfa RSPB o lynnoedd, gwelyau cyrs a chorsydd drws nesaf i [RAF y Fali](/c
 ### Cyn mynd
 - Maes parcio bach (12 lle)
 - Mae'r llwybrau heb wyneb a gallan nhw fod yn fwdlyd iawn, felly ewch â welis yn y gaeaf neu ar ôl glaw
-- Dim toiledau. Mae'r agosaf yn y Fali, 3.5 milltir i ffwrdd
 - Cŵn ar dennyn bob amser
 - Dim barbeciws
