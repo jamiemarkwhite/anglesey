@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Crab from '../components/Crab.astro';
 import { languages, locales, localePath, t, translationNote, type Locale } from '../i18n/ui';
 import { editUiStringsUrl, repoUrl, suggestPlaceUrl } from '../site';
 
@@ -70,5 +71,6 @@ const absolute = (l: Locale) => new URL(localePath(l, path), Astro.site).href;
         </p>
       </footer>
     </div>
+    <Crab locale={locale} />
   </body>
 </html>

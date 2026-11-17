@@ -1,0 +1,378 @@
+---
+import { t, type Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+
+const strings = t(Astro.props.locale);
+---
+
+<div class="crab-zone" data-lines={JSON.stringify(strings.crabLines)} hidden>
+  <button type="button" class="crab" aria-label={strings.crabLabel}>
+    <svg viewBox="0 0 84 64" aria-hidden="true">
+      <g stroke="#0b1f5c" stroke-width="3" stroke-linecap="square" fill="none">
+        <path class="leg a" d="M22 46 L12 56" /><path class="leg b" d="M26 49 L18 60" /><path class="leg a" d="M31 51 L26 62" />
+        <path class="leg b" d="M62 46 L72 56" /><path class="leg a" d="M58 49 L66 60" /><path class="leg b" d="M53 51 L58 62" />
+      </g>
+      <g class="crab-body">
+        <g class="claw" stroke="#0b1f5c" stroke-width="2.5" stroke-linejoin="round">
+          <path d="M20 38 L12 28" fill="none" stroke-linecap="square" />
+          <path d="M4 26 Q4 14 14 14 L16 24 Z" fill="#e5332a" />
+          <path class="pincer" d="M14 14 Q22 12 20 22 L16 24 Z" fill="#e5332a" />
+        </g>
+        <g class="claw right" stroke="#0b1f5c" stroke-width="2.5" stroke-linejoin="round">
+          <path d="M64 38 L72 28" fill="none" stroke-linecap="square" />
+          <path d="M80 26 Q80 14 70 14 L68 24 Z" fill="#e5332a" />
+          <path class="pincer" d="M70 14 Q62 12 64 22 L68 24 Z" fill="#e5332a" />
+        </g>
+        <g stroke="#0b1f5c" stroke-width="2.5"><path d="M35 34 L33 22" /><path d="M49 34 L51 22" /></g>
+        <rect x="18" y="32" width="48" height="20" rx="4" fill="#e5332a" stroke="#0b1f5c" stroke-width="2.5" />
+        <rect x="24" y="44" width="5" height="3" fill="#ffb3a8" /><rect x="55" y="44" width="5" height="3" fill="#ffb3a8" />
+        <path class="mouth" d="M38 42 Q42 46 46 42" fill="none" stroke="#0b1f5c" stroke-width="2" stroke-linecap="round" />
+        <rect x="27" y="13" width="12" height="12" rx="2" fill="#fff" stroke="#0b1f5c" stroke-width="2.5" />
+        <rect class="pupil" x="31" y="17" width="4.5" height="4.5" fill="#0b1f5c" />
+        <rect class="lid" x="27" y="13" width="12" height="12" rx="2" fill="#e5332a" stroke="#0b1f5c" stroke-width="2.5" />
+        <rect x="45" y="13" width="12" height="12" rx="2" fill="#fff" stroke="#0b1f5c" stroke-width="2.5" />
+        <rect class="pupil" x="49" y="17" width="4.5" height="4.5" fill="#0b1f5c" />
+        <rect class="lid" x="45" y="13" width="12" height="12" rx="2" fill="#e5332a" stroke="#0b1f5c" stroke-width="2.5" />
+      </g>
+    </svg>
+  </button>
+  <p class="crab-say" aria-live="polite"></p>
+</div>
+
+<style>
+  .crab-zone {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    z-index: 1100;
+  }
+  .crab {
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    width: 84px;
+    height: 64px;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    will-change: transform;
+  }
+  .crab:focus-visible {
+    outline: 3px solid var(--blue);
+    outline-offset: 4px;
+  }
+  .crab svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    transform-origin: 50% 100%;
+  }
+  .crab-body {
+    transform-origin: 42px 44px;
+  }
+  .leg {
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  .walking .leg.a {
+    animation: crab-leg 0.22s ease-in-out infinite alternate;
+  }
+  .walking .leg.b {
+    animation: crab-leg 0.22s ease-in-out infinite alternate-reverse;
+  }
+  .walking .crab-body {
+    animation: crab-bob 0.22s ease-in-out infinite alternate;
+  }
+  .claw,
+  .pincer {
+    transform-box: fill-box;
+  }
+  .claw {
+    transform-origin: 50% 100%;
+  }
+  .pincer {
+    transform-origin: 20% 90%;
+  }
+  .waving .claw.right {
+    animation: crab-wave 0.28s ease-in-out 4 alternate;
+  }
+  .snipping .pincer {
+    animation: crab-snip 0.12s ease-in-out 6 alternate;
+  }
+  .lid {
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+    transform: scaleY(0);
+    transition: transform 0.08s;
+  }
+  .blink .lid,
+  .sleeping .lid {
+    transform: scaleY(1);
+  }
+  .sleeping .crab-body {
+    animation: crab-breathe 2.4s ease-in-out infinite;
+  }
+  .scared .crab-body {
+    animation: crab-shake 0.08s linear 6;
+  }
+  .jumping svg {
+    animation: crab-jump var(--jt, 0.6s) cubic-bezier(0.3, 0, 0.3, 1);
+  }
+  @keyframes crab-leg {
+    from { transform: rotate(-14deg); }
+    to { transform: rotate(14deg); }
+  }
+  @keyframes crab-bob {
+    to { transform: translateY(-2px); }
+  }
+  @keyframes crab-wave {
+    from { transform: rotate(-10deg); }
+    to { transform: rotate(-38deg) translateY(-3px); }
+  }
+  @keyframes crab-snip {
+    to { transform: rotate(-28deg); }
+  }
+  @keyframes crab-breathe {
+    50% { transform: scale(1.03, 0.97); }
+  }
+  @keyframes crab-shake {
+    50% { transform: translateX(2px); }
+  }
+  @keyframes crab-jump {
+    0% { transform: scale(1, 1); }
+    12% { transform: scale(1.25, 0.72); }
+    45% { transform: translateY(calc(var(--jh, 90px) * -1)) scale(0.88, 1.15) rotate(var(--spin, 0deg)); }
+    80% { transform: translateY(0) scale(1.15, 0.85) rotate(var(--spin, 0deg)); }
+    90% { transform: scale(0.95, 1.05) rotate(var(--spin, 0deg)); }
+    100% { transform: scale(1, 1) rotate(var(--spin, 0deg)); }
+  }
+  .crab-say {
+    position: absolute;
+    bottom: 80px;
+    margin: 0;
+    background: #fff;
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--yellow);
+    padding: 7px 10px;
+    font: 700 13px/1.2 Archivo, sans-serif;
+    color: var(--ink);
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .crab-say.on {
+    opacity: 1;
+    transform: none;
+  }
+  :global(.crab-z) {
+    position: fixed;
+    z-index: 1100;
+    font: 400 14px/1 'Archivo Black', sans-serif;
+    color: var(--blue);
+    pointer-events: none;
+    animation: crab-z 2s ease-out forwards;
+  }
+  @keyframes crab-z {
+    to { transform: translate(18px, -40px) scale(1.4); opacity: 0; }
+  }
+  @media (max-width: 600px) {
+    .crab {
+      width: 60px;
+      height: 46px;
+    }
+    .crab-say {
+      bottom: 60px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .crab *,
+    .crab svg {
+      animation: none !important;
+    }
+  }
+</style>
+
+<script>
+  type Lines = { hi: string[]; big: string[]; dizzy: string[]; scared: string[]; wake: string[] };
+  const zone = document.querySelector<HTMLElement>('.crab-zone');
+  if (zone) {
+    zone.hidden = false;
+    startCrab(zone);
+  }
+
+  function startCrab(zone: HTMLElement) {
+    const crab = zone.querySelector<HTMLButtonElement>('.crab')!;
+    const say = zone.querySelector<HTMLElement>('.crab-say')!;
+    const mouth = crab.querySelector('.mouth')!;
+    const pupils = [...crab.querySelectorAll('.pupil')];
+    const lines: Lines = JSON.parse(zone.dataset.lines ?? '{}');
+    const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    type State = 'idle' | 'walk' | 'flee' | 'jump' | 'sleep';
+    const size = () => crab.offsetWidth;
+    const maxX = () => innerWidth - size();
+    let x = Math.random() * Math.max(0, maxX() - 40) + 20;
+    let target = x;
+    let speed = 0;
+    let state = 'idle' as State;
+    let clicks = 0;
+    let clickTimer = 0;
+    let busyUntil = 0;
+    let lastActivity = performance.now();
+    let mouse = null as { x: number; y: number } | null;
+
+    const pick = (list: string[]) => list[Math.floor(Math.random() * list.length)];
+    const now = () => performance.now();
+
+    function talk(text: string, ms = 1400) {
+      say.textContent = text;
+      say.classList.add('on');
+      const left = Math.max(4, Math.min(x + size() / 4, innerWidth - say.offsetWidth - 4));
+      say.style.left = `${left}px`;
+      clearTimeout(talk.timer);
+      talk.timer = window.setTimeout(() => say.classList.remove('on'), ms);
+    }
+    talk.timer = 0;
+
+    function mood(m?: 'happy' | 'o' | 'wobbly') {
+      const d =
+        m === 'happy' ? 'M37 41 Q42 48 47 41'
+        : m === 'o' ? 'M40 43 Q42 40 44 43 Q42 46 40 43'
+        : m === 'wobbly' ? 'M37 43 L39 41 L42 43 L45 41 L47 43'
+        : 'M38 42 Q42 46 46 42';
+      mouth.setAttribute('d', d);
+    }
+
+    function setState(s: State) {
+      state = s;
+      crab.classList.toggle('walking', s === 'walk' || s === 'flee');
+      crab.classList.toggle('sleeping', s === 'sleep');
+    }
+
+    function walkTo(to: number, pace: number, s: State = 'walk') {
+      target = to;
+      speed = still ? Infinity : pace;
+      setState(s);
+    }
+
+    function flash(cls: string, ms: number) {
+      crab.classList.add(cls);
+      setTimeout(() => crab.classList.remove(cls), ms);
+    }
+
+    function wake() {
+      lastActivity = now();
+      if (state === 'sleep') {
+        setState('idle');
+        mood();
+        talk(pick(lines.wake));
+        busyUntil = now() + 1500;
+      }
+    }
+
+    setInterval(() => {
+      if (now() < busyUntil || state !== 'idle' || still) return;
+      const r = Math.random();
+      if (r < 0.55) {
+        walkTo(20 + Math.random() * Math.max(0, maxX() - 40), 1.2 + Math.random() * 0.8);
+        mood();
+      } else if (r < 0.75) {
+        mood('happy');
+        flash('waving', 1200);
+      } else if (r < 0.88) {
+        flash('snipping', 800);
+      }
+    }, 2600);
+
+    setInterval(() => {
+      if (state !== 'sleep') flash('blink', 140);
+    }, 3200);
+
+    setInterval(() => {
+      if (now() - lastActivity > 12000 && state === 'idle') {
+        setState('sleep');
+        mood('o');
+      }
+      if (state === 'sleep' && !still) {
+        const z = document.createElement('div');
+        z.className = 'crab-z';
+        z.textContent = 'z';
+        z.style.left = `${x + size() * 0.66}px`;
+        z.style.bottom = `${size() * 0.7}px`;
+        document.body.appendChild(z);
+        setTimeout(() => z.remove(), 2000);
+      }
+    }, 900);
+
+    addEventListener('scroll', wake, { passive: true });
+    addEventListener('keydown', wake);
+    addEventListener('pointermove', (e) => {
+      if (e.pointerType !== 'mouse') return;
+      mouse = { x: e.clientX, y: e.clientY };
+      wake();
+      const cx = x + size() / 2;
+      const cy = innerHeight - size() / 2;
+      const near = Math.hypot(mouse.x - cx, mouse.y - cy) < 70;
+      if (near && (state === 'idle' || state === 'walk') && !zone.contains(e.target as Node)) {
+        mood('o');
+        flash('scared', 500);
+        if (Math.random() < 0.5) talk(pick(lines.scared), 1000);
+        walkTo(mouse.x > cx ? Math.max(10, x - 180) : Math.min(maxX() - 10, x + 180), 4.5, 'flee');
+        busyUntil = now() + 1200;
+      }
+    });
+
+    crab.addEventListener('click', () => {
+      wake();
+      clicks++;
+      clearTimeout(clickTimer);
+      clickTimer = window.setTimeout(() => (clicks = 0), 1200);
+      const time = 0.55 + clicks * 0.05;
+      crab.style.setProperty('--jh', `${Math.min(60 + clicks * 25, 170)}px`);
+      crab.style.setProperty('--jt', `${time}s`);
+      crab.style.setProperty('--spin', clicks >= 3 ? `${clicks % 2 ? 360 : -360}deg` : '0deg');
+      crab.classList.remove('jumping');
+      void crab.offsetWidth;
+      crab.classList.add('jumping');
+      setState('jump');
+      mood(clicks >= 5 ? 'wobbly' : 'happy');
+      talk(clicks >= 5 ? pick(lines.dizzy) : clicks >= 3 ? pick(lines.big) : pick(lines.hi));
+      busyUntil = now() + 1400;
+      setTimeout(() => {
+        crab.classList.remove('jumping');
+        if (state === 'jump') setState('idle');
+      }, time * 1000);
+    });
+
+    (function tick() {
+      if (state === 'walk' || state === 'flee') {
+        const d = target - x;
+        if (Math.abs(d) <= speed) {
+          x = target;
+          setState('idle');
+          mood();
+        } else x += Math.sign(d) * speed;
+      }
+      x = Math.min(Math.max(0, x), maxX());
+      crab.style.transform = `translateX(${x}px)`;
+      if (mouse) {
+        const dx = Math.max(-2.5, Math.min(2.5, (mouse.x - (x + size() / 2)) / 60));
+        const dy = Math.max(-2.5, Math.min(2.5, (mouse.y - (innerHeight - size() / 2)) / 60));
+        pupils.forEach((p, i) => {
+          p.setAttribute('x', String((i ? 49 : 31) + dx));
+          p.setAttribute('y', String(17 + dy));
+        });
+      }
+      requestAnimationFrame(tick);
+    })();
+  }
+</script>
