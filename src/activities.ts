@@ -28,6 +28,7 @@ export const activityEmoji: Record<ActivityId, string> = {
 export const tideStations = {
   '472': 'Beaumaris',
   '473': 'Menai Bridge',
+  '475': 'Caernarfon',
   '476': 'Trwyn Dinmor',
   '476a': 'Moelfre',
   '477': 'Amlwch',

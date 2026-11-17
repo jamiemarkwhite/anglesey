@@ -99,6 +99,7 @@ export const categoryNames: Record<Locale, Record<CategoryId, string>> = {
     towns: 'Towns & villages',
     pubs: 'Pubs',
     'day-trips': 'Day trips',
+    'en-route': 'On the way',
     seasonal: 'Seasonal & pick your own',
   },
   cy: {
@@ -110,6 +111,7 @@ export const categoryNames: Record<Locale, Record<CategoryId, string>> = {
     towns: 'Trefi a phentrefi',
     pubs: 'Tafarndai',
     'day-trips': 'Teithiau dydd',
+    'en-route': 'Ar y ffordd',
     seasonal: 'Tymhorol a chasglu eich hun',
   },
 };
