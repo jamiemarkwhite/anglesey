@@ -14,9 +14,10 @@ export const ui = {
   en: {
     siteName: 'Anglesey',
     homeTitle: 'Anglesey · things to do on Ynys Môn',
-    description: 'Things to do on the Isle of Anglesey (Ynys Môn): beaches, castles, puffins and more.',
+    description:
+      'Things to do on Anglesey (Ynys Môn) with young kids, from years of family trips: beaches, crabbing, castles, puffins and more.',
     tag: 'Ynys Môn guide',
-    lede: 'Beaches, castles, puffins and very good chips.',
+    lede: 'A guide for young families, built up over years of trips to the island with my kids.',
     intro:
       'Anglesey (Ynys Môn in Welsh) is an island off the northwest coast of Wales, joined to the mainland by the Menai Suspension Bridge. Sandy beaches, clifftop walks, medieval castles and quirky family days out, from chasing puffins to fish and chips by the sea.',
     headsUpLabel: 'Heads up:',
@@ -51,9 +52,10 @@ export const ui = {
   cy: {
     siteName: 'Ynys Môn',
     homeTitle: "Ynys Môn · pethau i'w gwneud ar yr ynys",
-    description: "Pethau i'w gwneud ar Ynys Môn: traethau, cestyll, palod a mwy.",
+    description:
+      "Pethau i'w gwneud ar Ynys Môn gyda phlant ifanc, o flynyddoedd o deithiau teulu: traethau, dal crancod, cestyll, palod a mwy.",
     tag: 'Canllaw Ynys Môn',
-    lede: 'Traethau, cestyll, palod a sglodion da iawn.',
+    lede: "Canllaw i deuluoedd ifanc, wedi'i adeiladu dros flynyddoedd o deithiau i'r ynys gyda fy mhlant.",
     intro:
       "Ynys oddi ar arfordir gogledd-orllewin Cymru yw Ynys Môn (Anglesey yn Saesneg), wedi'i chysylltu â'r tir mawr gan Bont Grog y Borth. Traethau tywodlyd, llwybrau ar ben clogwyni, cestyll canoloesol a diwrnodau allan difyr i'r teulu, o fynd ar ôl palod i bysgod a sglodion ger y môr.",
     headsUpLabel: 'Cofiwch:',
