@@ -4,6 +4,7 @@ import Credit from '../components/Credit.astro';
 import Photo from '../components/Photo.astro';
 import PlaceCard from '../components/PlaceCard.astro';
 import PlaceMap from '../components/PlaceMap.astro';
+import CrabArt from '../components/CrabArt.astro';
 import { categoryIds } from '../categories';
 import { categoryNames, localePath, t, type Locale } from '../i18n/ui';
 import { getPlaces } from '../i18n/places';
@@ -41,6 +42,23 @@ const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.tit
     </p>
   </header>
 
+  <a class="crab-feature" href={localePath(locale, '/crabbing')}>
+    <div class="crab-feature-text">
+      <span class="tag">🦀 {strings.crabbingGuide.featureTag}</span>
+      <h2>{strings.crabbingGuide.title}</h2>
+      <p>{strings.crabbingGuide.featureLede}</p>
+      <ol>
+        {strings.crabbingGuide.steps.slice(0, 4).map((step) => <li>{step.title}</li>)}
+        <li>…</li>
+      </ol>
+      <span class="button">{strings.crabbingGuide.cta} →</span>
+    </div>
+    <div class="crab-feature-art">
+      <CrabArt scene="net" />
+      <CrabArt scene="bacon" />
+    </div>
+  </a>
+
   {
     featured.length > 0 && (
       <section class="section" id="featured">
@@ -55,8 +73,6 @@ const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.tit
   }
 
   <PlaceMap places={places} locale={locale} />
-
-  <p class="crab-promo"><a href={localePath(locale, '/crabbing')}><span aria-hidden="true">🦀</span> {strings.crabbingGuide.promo} →</a></p>
 
   <h2 class="things-heading" id="things-to-do">{strings.thingsHeading}</h2>
   <nav aria-label={strings.categoriesLabel}>
