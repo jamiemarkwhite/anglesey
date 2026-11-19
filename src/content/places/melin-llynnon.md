@@ -11,7 +11,7 @@ lng: -4.49389
 activities: [history, walks, food]
 ---
 
-Melin Llynnon is an 18th-century stone tower mill on the edge of Llanddeusant, restored and reopened by the council in 1984. Dogs are allowed at the windmill.
+Melin Llynnon is an 18th-century stone tower mill on the edge of Llanddeusant, restored and reopened by the council in 1984. There is a café serving coffee, with seats outside in the garden, and dogs are allowed.
 
 - Stone tower mill near Llanddeusant
 - Reconstructed Iron Age roundhouses on site
