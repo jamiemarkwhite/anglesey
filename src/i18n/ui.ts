@@ -31,6 +31,12 @@ export const ui = {
       "All the big supermarkets are in <strong>Llangefni</strong> (ASDA, Lidl, Aldi) and <strong>Holyhead</strong>. Cross the bridge to Bangor for Tesco. If you're desperate for a McDonald's, head to Bangor or Holyhead.",
       'There are Premier convenience stores in <strong>Bethel</strong> and <strong>Newborough</strong> on the south of the island. Both will soon have walk-in beer chillers for cold beers on the beach.',
     ],
+    parkrunHeading: 'parkrun on Anglesey',
+    parkrunIntro: 'Two free, timed 5k runs every Saturday at 9am. Walk, jog or run. Register on the <a href="https://www.parkrun.org.uk/register/" target="_blank" rel="noopener">parkrun website</a> once and bring your barcode.',
+    parkruns: [
+      { name: 'Newborough Forest', href: '/places/newborough', site: 'https://www.parkrun.org.uk/newboroughforest/', html: 'One lap of sand, trail and forest roads past the beach and Llanddwyn Island. Buggies and dogs on a short lead welcome. Coffee after at Tacla Taid.' },
+      { name: 'Nant y Pandy, Llangefni', href: '/places/the-dingle', site: 'https://www.parkrun.org.uk/nantypandy/', html: 'Through the Dingle along the river and boardwalks to Llyn Cefni and back. No dogs, and it may not suit buggies. Coffee after at the Bull Hotel.' },
+    ],
     rnliHeading: 'Support the RNLI',
     rnliHtml: [
       "The RNLI is the charity that runs the lifeboats around the coast. It isn't funded by the government, so it relies on donations. The crews are volunteers: they give up their own time to train, for free, and when there's a call-out they drop everything and rush to help people in danger. Anglesey has lifeboat stations at Beaumaris, Moelfre, Holyhead and Trearddur Bay.",
@@ -114,6 +120,12 @@ export const ui = {
     shopsHtml: [
       "Mae'r holl archfarchnadoedd mawr yn <strong>Llangefni</strong> (ASDA, Lidl, Aldi) a <strong>Chaergybi</strong>. Croeswch y bont i Fangor am Tesco. Os oes rhaid i chi gael McDonald's, ewch i Fangor neu Gaergybi.",
       "Mae siopau cyfleus Premier ym <strong>Methel</strong> ac yn <strong>Niwbwrch</strong> yn ne'r ynys. Cyn bo hir bydd gan y ddwy oergelloedd cwrw y gallwch gerdded i mewn iddyn nhw, ar gyfer cwrw oer ar y traeth.",
+    ],
+    parkrunHeading: 'parkrun ar Ynys Môn',
+    parkrunIntro: 'Dwy ras 5k am ddim, wedi\'u hamseru, bob dydd Sadwrn am 9am. Cerddwch, loncian neu redeg. Cofrestrwch ar <a href="https://www.parkrun.org.uk/register/" target="_blank" rel="noopener">wefan parkrun</a> unwaith a dewch â\'ch cod bar.',
+    parkruns: [
+      { name: 'Coedwig Niwbwrch', href: '/cy/places/newborough', site: 'https://www.parkrun.org.uk/newboroughforest/', html: 'Un lap o dywod, llwybrau a ffyrdd y goedwig heibio\'r traeth ac Ynys Llanddwyn. Croeso i bramiau a chŵn ar dennyn byr. Coffi wedyn yn Tacla Taid.' },
+      { name: 'Nant y Pandy, Llangefni', href: '/cy/places/the-dingle', site: 'https://www.parkrun.org.uk/nantypandy/', html: 'Drwy\'r Dingle ar hyd yr afon a\'r llwybrau pren at Lyn Cefni ac yn ôl. Dim cŵn, ac efallai na fydd yn addas i bramiau. Coffi wedyn yng Ngwesty\'r Bull.' },
     ],
     rnliHeading: "Cefnogwch yr RNLI",
     rnliHtml: [

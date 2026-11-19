@@ -27,5 +27,10 @@ tides: "480"
   - [Check the tide times](https://www.bbc.co.uk/weather/coast-and-sea/tide-tables/11/480) — or you'll be wading across!
   - Historic lighthouse and St Dwynwen's church ruins
   - [More about Llanddwyn](https://en.wikipedia.org/wiki/Ynys_Llanddwyn)
+- **parkrun:** [Newborough Forest parkrun](https://www.parkrun.org.uk/newboroughforest/) is a free, timed 5k every Saturday at 9am
+  - One lap of sand, trail and forest roads, past the beach and Llanddwyn Island
+  - Starts near the main car park. Buggies and dogs on a short lead are welcome
+  - Register on the parkrun website first and bring your barcode
+  - Coffee afterwards at Tacla Taid, the Anglesey Transport Museum cafe
 - Parking: £5 for 2 hours, max £15/day
 - Dogs allowed year-round (restrictions west of car park May–Sept)

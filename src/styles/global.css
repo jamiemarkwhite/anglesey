@@ -373,6 +373,24 @@ body::before {
 }
 
 
+.parkrun > h2 { margin-bottom: 8px; }
+.parkrun > p { max-width: 720px; margin: 0 0 18px; }
+.parkrun-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  max-width: 880px;
+}
+.parkrun-item {
+  border: 3px solid var(--ink);
+  box-shadow: 5px 5px 0 var(--yellow);
+  background: #fff;
+  padding: 18px 20px 20px;
+}
+.parkrun-item h3 { margin: 0 0 6px; }
+.parkrun-item p { margin: 0 0 12px; }
+.parkrun-site { font-weight: 700; }
+
 .crab-feature {
   display: grid;
   grid-template-columns: 1.3fr 1fr;

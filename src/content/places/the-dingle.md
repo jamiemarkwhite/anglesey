@@ -13,8 +13,8 @@ credit:
   licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Old_railway_bridge_over_Afon_Cefni_in_The_Dingle,_Llangefni_-_geograph.org.uk_-_2720984.jpg"
 emoji: "🐿️"
-lat: 53.26152
-lng: -4.3239
+lat: 53.257698
+lng: -4.311784
 activities: [walks, wildlife]
 ---
 
@@ -25,7 +25,15 @@ The Dingle is a local nature reserve run by Anglesey County Council. It follows 
 - 1.5-mile boardwalk, suitable for wheelchairs and pushchairs
 - Mostly flat. The decking can be slippery after heavy rain
 - The boardwalk leads up to Cefni Reservoir. Extend to a 6-mile loop around it
-- Weekly Parkrun
+
+### parkrun
+
+- [Nant y Pandy parkrun](https://www.parkrun.org.uk/nantypandy/): a free, timed 5k every Saturday at 9am
+- Starts and finishes at the reserve entrance next to St Cyngar's Church
+- Out along the river and boardwalks to Llyn Cefni and back, with two short hills near the start and finish
+- No dogs, and it may not suit buggies. Children under 11 must stay within arm's reach of an adult
+- Register on the parkrun website first and bring your barcode
+- Coffee afterwards at the Bull Hotel on Bulkeley Square
 
 ### Red squirrels
 
@@ -46,5 +54,5 @@ The Dingle is a local nature reserve run by Anglesey County Council. It follows 
 
 ### Parking
 
-- Dingle pay & display car park (free with a blue badge)
+- Dingle pay & display car park, the main entrance (free with a blue badge)
 - [Bodfordd Car Park](https://www.google.com/maps/place/Bodfordd+Car+Park/@53.2665208,-4.3548706,475m/data=!3m1!1e3!4m6!3m5!1s0x4865adc8b70b57eb:0x716b9116aceecb75!8m2!3d53.2666279!4d-4.3550157!16s%2Fg%2F11ptv7cnys) at the reservoir end. Park there and walk around the lake instead
