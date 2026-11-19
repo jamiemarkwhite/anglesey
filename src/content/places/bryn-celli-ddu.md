@@ -17,6 +17,8 @@ lng: -4.23614
 activities: [history]
 ---
 
+Bryn Celli Ddu is a Neolithic chambered tomb, open all year in daylight hours, and dogs are welcome. Park in the layby opposite the footpath and walk up to the tomb. Cadw rates the terrain as moderate, and warns of muddy ground, uneven steps and low ceilings.
+
 - Walk inside the ancient passage tomb
 - Originally a henge with a stone circle
 - Famous for its summer solstice alignment — sunlight illuminates the inner chamber

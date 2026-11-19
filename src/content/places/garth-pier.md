@@ -18,6 +18,8 @@ activities: [crabbing, food]
 tides: "473"
 ---
 
+Garth Pier opened in 1896 and runs about 460 m (1,500 ft) out into the Menai Strait from Bangor, making it the second-longest pier in Wales. It is Grade II* listed, and the café is in the pavilion at the far end.
+
 - It costs a couple of pounds per person to go on the pier
 - Good for crabbing, so check the tide times below
 - There's a cafe on the pier

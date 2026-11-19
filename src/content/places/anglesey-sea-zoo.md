@@ -17,6 +17,8 @@ lng: -4.27885
 activities: [wildlife, indoors, playgrounds, food]
 ---
 
+Anglesey Sea Zoo is an independent aquarium just outside Brynsiencyn, open since 1983. It says it suits all ages, from in-depth facts about marine wildlife for older children to a toddler play area. Moel-y-Don beach is less than a mile away if you want to add a beach stop.
+
 - Over 40 tanks displaying 150+ native British marine species
 - See octopus, lobsters, seahorses, conger eels and jellyfish
 - Successful seahorse breeding programme

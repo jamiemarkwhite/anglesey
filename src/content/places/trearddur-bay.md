@@ -18,6 +18,8 @@ activities: [beach, rockpools, playgrounds, food]
 tides: "479"
 ---
 
+Trearddur is a village on the west coast of Holy Island, south of Holyhead, with a lifeboat station since 1967. The main beach has a swimming area marked by buoys, a beach warden service and public toilets, including accessible ones. The Anglesey Coastal Path runs from here towards Rhoscolyn one way and South Stack the other.
+
 - Sandy beach with rock pools to explore
 - Sheltered bay ideal for swimming and watersports
 - Kids playground at top of beach

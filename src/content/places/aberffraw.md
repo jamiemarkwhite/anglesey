@@ -17,6 +17,8 @@ lng: -4.46339
 activities: [beach, walks, history, indoors]
 ---
 
+The village sits on the west bank of the Afon Ffraw, with the dunes and Traeth Mawr beach across the river. The dunes are one of the largest areas of mobile sand dune in the UK, with open access on foot. The parking area is on the western side of the dunes, just off the A4080.
+
 - Scenic dune walks to Traeth Mawr beach
 - Dunes are a Site of Special Scientific Interest
 - Charming 1730s stone bridge in the village

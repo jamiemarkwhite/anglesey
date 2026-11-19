@@ -17,6 +17,8 @@ lng: -4.09064
 activities: [wildlife]
 ---
 
+Seacoast Safaris runs boat trips from Beaumaris Pier around Puffin Island, a seabird sanctuary at the north-east entrance of the Menai Strait. Passengers stay on board and don't land on the island. Grey seals and cormorants are seen all year, puffins only in the breeding season, and you check in at the kiosk 30 minutes before departure.
+
 - 80-minute Puffin Island cruise (£18 adults, £12 children)
 - See puffins, guillemots, razorbills, seals and possibly dolphins
 - Best wildlife viewing April–July

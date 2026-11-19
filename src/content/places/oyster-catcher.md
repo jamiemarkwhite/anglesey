@@ -18,6 +18,8 @@ lng: -4.51069
 activities: [food]
 ---
 
+The Oyster Catcher is a restaurant and bar beside Llyn Maelog, just off the A4040 and a few minutes from Rhosneigr village and Traeth Llydan beach. As well as the restaurant there is Will's Bar, plus the outdoor Dune Bar, which opens when the weather allows, and Pat's Shack at weekends. CAMRA lists it as family friendly, with a garden.
+
 - Fancy restaurant
 - Bar food too
 - By the dunes, with great parking

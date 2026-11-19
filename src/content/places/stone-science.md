@@ -11,6 +11,8 @@ lng: -4.25174
 activities: [history, indoors]
 ---
 
+Stone Science is a family-owned fossil and geology museum at Llanddyfnan, near Pentraeth. It is indoors, so it works on a wet day, and there are videos made for children as well as adults. Outside there is a picnic area where children can run around safely.
+
 - Over 650 million years of Earth history across two floors
 - Touch real fossils including dinosaur eggs, teeth, and coprolites (dino poo!)
 - Thousands of minerals, crystals, and Native American artefacts

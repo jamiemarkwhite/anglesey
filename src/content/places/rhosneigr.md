@@ -18,6 +18,8 @@ activities: [beach, rockpools, food]
 tides: "479a"
 ---
 
+Rhosneigr is a village on Anglesey's south-west coast with its own railway station. Nearby Llyn Maelog, a lake and Site of Special Scientific Interest, has an all-access boardwalk for wildlife watching. Parking is in pay and display car parks, and there are public toilets.
+
 - Sandy beaches (Traeth Crigyll and Traeth Llydan) ideal for watersports
 - Windsurfing, paddleboarding, and kayaking
 - Rock pools full of anemones and hermit crabs

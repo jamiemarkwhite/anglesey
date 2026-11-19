@@ -18,6 +18,8 @@ activities: [history, crabbing]
 tides: "475"
 ---
 
+Cadw rates the terrain as strenuous, with steep, winding tower stairs that can be slippery when wet, though a lift reaches the upper levels of the King's Gate. There are toilets with baby changing, and the Royal Welch Fusiliers Museum inside is included in the ticket. A long-stay car park is on the waterfront next to the castle.
+
 - Edward I started the stone castle in 1283
 - Part of the same UNESCO World Heritage Site as [Beaumaris Castle](/places/beaumaris-castle)
 - Where the Prince of Wales was invested in 1911 and 1969

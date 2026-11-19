@@ -17,6 +17,8 @@ lng: -4.5036
 activities: [history, walks]
 ---
 
+Barclodiad y Gawres is a Neolithic chambered tomb looked after by Cadw, with free entry and dogs welcome. Park at the Porth Trecastell car park and take the coast path to the tomb. Cadw rates the terrain as moderate and warns the ground can be slippery or muddy, with uneven steps.
+
 - The name means "the Giantess's Apronful"
 - A 7m passage leads to a cross-shaped chamber
 - Five of the stones are carved with zig-zags and spirals. The only other tomb in the UK with carvings like this is [Bryn Celli Ddu](/places/bryn-celli-ddu)

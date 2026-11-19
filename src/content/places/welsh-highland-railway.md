@@ -17,6 +17,8 @@ lng: -4.27196
 activities: [history]
 ---
 
+The Welsh Highland Railway is a narrow-gauge line run by the Festiniog Railway Company, fully reopened between Caernarfon and Porthmadog in 2011. At Porthmadog Harbour station it connects with the Ffestiniog Railway, and Spooner's there serves food.
+
 - Powerful narrow-gauge steam locomotives
 - Climbs to 650ft on Snowdon's foothills
 - Passes through Beddgelert and the stunning Aberglaslyn Pass

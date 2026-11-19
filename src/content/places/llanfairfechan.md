@@ -19,6 +19,8 @@ activities: [beach, playgrounds, food]
 
 A good place to break the journey to Anglesey.
 
+Llanfairfechan is on the A55 between Penmaenmawr and Bangor, and has been a seaside town since the mid-19th century. Just west of the town, the Morfa Madryn salt marsh on the shore of Traeth Lafan is a local nature reserve popular with birdwatchers.
+
 - Rocky beaches
 - Outdoor paddling pool for the kids
 - Playground

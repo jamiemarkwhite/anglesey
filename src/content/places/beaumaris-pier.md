@@ -18,6 +18,8 @@ activities: [crabbing]
 tides: "472"
 ---
 
+Beaumaris Pier dates from 1846 and is about 170m long, on the town's seafront on the Menai Strait. A walk along the front gives views over the Strait to Snowdonia.
+
 ### Crabbing
 - Best at high tide, so check the tide times below
 - Buy equipment (~£12) near the pier or sweet shop

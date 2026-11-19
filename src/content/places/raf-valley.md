@@ -19,6 +19,8 @@ lng: -4.52231
 
 RAF Valley trains the RAF's fast-jet pilots, so there are often jets coming and going over this corner of the island.
 
+RAF Valley sits just south of the village of Valley, near Holyhead, and has been an RAF station since 1941. Its No. 4 Flying Training School also trains Royal Navy pilots.
+
 ### What flies here
 - Hawk T2 fast-jet trainers
 - Texan T1 trainers

@@ -17,6 +17,8 @@ lng: -4.04199
 activities: [wildlife, food]
 ---
 
+Penmon Point is at the eastern tip of Anglesey, north-east of Beaumaris. The lighthouse, Trwyn Du, was built in 1838 to mark the north entrance to the Menai Strait, about half a mile south of Puffin Island. On the road down you pass Penmon Priory and St Seiriol's Well, which Cadw runs and are free to visit.
+
 - Views of [Puffin Island](/places/puffin-island) from the shore
 - [Nice café](https://www.tripadvisor.co.uk/Restaurant_Review-g186444-d4774180-Reviews-Pilot_House_Cafe-Pentraeth_Anglesey_North_Wales_Wales.html)
 - Toll road to the point. It costs a few pounds and that includes parking

@@ -17,6 +17,8 @@ lng: -4.0992
 activities: [walks, history]
 ---
 
+Portmeirion is a village of hotels, cottages, shops and cafés, and day visitors pay to get in. The main route round the village is a sloped tarmac road, but most of the 20 miles of woodland paths are not suitable for pushchairs. Only guide and assistance dogs are allowed.
+
 - Designed and built by Sir Clough Williams-Ellis between 1925 and 1975
 - "The Village" in the 1960s TV series The Prisoner
 - The gardens are Grade II* listed

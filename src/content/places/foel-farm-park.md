@@ -11,6 +11,8 @@ lng: -4.28336
 activities: [wildlife, playgrounds, food]
 ---
 
+Foel Farm Park is a small working family farm at Brynsiencyn, looking over the Menai Strait. All rides and attractions are included in the entrance price, and there is an indoor picnic room if it rains. Well-behaved dogs are allowed on a lead, but not in the main barn, the bunny barn or the chocolate shop.
+
 - Meet and feed the animals, enjoy farm walks, tractor & trailer rides
 - Giant jumping pillow and play areas
 - Siocled Môn artisan chocolate shop on site

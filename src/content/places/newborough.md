@@ -19,6 +19,8 @@ activities: [beach, walks, wildlife]
 tides: "480"
 ---
 
+Newborough Warren is one of Britain's largest dune systems, and with Ynys Llanddwyn it became Wales's first coastal National Nature Reserve in 1955. For younger children there is the 1.7 km Animal Discovery Trail, with a leaflet, and the 2.4 km Red Squirrel Discovery Trail. There is no lifeguard on the beach, and the estuary has soft, sinking mud.
+
 - Part of a National Nature Reserve
 - Stunning views of Snowdonia and the Lleyn Peninsula
 - Woodland walks with red squirrel sightings

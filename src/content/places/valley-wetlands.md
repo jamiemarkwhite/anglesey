@@ -19,6 +19,8 @@ activities: [wildlife, walks]
 
 An RSPB reserve of lakes, reedbeds and marsh right next to [RAF Valley](/places/raf-valley), so you get ducks on the water and jets in the sky.
 
+The reserve is at Llanfair-yn-neubwll, and its lakes hold breeding and wintering wildfowl. There are no toilets on site; the nearest, with accessible and baby-changing facilities, are in Valley, 3.5 miles away.
+
 ### Wildlife
 - One of the most important reedbeds in Wales, and two Sites of Special Scientific Interest
 - Tufted ducks, pochards, shovelers, gadwalls and grebes on the lakes

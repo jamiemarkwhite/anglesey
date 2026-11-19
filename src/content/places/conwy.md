@@ -17,6 +17,8 @@ lng: -3.83
 activities: [history, food, walks]
 ---
 
+Conwy's castle and town walls were built for Edward I between 1283 and 1287, and are part of the same World Heritage Site as Beaumaris and Caernarfon. Plas Mawr, an Elizabethan town house built between 1576 and 1585, is run by Cadw and opens seasonally. Telford's 1826 suspension bridge is now pedestrian only and looked after by the National Trust.
+
 - Fish and chips on the sea front
 - Nice pubs
 - The whole town is inside its medieval walls, with the castle at one end

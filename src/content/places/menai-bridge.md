@@ -18,6 +18,8 @@ lng: -4.16507
 activities: [walks, history, food]
 ---
 
+Menai Bridge (Porthaethwy in Welsh, Y Borth locally) had a ferry across the strait from at least 1292 until the suspension bridge opened in 1826. Menai Heritage, a community museum about the two bridges and the town, opens seasonally, and the town has toilets and pay and display car parks.
+
 - Walk the Belgian Promenade beneath the bridge (built by WWI refugees)
 - Lovely walk to Church Island and St Tysilio's 15th-century church (park at Coed Cyrnol Car Park)
 - [Plas Cadnant Hidden Gardens](https://plascadnant.co.uk/) — restored Victorian gardens with waterfalls and woodland walks

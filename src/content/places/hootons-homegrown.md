@@ -17,6 +17,8 @@ lng: -4.23477
 activities: [food]
 ---
 
+Hooton's Homegrown is a family farm that has grown fruit since 1989. Pick your own is at Ffingar Farm on the Brynsiencyn road near Llanedwen, and the family also runs farm shops in Brynsiencyn and Llanfairpwll selling their own fruit and veg alongside local produce.
+
 - Strawberries, raspberries, and more in season
 - Pumpkin picking in autumn
 - Hot potatoes with really flipping nice toppings
