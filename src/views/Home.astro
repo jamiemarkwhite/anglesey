@@ -6,7 +6,7 @@ import PlaceCard from '../components/PlaceCard.astro';
 import PlaceMap from '../components/PlaceMap.astro';
 import CrabArt from '../components/CrabArt.astro';
 import { categoryIds } from '../categories';
-import { categoryNames, localePath, t, type Locale } from '../i18n/ui';
+import { categoryNames, languages, localePath, t, type Locale } from '../i18n/ui';
 import { getPlaces } from '../i18n/places';
 import homePhoto from '../assets/home.jpg';
 import homeCredit from '../assets/home.json';
@@ -25,10 +25,18 @@ const boards = categoryIds
     places: places.filter((p) => p.data.category === id).sort((a, b) => a.data.order - b.data.order),
   }))
   .filter((board) => board.places.length > 0);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: strings.titleSuffix,
+  url: new URL(localePath(locale, '/'), Astro.site).href,
+  description: strings.description,
+  inLanguage: languages[locale].htmlLang,
+};
 const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
-<Base locale={locale} path="/">
+<Base locale={locale} path="/" schema={schema}>
   <header class="masthead">
     <span class="tag">{strings.tag}</span>
     <h1 class="shadow">{strings.siteName}</h1>

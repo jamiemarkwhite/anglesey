@@ -5,6 +5,7 @@ import { externalLinks } from './src/lib/external-links.mjs';
 
 export default defineConfig({
   site: 'https://www.theangleseyguide.com',
+  trailingSlash: 'never',
   integrations: [
     sitemap({
       i18n: { defaultLocale: 'en', locales: { en: 'en-GB', cy: 'cy' } },
