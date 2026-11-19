@@ -95,6 +95,22 @@ const featured = places.filter((p) => p.data.featured).sort((a, b) => a.data.tit
     ))
   }
 
+  <section class="section parkrun" id="parkrun">
+    <h2><span aria-hidden="true">🏃</span> {strings.parkrunHeading}</h2>
+    <p set:html={strings.parkrunIntro} />
+    <div class="parkrun-list">
+      {
+        strings.parkruns.map((r) => (
+          <div class="parkrun-item">
+            <h3><a href={r.href}>{r.name}</a></h3>
+            <p>{r.html}</p>
+            <a class="parkrun-site" href={r.site} target="_blank" rel="noopener">parkrun.org.uk ↗</a>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
   <section class="section prose" id="shops">
     <h2>{strings.shopsHeading}</h2>
     {strings.shopsHtml.map((html) => <p set:html={html} />)}
