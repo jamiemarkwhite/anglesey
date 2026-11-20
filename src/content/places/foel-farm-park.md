@@ -4,7 +4,7 @@ tagline: "animals & tractor rides"
 category: family
 order: 1
 url: "https://www.foelfarm.co.uk/"
-summary: "A small working family farm in a stunning coastal position overlooking the Menai Strait with views of Snowdonia and Caernarfon Castle."
+summary: "A small working family farm on the coast overlooking the Menai Strait with views of Snowdonia and Caernarfon Castle."
 emoji: "🐄"
 lat: 53.15828
 lng: -4.28336

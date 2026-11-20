@@ -4,7 +4,7 @@ tagline: "Victorian town & bridge"
 category: towns
 order: 1
 url: "https://www.visitanglesey.co.uk/en-gb/explore/towns/menai-bridge"
-summary: "Pretty Victorian town on the strait with great views of Telford's iconic 1826 suspension bridge, one of the world's first major suspension bridges."
+summary: "Pretty Victorian town on the strait with great views of Telford's 1826 suspension bridge, one of the world's first major suspension bridges."
 featured: true
 photo: "./menai-bridge.jpg"
 credit:
@@ -35,4 +35,4 @@ Menai Bridge (Porthaethwy in Welsh, Y Borth locally) had a ferry across the stra
 - **[Dylan's Restaurant](https://dylansrestaurant.co.uk/restaurant/locations/menai-bridge)** — award-winning waterfront dining
   - Famous for wood-fired pizza and local seafood
   - Menai mussels, lobster, sea bass
-  - Stunning views from every table
+  - Views from every table

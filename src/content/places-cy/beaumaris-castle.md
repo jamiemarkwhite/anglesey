@@ -4,7 +4,7 @@ tagline: "castell a dal crancod"
 summary: "Campwaith anorffenedig Edward I - Safle Treftadaeth y Byd UNESCO, ac efallai'r castell gorau na chafodd erioed ei orffen."
 ---
 
-- Cynllun cymesur bron yn berffaith gydag amddiffynfeydd consentrig
+- Cynllun cymesur gydag amddiffynfeydd consentrig
 - Ffos yn llawn dŵr gyda'i doc ei hun
 - 300 o saethdyllau yn y waliau allanol yn unig
 - WiFi cyhoeddus am ddim ar y safle

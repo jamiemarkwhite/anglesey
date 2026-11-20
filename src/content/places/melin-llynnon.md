@@ -31,7 +31,7 @@ Melin Llynon is an 18th-century stone windmill on the edge of Llanddeusant. It s
 - Stone tower mill near Llanddeusant
 - Reconstructed Iron Age roundhouses on site
 - 2-mile family-friendly Llynon Trail
-- **Monuts** — incredible artisan doughnuts!
+- **Mônuts**: artisan doughnuts
 - The sails were restored in 2024, but they don't turn every day
 
 ### Mr Holt's

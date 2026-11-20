@@ -36,7 +36,7 @@ People have dug copper out of Parys Mountain for about 4,000 years. What's left 
 - The short loop takes under an hour
 - Rocky, uneven ground with steep drops, so keep hold of small children
 - Free to explore
-- [See the incredible views](https://www.google.com/maps/place/Mynydd+Parys)
+- [See the views](https://www.google.com/maps/place/Mynydd+Parys)
 
 ### Parking
 

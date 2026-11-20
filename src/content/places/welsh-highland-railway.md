@@ -4,7 +4,7 @@ tagline: "steam to Porthmadog"
 category: day-trips
 order: 1
 url: "https://www.festrail.co.uk/"
-summary: "Britain's longest heritage railway — 25 miles from Caernarfon to Porthmadog through stunning Snowdonia scenery."
+summary: "Britain's longest heritage railway, 25 miles from Caernarfon to Porthmadog through Snowdonia."
 photo: "./welsh-highland-railway.jpg"
 credit:
   author: "Jeff Buck"
@@ -28,6 +28,6 @@ The Welsh Highland Railway is a narrow-gauge line run by the Festiniog Railway C
 
 - Powerful narrow-gauge steam locomotives
 - Climbs to 650ft on Snowdon's foothills
-- Passes through Beddgelert and the stunning Aberglaslyn Pass
+- Passes through Beddgelert and the Aberglaslyn Pass
 - First-class Pullman carriages available
 - Departs from Caernarfon, beneath the castle walls

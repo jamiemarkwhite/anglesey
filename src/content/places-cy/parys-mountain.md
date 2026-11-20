@@ -20,7 +20,7 @@ Mae pobl wedi cloddio copr o Fynydd Parys ers tua 4,000 o flynyddoedd. Yr hyn sy
 - Mae'r gylchdaith fer yn cymryd llai nag awr
 - Tir creigiog, anwastad gyda dibynnau serth, felly cadwch afael ar blant bach
 - Am ddim i'w grwydro
-- [Gwelwch y golygfeydd anhygoel](https://www.google.com/maps/place/Mynydd+Parys)
+- [Gwelwch y golygfeydd](https://www.google.com/maps/place/Mynydd+Parys)
 
 ### Parcio
 
