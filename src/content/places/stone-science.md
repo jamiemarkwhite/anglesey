@@ -12,6 +12,8 @@ activities: [history, indoors]
 sources:
   - label: "Stone Science"
     url: "https://stonescience.co.uk/"
+  - label: "Stone Science: opening times"
+    url: "https://stonescience.co.uk/directions-to-stone-science/"
 ---
 
 Stone Science is a family-owned fossil and geology museum at Llanddyfnan, near Pentraeth. It is indoors, so it works on a wet day, and there are videos made for children as well as adults. Outside there is a picnic area where children can run around safely.
@@ -22,5 +24,5 @@ Stone Science is a family-owned fossil and geology museum at Llanddyfnan, near P
 - Life-size dinosaur reconstructions and interactive displays
 - Gift shop with fossils, minerals, and crystal specimens
 - Combine with fossil hunting on nearby beaches
-- Open 10am–4pm daily (closed December–January)
+- Museum open daily from early February to early November. The shop stays open most of the year
 - [Location on Google Maps](https://maps.app.goo.gl/72MJssQhs98WMCpb6)

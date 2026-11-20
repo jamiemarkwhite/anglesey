@@ -18,8 +18,10 @@ activities: [beach, playgrounds, food]
 sources:
   - label: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Llanfairfechan"
-  - label: "Conwy County Borough Council"
+  - label: "Conwy County Borough Council: Morfa Madryn"
     url: "https://www.conwy.gov.uk/en/Resident/Leisure-sport-and-health/Coast-and-Countryside/Nature-Reserves/Coastal-Nature-Reserves/Morfa-Madryn.aspx"
+  - label: "Conwy County Borough Council: paddling pools"
+    url: "https://ffit.secure.conwy.gov.uk/en/Home/Activities-and-Learning/Childrens-Activities/Paddling-Pools/Frequently-Asked-Questions.aspx"
 ---
 
 A good place to break the journey to Anglesey.
@@ -27,7 +29,7 @@ A good place to break the journey to Anglesey.
 Llanfairfechan is on the A55 between Penmaenmawr and Bangor, and has been a seaside town since the mid-19th century. Just west of the town, the Morfa Madryn salt marsh on the shore of Traeth Lafan is a local nature reserve popular with birdwatchers.
 
 - Rocky beaches
-- Outdoor paddling pool for the kids
+- Outdoor paddling pool for the kids, open roughly mid-May to mid-September
 - Playground
 - [Beach Pavilion Cafe](https://www.google.com/maps/place/Beach+Pavilion+Cafe/@53.258233,-3.9819748,445m/data=!3m1!1e3!4m6!3m5!1s0x486503b3f82466bb:0x2021f4dce99bb7de!8m2!3d53.2595838!4d-3.9814235!16s%2Fg%2F11sqdbx2pn) on the promenade
 - Toilets

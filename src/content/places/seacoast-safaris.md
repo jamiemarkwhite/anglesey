@@ -18,11 +18,13 @@ activities: [wildlife]
 sources:
   - label: "Seacoast Safaris"
     url: "https://www.seacoastsafaris.co.uk/puffin-island-cruises"
+  - label: "Seacoast Safaris: cruises"
+    url: "https://www.seacoastsafaris.co.uk/puffin-island-cruises"
 ---
 
 Seacoast Safaris runs boat trips from Beaumaris Pier around Puffin Island, a seabird sanctuary at the north-east entrance of the Menai Strait. Passengers stay on board and don't land on the island. Grey seals and cormorants are seen all year, puffins only in the breeding season, and you check in at the kiosk 30 minutes before departure.
 
-- 80-minute Puffin Island cruise (£18 adults, £12 children)
+- 80-minute Puffin Island cruise (£22.95 adults, £15.95 ages 11 to 16, £12.95 ages 4 to 10)
 - See puffins, guillemots, razorbills, seals and possibly dolphins
 - Best wildlife viewing April–July
 - Carbon neutral tours

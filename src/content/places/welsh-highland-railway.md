@@ -20,6 +20,8 @@ sources:
     url: "https://en.wikipedia.org/wiki/Welsh_Highland_Railway"
   - label: "Ffestiniog & Welsh Highland Railways"
     url: "https://www.festrail.co.uk/"
+  - label: "WHR distances"
+    url: "https://www.watsonlv.net/pdf/WHR_distances.pdf"
 ---
 
 The Welsh Highland Railway is a narrow-gauge line run by the Festiniog Railway Company, fully reopened between Caernarfon and Porthmadog in 2011. At Porthmadog Harbour station it connects with the Ffestiniog Railway, and Spooner's there serves food.

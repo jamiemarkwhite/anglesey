@@ -38,4 +38,4 @@ Newborough Warren is one of Britain's largest dune systems, and with Ynys Llandd
   - Register on the parkrun website first and bring your barcode
   - Coffee afterwards at Tacla Taid, the Anglesey Transport Museum cafe
 - Parking: £5 for 2 hours, max £15/day
-- Dogs allowed year-round (restrictions west of car park May–Sept)
+- Dogs welcome all year on much of the beach, but not on part of it from May to September, and on short leads on Llanddwyn from April to August. The map in Beach car park shows where

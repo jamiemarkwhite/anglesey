@@ -17,8 +17,12 @@ lat: 53.26348
 lng: -4.312
 activities: [history, indoors, food]
 sources:
-  - label: "Oriel Môn"
+  - label: "Oriel Môn: access"
     url: "https://www.orielmon.org/en/about-us/access-statement"
+  - label: "Oriel Môn: café"
+    url: "https://www.orielmon.org/en/cafe"
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Oriel_Ynys_M%C3%B4n"
 ---
 
 Oriel Môn in Llangefni is free to visit and has its own free car park. All public areas are step-free, with corridors and doors wide enough for prams, and baby changing in the accessible toilet by the main entrance. The Discovery Den is a hands-on area for families with jigsaws, dressing up and games.
@@ -26,5 +30,5 @@ Oriel Môn in Llangefni is free to visit and has its own free car park. All publ
 - World's largest collection of Sir Kyffin Williams' work
 - Charles Tunnicliffe wildlife art collection
 - Local history exhibits
-- Great café (Blas Mwy) and shop (Jac Do)
+- Great café (Caffi Bach y Bocs) and shop
 - **Popty Pizza** — posh Neapolitan pizzas

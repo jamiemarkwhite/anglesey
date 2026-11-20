@@ -1,7 +1,7 @@
 ---
 title: "Bae Trearddur"
-tagline: "traeth teulu'r Faner Las"
-summary: "Traeth teuluol poblogaidd gyda chyfleusterau ardderchog ar Ynys Gybi. Ystyr yr enw Cymraeg yw \"Tref Arthur\", ac mae'n un o draethau Baner Las gorau Ynys Môn."
+tagline: "traeth teulu"
+summary: "Traeth teuluol poblogaidd gyda chyfleusterau ardderchog ar Ynys Gybi."
 ---
 
 - Traeth tywodlyd gyda phyllau glan môr i'w harchwilio

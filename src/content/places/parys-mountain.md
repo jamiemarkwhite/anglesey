@@ -15,6 +15,9 @@ emoji: "⛰️"
 lat: 53.38794
 lng: -4.35112
 activities: [walks, history]
+sources:
+  - label: "Copper Kingdom"
+    url: "https://copperkingdom.co.uk/"
 ---
 
 People have dug copper out of Parys Mountain for about 4,000 years. What's left is a bare, orange and purple landscape that looks nothing like the rest of the island.
@@ -41,4 +44,4 @@ People have dug copper out of Parys Mountain for about 4,000 years. What's left 
 
 ### Copper Kingdom
 
-- The Copper Kingdom centre at Amlwch Port, by the harbour, tells the story of the mine and the people who worked it
+- The Copper Kingdom museum at Amlwch Port closed in 2022

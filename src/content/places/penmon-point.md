@@ -4,7 +4,7 @@ tagline: "Puffin Island from the shore"
 category: wildlife
 order: 3
 url: "https://en.wikipedia.org/wiki/Penmon"
-summary: "The eastern tip of Anglesey, looking straight across to Puffin Island. Reportedly a favourite of David Attenborough as a child."
+summary: "The eastern tip of Anglesey, looking straight across to Puffin Island."
 photo: "./penmon-point.jpg"
 credit:
   author: "Terry Kearney"
