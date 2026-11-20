@@ -23,7 +23,7 @@ sources:
 
 Beaumaris was the last castle Edward I built in Wales, and work stopped by the 1320s before it was finished. Under-5s go free, and dogs on short leads can go in the ground-floor areas. Cadw rates the terrain as easy, but there are gravel paths, cobbles and stone steps up to the wall walks.
 
-- Near-perfect symmetrical design with concentric defences
+- Symmetrical design with concentric defences
 - Water-filled moat with its own dock
 - 300 arrow loops in the outer walls alone
 - Free public WiFi on site

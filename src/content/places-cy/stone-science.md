@@ -10,5 +10,5 @@ summary: "Amgueddfa ddaeareg a ffosiliau ymarferol ger Pentraeth, gydag un o'r c
 - Modelau maint llawn o ddeinosoriaid ac arddangosfeydd rhyngweithiol
 - Siop anrhegion gyda ffosiliau, mwynau a chrisialau
 - Cyfunwch â hela ffosiliau ar draethau cyfagos
-- Ar agor 10am–4pm bob dydd (ar gau Rhagfyr–Ionawr)
+- Mae'r amgueddfa ar agor bob dydd o ddechrau Chwefror i ddechrau Tachwedd. Mae'r siop ar agor am y rhan fwyaf o'r flwyddyn
 - [Lleoliad ar Google Maps](https://maps.app.goo.gl/72MJssQhs98WMCpb6)

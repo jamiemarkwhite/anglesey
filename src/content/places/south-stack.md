@@ -23,16 +23,18 @@ sources:
     url: "https://en.wikipedia.org/wiki/South_Stack"
   - label: "RSPB"
     url: "https://www.rspb.org.uk/days-out/reserves/south-stack"
+  - label: "Visit Wales"
+    url: "https://www.visitwales.com/attraction/nature-or-wildlife/rspb-south-stack-reserve-558581"
 ---
 
 Trinity House built South Stack lighthouse in 1809 on Ynys Lawd, a small island just off Holy Island, reached by a bridge at the bottom of the cliff steps. To climb the tower on a tour, children must be at least 1.1 metres tall and able to manage the stairs on their own. The RSPB visitor centre has toilets with baby changing.
 
 - 400 steps down to the lighthouse (and back up!)
-- [RSPB Nature Reserve](https://www.rspb.org.uk/days-out/reserves/south-stack) — 10,000+ breeding seabirds in summer
+- [RSPB Nature Reserve](https://www.rspb.org.uk/days-out/reserves/south-stack) - cliffs with nest sites for as many as 11,000 seabirds
 - See puffins, guillemots, razorbills and choughs
 - Ellin's Tower viewing centre with telescopes and live CCTV
 - Dolphins spotted occasionally
 - RSPB visitor centre with a shop and café serving coffee and lunch (no dogs in the café)
 - RSPB car parks at the visitor centre and Ellin's Tower. Charges apply all year
 - Level path from the Ellin's Tower car park to the viewpoint, fine for pushchairs and wheelchairs
-- Tiny play area tucked around the back with sea views
+- Rope swing tucked around the back with sea views

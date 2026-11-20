@@ -4,7 +4,7 @@ tagline: "house, gardens, squirrels"
 category: history
 order: 3
 url: "https://www.nationaltrust.org.uk/visit/wales/plas-newydd-house-and-garden"
-summary: "Stunning National Trust house and gardens on the banks of the Menai Strait."
+summary: "National Trust house and gardens on the banks of the Menai Strait."
 photo: "./plas-newydd.jpg"
 credit:
   author: "Bs0u10e01"

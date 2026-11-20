@@ -1,7 +1,7 @@
 ---
 title: "Trwyn Penmon"
 tagline: "Ynys Seiriol o'r lan"
-summary: "Pen dwyreiniol Ynys Môn, yn edrych yn syth ar draws at Ynys Seiriol. Yn ôl y sôn, roedd yn hoff le i David Attenborough pan oedd yn blentyn."
+summary: "Pen dwyreiniol Ynys Môn, yn edrych yn syth ar draws at Ynys Seiriol."
 ---
 
 - Golygfeydd o [Ynys Seiriol](/cy/places/puffin-island) o'r lan
