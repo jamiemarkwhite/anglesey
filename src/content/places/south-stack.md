@@ -37,4 +37,4 @@ Trinity House built South Stack lighthouse in 1809 on Ynys Lawd, a small island 
 - RSPB visitor centre with a shop and café serving coffee and lunch (no dogs in the café)
 - RSPB car parks at the visitor centre and Ellin's Tower. Charges apply all year
 - Level path from the Ellin's Tower car park to the viewpoint, fine for pushchairs and wheelchairs
-- Tiny play area tucked around the back with sea views
+- Rope swing tucked around the back with sea views

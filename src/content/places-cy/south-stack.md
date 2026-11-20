@@ -12,4 +12,4 @@ summary: "Goleudy trawiadol ar ben clogwyn ar Ynys Gybi, gyda nythfeydd adar mô
 - Canolfan ymwelwyr yr RSPB gyda siop a chaffi yn gweini coffi a chinio (dim cŵn yn y caffi)
 - Meysydd parcio'r RSPB wrth y ganolfan ymwelwyr a Thŵr Ellin. Mae angen talu drwy'r flwyddyn
 - Llwybr gwastad o faes parcio Tŵr Ellin i'r man gwylio, sy'n addas i bramiau a chadeiriau olwyn
-- Ardal chwarae fach yn y cefn gyda golygfeydd o'r môr
+- Siglen raff yn y cefn gyda golygfeydd o'r môr
