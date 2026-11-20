@@ -49,6 +49,19 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
     <Credit credit={place.data.credit} locale={locale} />
     <div class="prose body"><Content /></div>
     {
+      place.data.sources.length > 0 && (
+        <p class="sources">
+          {strings.sources}{' '}
+          {place.data.sources.map((s, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={s.url} target="_blank" rel="noopener">{s.label}</a>
+            </>
+          ))}
+        </p>
+      )
+    }
+    {
       nearby.length > 0 && (
         <section class="section">
           <h2>{strings.inArea(place.data.title)}</h2>

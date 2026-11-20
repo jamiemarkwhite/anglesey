@@ -9,6 +9,17 @@ emoji: "🍩"
 lat: 53.33786
 lng: -4.49389
 activities: [history, walks, food]
+sources:
+  - label: "Cadw"
+    url: "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?id=5265"
+  - label: "Mr Holt's FAQ"
+    url: "https://mrholts.co.uk/pages/faq"
+  - label: "Mr Holt's chocolate factory"
+    url: "https://mrholts.co.uk/pages/chocolate-factory"
+  - label: "Nation.Cymru"
+    url: "https://nation.cymru/news/top-patisserie-chef-puts-sweet-success-of-chocolate-bars-down-to-welsh-language"
+  - label: "Blas ar Fwyd"
+    url: "https://www.blasarfwyd.com/blas-ar-fwydwelsh-and-world-foods/siocled-a-melysion-chocolate-snacks/siocled-chocolate/mr-holts-chocolate-hiraeth-bar-80g-case-of-15"
 ---
 
 Melin Llynon is an 18th-century stone windmill on the edge of Llanddeusant. It serves coffee and Mônuts doughnuts by Mr Holt, and is usually open at weekends, bank holidays and school holidays.
@@ -20,4 +31,4 @@ Melin Llynon is an 18th-century stone windmill on the edge of Llanddeusant. It s
 - Note: Mill sails not currently operating
 
 ### Mr Holt's
-Richard Holt runs the windmill site. He trained under chocolatier William Curley and was head pastry chef at Marcus Wareing's The Gilbert Scott in London. He started making chocolate when the tearoom closed during Covid, then switched to Mônuts doughnuts. His [Mr Holt's](https://mrholts.co.uk) chocolate bars have Welsh names, such as Hiraeth, milk chocolate with a hazelnut filling. The chocolate is made in Llangefni, not at the mill.
+Richard Holt runs the windmill site. He trained under chocolatier William Curley and was head pastry chef at Marcus Wareing's The Gilbert Scott in London. He started making chocolate when the tearoom closed during Covid, and the tearoom has since become a takeaway shop for Mônuts doughnuts. His [Mr Holt's](https://mrholts.co.uk) chocolate bars have Welsh names, such as Hiraeth, milk chocolate with a hazelnut filling. The chocolate is made in Llangefni, not at the mill.

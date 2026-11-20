@@ -15,6 +15,9 @@ emoji: "🌳"
 lat: 53.20281
 lng: -4.21617
 activities: [history, wildlife, playgrounds, food]
+sources:
+  - label: "National Trust"
+    url: "https://www.nationaltrust.org.uk/visit/wales/plas-newydd-house-and-garden"
 ---
 
 Plas Newydd is a National Trust house on the banks of the Menai Strait, with 129 acres of woodland and parkland beyond the gardens. An easy 1-mile walk takes in the treehouse and the adventure playground in Dairy Wood, and a 2k junior parkrun for children runs on the estate on Sunday mornings. The accessible path has some steep gradients.

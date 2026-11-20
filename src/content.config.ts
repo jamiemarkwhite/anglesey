@@ -31,6 +31,7 @@ const places = defineCollection({
         lng: z.number().min(-4.75).max(-3.7),
         activities: z.array(z.enum(activityIds)).default([]),
         tides: z.enum(tideStationIds).optional(),
+        sources: z.array(z.object({ label: z.string(), url: z.url() })).default([]),
       })
       .refine((d) => !d.photo || d.credit, { message: 'A place with a photo needs a credit', path: ['credit'] }),
 });

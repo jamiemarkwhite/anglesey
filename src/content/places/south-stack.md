@@ -16,6 +16,13 @@ emoji: "🗼"
 lat: 53.30675
 lng: -4.69956
 activities: [wildlife, playgrounds, food]
+sources:
+  - label: "Trinity House"
+    url: "https://www.trinityhouse.co.uk/lighthouse-visitor-centres/south-stack-lighthouse-visitor-centre"
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/South_Stack"
+  - label: "RSPB"
+    url: "https://www.rspb.org.uk/days-out/reserves/south-stack"
 ---
 
 Trinity House built South Stack lighthouse in 1809 on Ynys Lawd, a small island just off Holy Island, reached by a bridge at the bottom of the cliff steps. To climb the tower on a tour, children must be at least 1.1 metres tall and able to manage the stairs on their own. The RSPB visitor centre has toilets with baby changing.

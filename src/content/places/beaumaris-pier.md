@@ -16,6 +16,11 @@ lat: 53.26252
 lng: -4.09149
 activities: [crabbing]
 tides: "472"
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Beaumaris_Pier"
+  - label: "Visit Anglesey"
+    url: "https://www.visitanglesey.co.uk/en-gb/explore/towns/beaumaris"
 ---
 
 Beaumaris Pier dates from 1846 and is about 170m long, on the town's seafront on the Menai Strait. A walk along the front gives views over the Strait to Snowdonia.

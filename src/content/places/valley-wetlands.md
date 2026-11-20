@@ -15,6 +15,9 @@ emoji: "🦆"
 lat: 53.25906
 lng: -4.53102
 activities: [wildlife, walks]
+sources:
+  - label: "RSPB"
+    url: "https://www.rspb.org.uk/days-out/reserves/valley-wetlands"
 ---
 
 An RSPB reserve of lakes, reedbeds and marsh right next to [RAF Valley](/places/raf-valley), so you get ducks on the water and jets in the sky.

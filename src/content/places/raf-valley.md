@@ -15,6 +15,9 @@ credit:
 emoji: "✈️"
 lat: 53.23822
 lng: -4.52231
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/RAF_Valley"
 ---
 
 RAF Valley trains the RAF's fast-jet pilots, so there are often jets coming and going over this corner of the island.

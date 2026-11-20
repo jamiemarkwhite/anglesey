@@ -45,10 +45,26 @@ activities: [wildlife, indoors, playgrounds, food]
 | `activities` | Optional list for the activity filter: `beach`, `crabbing`, `rockpools`, `walks`, `wildlife`, `history`, `indoors`, `playgrounds`, `food`. |
 | `tides` | Optional BBC tide station id, for places where the tide matters. Adds a tide times button. The ids are in `src/activities.ts`. |
 | `credit` | Required with a photo. `author` and `license`, plus `licenseUrl` and `source` links where there are any. |
+| `sources` | Required for any fact that didn't come from your own visit. A list of `label` and `url`, shown as "Sources:" links under the page text. |
 
 The file name becomes the page address, so `pili-palas.md` is `/places/pili-palas`. Use lower case and hyphens.
 
-The body is a bullet list of practical details: what's there, prices, parking, dogs, tips.
+The body is a bullet list of practical details: what's there, prices, parking, dogs, tips. It can open with a short paragraph (two or three sentences) saying what the place is and what families need to know.
+
+## Sources
+
+Every fact you didn't see for yourself needs a source on the page. Add the page you got it from to `sources`, and open the link to check it still says that.
+
+```md
+sources:
+  - label: "Cadw"
+    url: "https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-chambered-tomb"
+```
+
+- Use the place's own website, Cadw, National Trust, RSPB, Natural Resources Wales or the council where they cover it. Use Wikipedia for history when nothing official does.
+- Label each link with the publisher's name, e.g. "Cadw" or "Wikipedia".
+- Things you saw yourself, such as where the good crabbing spot is or that the café does coffee, don't need a source.
+- If you can't find a source for a fact, leave it out.
 
 ## Photos
 

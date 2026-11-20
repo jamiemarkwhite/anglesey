@@ -15,6 +15,11 @@ emoji: "🛟"
 lat: 53.35388
 lng: -4.23361
 activities: [beach, history, indoors, food]
+sources:
+  - label: "Wikipedia: Moelfre Lifeboat Station"
+    url: "https://en.wikipedia.org/wiki/Moelfre_Lifeboat_Station"
+  - label: "Wikipedia: Moelfre"
+    url: "https://en.wikipedia.org/wiki/Moelfre,_Anglesey"
 ---
 
 A small fishing village on the east coast with a long lifeboat history.

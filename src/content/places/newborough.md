@@ -17,6 +17,9 @@ lat: 53.14079
 lng: -4.38395
 activities: [beach, walks, wildlife]
 tides: "480"
+sources:
+  - label: "Natural Resources Wales"
+    url: "https://naturalresources.wales/days-out/places-to-visit/north-west-wales/newborough/?lang=en"
 ---
 
 Newborough Warren is one of Britain's largest dune systems, and with Ynys Llanddwyn it became Wales's first coastal National Nature Reserve in 1955. For younger children there is the 1.7 km Animal Discovery Trail, with a leaflet, and the 2.4 km Red Squirrel Discovery Trail. There is no lifeguard on the beach, and the estuary has soft, sinking mud.

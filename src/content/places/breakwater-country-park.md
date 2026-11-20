@@ -10,6 +10,9 @@ emoji: "⚓"
 lat: 53.3165
 lng: -4.664
 activities: [playgrounds, walks, wildlife]
+sources:
+  - label: "Isle of Anglesey County Council"
+    url: "https://anglesey.gov.wales/en/Residents/Countryside/Holyhead-Breakwater-Country-Park.aspx"
 ---
 
 The park opened in 1990 in the old quarry that supplied stone for the 2.39km Holyhead Breakwater. It has walks for all levels, including routes up to Holyhead Mountain and South Stack, and a free orienteering course you download and print. Caffi'r Parc, in the old warden's house, serves food.

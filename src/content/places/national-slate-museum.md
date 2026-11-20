@@ -10,6 +10,9 @@ emoji: "⚒️"
 lat: 53.121
 lng: -4.1151
 activities: [history, indoors]
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/National_Slate_Museum"
 ---
 
 The museum has the largest working waterwheel in mainland Britain, over 15 metres across, and a row of Victorian quarry workers' cottages moved here stone by stone from Tanygrisiau. The Llanberis Lake Railway runs from the same site.

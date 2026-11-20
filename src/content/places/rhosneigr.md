@@ -16,6 +16,11 @@ lat: 53.22623
 lng: -4.52036
 activities: [beach, rockpools, food]
 tides: "479a"
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Rhosneigr"
+  - label: "Visit Anglesey"
+    url: "https://www.visitanglesey.co.uk/en-gb/explore/rhosneigr-beach"
 ---
 
 Rhosneigr is a village on Anglesey's south-west coast with its own railway station. Nearby Llyn Maelog, a lake and Site of Special Scientific Interest, has an all-access boardwalk for wildlife watching. Parking is in pay and display car parks, and there are public toilets.

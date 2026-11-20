@@ -15,6 +15,11 @@ emoji: "🛝"
 lat: 53.25958
 lng: -3.98142
 activities: [beach, playgrounds, food]
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Llanfairfechan"
+  - label: "Conwy County Borough Council"
+    url: "https://www.conwy.gov.uk/en/Resident/Leisure-sport-and-health/Coast-and-Countryside/Nature-Reserves/Coastal-Nature-Reserves/Morfa-Madryn.aspx"
 ---
 
 A good place to break the journey to Anglesey.

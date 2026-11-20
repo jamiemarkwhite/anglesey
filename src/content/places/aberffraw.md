@@ -15,6 +15,11 @@ emoji: "🏖️"
 lat: 53.192
 lng: -4.46339
 activities: [beach, walks, history, indoors]
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Aberffraw"
+  - label: "Visit Anglesey"
+    url: "https://www.visitanglesey.co.uk/en-gb/explore/wildlife/aberffraw-dunes-and-traeth-mawr-beach"
 ---
 
 The village sits on the west bank of the Afon Ffraw, with the dunes and Traeth Mawr beach across the river. The dunes are one of the largest areas of mobile sand dune in the UK, with open access on foot. The parking area is on the western side of the dunes, just off the A4080.

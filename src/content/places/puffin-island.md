@@ -15,6 +15,11 @@ emoji: "🐦"
 lat: 53.31869
 lng: -4.02713
 activities: [wildlife]
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Puffin_Island_(Anglesey)"
+  - label: "Seacoast Safaris"
+    url: "https://www.seacoastsafaris.co.uk/puffin-island-cruises"
 ---
 
 Puffin Island is a 69-acre island at the north-eastern end of the Menai Strait. Up to 2,000 pairs of puffins once bred here until rats cut them to a few pairs; the rats were cleared from 1998 and numbers have grown since. Boat trips from Beaumaris also pass a grey seal colony.

@@ -10,6 +10,9 @@ emoji: "🍕"
 lat: 53.22868
 lng: -4.52055
 activities: [food]
+sources:
+  - label: "Rhosneigr.co.uk"
+    url: "https://rhosneigr.co.uk/see-do-rhosneigr/takeaways/aydins-cafe-take-away-pizza"
 ---
 
 Aydin's is a café and takeaway in Rhosneigr, open since 2011, a few minutes' walk from the beach. The menu is short, mostly pizzas and burgers.

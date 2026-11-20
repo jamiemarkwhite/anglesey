@@ -15,6 +15,9 @@ emoji: "🪨"
 lat: 53.20772
 lng: -4.23614
 activities: [history]
+sources:
+  - label: "Cadw"
+    url: "https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-chambered-tomb"
 ---
 
 Bryn Celli Ddu is a Neolithic chambered tomb, open all year in daylight hours, and dogs are welcome. Park in the layby opposite the footpath and walk up to the tomb. Cadw rates the terrain as moderate, and warns of muddy ground, uneven steps and low ceilings.

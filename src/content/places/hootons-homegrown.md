@@ -15,6 +15,9 @@ emoji: "🎃"
 lat: 53.19775
 lng: -4.23477
 activities: [food]
+sources:
+  - label: "Hooton's Homegrown"
+    url: "https://www.hootonshomegrown.co.uk/"
 ---
 
 Hooton's Homegrown is a family farm that has grown fruit since 1989. Pick your own is at Ffingar Farm on the Brynsiencyn road near Llanedwen, and the family also runs farm shops in Brynsiencyn and Llanfairpwll selling their own fruit and veg alongside local produce.
