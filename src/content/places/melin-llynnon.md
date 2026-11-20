@@ -1,5 +1,5 @@
 ---
-title: "Melin Llynnon"
+title: "Melin Llynon"
 tagline: "windmill & Monuts"
 category: unique
 order: 3
@@ -11,7 +11,7 @@ lng: -4.49389
 activities: [history, walks, food]
 ---
 
-Melin Llynnon is an 18th-century stone windmill on the edge of Llanddeusant. It serves coffee and Mônuts doughnuts by Mr Holt.
+Melin Llynon is an 18th-century stone windmill on the edge of Llanddeusant. It serves coffee and Mônuts doughnuts by Mr Holt, and is usually open at weekends, bank holidays and school holidays.
 
 - Stone tower mill near Llanddeusant
 - Reconstructed Iron Age roundhouses on site
