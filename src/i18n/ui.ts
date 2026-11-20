@@ -76,10 +76,10 @@ export const ui = {
       featureLede: 'Bucket, net, bacon, high tide. Everything we have learnt from years of crabbing with the kids, step by step.',
       cta: 'Read the guide',
       steps: [
+        { scene: 'tide', title: 'Check the tide', html: "Check the tide times for where you're planning to go. High tide is best." },
         { scene: 'pier', title: 'Go to Beaumaris Pier', html: '<a href="/places/beaumaris-pier">Beaumaris Pier</a> is great for crabbing. It\'s fun even when it\'s windy (it gets mad, for us anyway). Dodge the seagull poo if you can.' },
         { scene: 'bucket', title: 'Get a bucket', html: 'A transparent one is best, so you can see the crabs. Newsagents near the crabbing spots sell buckets and nets.' },
         { scene: 'net', title: 'Get a net', html: "A crab net is better than bait in a bag. The crabs aren't going anywhere unless they're on the outside of the net." },
-        { scene: 'tide', title: 'Check the tide', html: "Check the tide times for where you're planning to go. High tide is best." },
         { scene: 'stones', title: 'Fill the bucket', html: 'Get some decent stones from the beach, then fill the bucket with sea water.' },
         { scene: 'sink', title: 'Weigh the net down', html: 'Put a good-sized stone in the net so it sinks to the bottom. Otherwise it gets dragged out or flaps about in the wind.' },
         { scene: 'bacon', title: 'Use bacon', html: 'My tip is bacon. Never fails.' },
@@ -169,10 +169,10 @@ export const ui = {
       featureLede: "Bwced, rhwyd, bacwn, penllanw. Popeth rydyn ni wedi'i ddysgu dros flynyddoedd o ddal crancod gyda'r plant, gam wrth gam.",
       cta: "Darllen y canllaw",
       steps: [
+        { scene: 'tide', title: "Gwirio'r llanw", html: "Gwiriwch amseroedd y llanw lle rydych chi'n bwriadu mynd. Penllanw sydd orau." },
         { scene: 'pier', title: 'Mynd i Bier Biwmares', html: "Mae <a href=\"/cy/places/beaumaris-pier\">Pier Biwmares</a> yn wych ar gyfer dal crancod. Mae'n hwyl hyd yn oed pan mae'n wyntog (mae'n mynd yn wallgof, i ni beth bynnag). Osgowch faw'r gwylanod os gallwch chi." },
         { scene: 'bucket', title: 'Cael bwced', html: "Un clir sydd orau, er mwyn i chi weld y crancod. Mae siopau papur newydd ger y mannau dal crancod yn gwerthu bwcedi a rhwydi." },
         { scene: 'net', title: 'Cael rhwyd', html: "Mae rhwyd crancod yn well nag abwyd mewn bag. Dydy'r crancod ddim yn mynd i unman oni bai eu bod ar du allan y rhwyd." },
-        { scene: 'tide', title: "Gwirio'r llanw", html: "Gwiriwch amseroedd y llanw lle rydych chi'n bwriadu mynd. Penllanw sydd orau." },
         { scene: 'stones', title: "Llenwi'r bwced", html: "Casglwch gerrig da o'r traeth, yna llenwch y bwced â dŵr y môr." },
         { scene: 'sink', title: "Pwyso'r rhwyd i lawr", html: "Rhowch garreg go fawr yn y rhwyd fel ei bod yn suddo i'r gwaelod. Fel arall mae'n cael ei llusgo allan neu'n chwifio yn y gwynt." },
         { scene: 'bacon', title: 'Defnyddio bacwn', html: "Fy nghyngor i yw bacwn. Mae'n gweithio bob tro." },
