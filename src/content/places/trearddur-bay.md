@@ -16,7 +16,14 @@ lat: 53.27955
 lng: -4.61522
 activities: [beach, rockpools, playgrounds, food]
 tides: "479"
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Trearddur"
+  - label: "Visit Anglesey"
+    url: "https://www.visitanglesey.co.uk/en-gb/explore/trearddur-bay"
 ---
+
+Trearddur is a village on the west coast of Holy Island, south of Holyhead, with a lifeboat station since 1967. The main beach has a swimming area marked by buoys, a beach warden service and public toilets, including accessible ones. The Anglesey Coastal Path runs from here towards Rhoscolyn one way and South Stack the other.
 
 - Sandy beach with rock pools to explore
 - Sheltered bay ideal for swimming and watersports

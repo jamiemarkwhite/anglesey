@@ -15,7 +15,14 @@ emoji: "🚗"
 lat: 53.17387
 lng: -4.34753
 activities: [history, indoors, playgrounds, food]
+sources:
+  - label: "Tacla Taid"
+    url: "https://angleseytransportmuseum.co.uk/"
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Newborough,_Anglesey"
 ---
+
+Tacla Taid, Welsh for "Grandpa's stuff", is the Anglesey Transport and Agriculture Museum, just outside Newborough. The collection is indoors, so it suits a rainy day, and alongside the cars and tractors there is a Land Rover collection. Under-6s go in free.
 
 - Over 100 classic vehicles from the 1920s onwards
 - Vintage cars, motorbikes, tractors, military vehicles, and a jet plane

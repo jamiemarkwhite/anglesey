@@ -16,7 +16,12 @@ emoji: "🏰"
 lat: 53.26483
 lng: -4.08976
 activities: [history, playgrounds]
+sources:
+  - label: "Cadw"
+    url: "https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle"
 ---
+
+Beaumaris was the last castle Edward I built in Wales, and work stopped by the 1320s before it was finished. Under-5s go free, and dogs on short leads can go in the ground-floor areas. Cadw rates the terrain as easy, but there are gravel paths, cobbles and stone steps up to the wall walks.
 
 - Near-perfect symmetrical design with concentric defences
 - Water-filled moat with its own dock

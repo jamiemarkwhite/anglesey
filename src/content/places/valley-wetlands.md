@@ -15,9 +15,14 @@ emoji: "🦆"
 lat: 53.25906
 lng: -4.53102
 activities: [wildlife, walks]
+sources:
+  - label: "RSPB"
+    url: "https://www.rspb.org.uk/days-out/reserves/valley-wetlands"
 ---
 
 An RSPB reserve of lakes, reedbeds and marsh right next to [RAF Valley](/places/raf-valley), so you get ducks on the water and jets in the sky.
+
+The reserve is at Llanfair-yn-neubwll, and its lakes hold breeding and wintering wildfowl. There are no toilets on site; the nearest, with accessible and baby-changing facilities, are in Valley, 3.5 miles away.
 
 ### Wildlife
 - One of the most important reedbeds in Wales, and two Sites of Special Scientific Interest

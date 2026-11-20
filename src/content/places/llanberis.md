@@ -15,7 +15,14 @@ emoji: "🏔️"
 lat: 53.119
 lng: -4.131
 activities: [walks]
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Llanberis"
+  - label: "Cadw"
+    url: "https://cadw.gov.wales/visit/places-to-visit/dolbadarn-castle"
 ---
+
+The Llanberis Path follows the line of the mountain railway and is the least strenuous way up Snowdon on foot, though also the longest. The village also has the Llanberis Lake Railway and Dolbadarn Castle, probably built by Llywelyn the Great in the early 13th century and looked after by Cadw.
 
 ### Drive around Snowdon
 - From Llanberis, go up the Llanberis Pass (A4086) to Pen-y-Pass

@@ -1,5 +1,5 @@
 ---
-title: "Melin Llynnon"
+title: "Melin Llynon"
 tagline: "melin wynt a Monuts"
 summary: "Yr unig felin wynt sy'n dal i weithio yng Nghymru, yn dyddio o 1775."
 ---

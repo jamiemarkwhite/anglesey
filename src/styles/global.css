@@ -166,6 +166,14 @@ h1 {
 
 .credit a { color: inherit; }
 
+.sources {
+  font: 500 13px/1.45 var(--body);
+  color: var(--muted);
+  margin-top: 16px;
+}
+
+.sources a { color: inherit; }
+
 .jump {
   display: flex;
   flex-wrap: wrap;

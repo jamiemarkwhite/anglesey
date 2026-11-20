@@ -15,7 +15,16 @@ emoji: "🍟"
 lat: 53.28
 lng: -3.83
 activities: [history, food, walks]
+sources:
+  - label: "Cadw: Conwy Castle"
+    url: "https://cadw.gov.wales/visit/places-to-visit/conwy-castle"
+  - label: "Cadw: Plas Mawr"
+    url: "https://cadw.gov.wales/visit/places-to-visit/plas-mawr"
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Conwy_Suspension_Bridge"
 ---
+
+Conwy's castle and town walls were built for Edward I between 1283 and 1287, and are part of the same World Heritage Site as Beaumaris and Caernarfon. Plas Mawr, an Elizabethan town house built between 1576 and 1585, is run by Cadw and opens seasonally. Telford's 1826 suspension bridge is now pedestrian only and looked after by the National Trust.
 
 - Fish and chips on the sea front
 - Nice pubs

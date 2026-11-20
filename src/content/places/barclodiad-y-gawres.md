@@ -15,7 +15,12 @@ emoji: "🌀"
 lat: 53.2073
 lng: -4.5036
 activities: [history, walks]
+sources:
+  - label: "Cadw"
+    url: "https://cadw.gov.wales/visit/places-to-visit/barclodiad-y-gawres-chambered-tomb"
 ---
+
+Barclodiad y Gawres is a Neolithic chambered tomb looked after by Cadw, with free entry and dogs welcome. Park at the Porth Trecastell car park and take the coast path to the tomb. Cadw rates the terrain as moderate and warns the ground can be slippery or muddy, with uneven steps.
 
 - The name means "the Giantess's Apronful"
 - A 7m passage leads to a cross-shaped chamber

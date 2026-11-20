@@ -16,7 +16,12 @@ emoji: "🖼️"
 lat: 53.26348
 lng: -4.312
 activities: [history, indoors, food]
+sources:
+  - label: "Oriel Môn"
+    url: "https://www.orielmon.org/en/about-us/access-statement"
 ---
+
+Oriel Môn in Llangefni is free to visit and has its own free car park. All public areas are step-free, with corridors and doors wide enough for prams, and baby changing in the accessible toilet by the main entrance. The Discovery Den is a hands-on area for families with jigsaws, dressing up and games.
 
 - World's largest collection of Sir Kyffin Williams' work
 - Charles Tunnicliffe wildlife art collection

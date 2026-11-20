@@ -15,9 +15,16 @@ emoji: "🛟"
 lat: 53.35388
 lng: -4.23361
 activities: [beach, history, indoors, food]
+sources:
+  - label: "Wikipedia: Moelfre Lifeboat Station"
+    url: "https://en.wikipedia.org/wiki/Moelfre_Lifeboat_Station"
+  - label: "Wikipedia: Moelfre"
+    url: "https://en.wikipedia.org/wiki/Moelfre,_Anglesey"
 ---
 
 A small fishing village on the east coast with a long lifeboat history.
+
+Moelfre has had a lifeboat since 1848, and a memorial on the headland marks the wreck of the Royal Charter nearby in 1859. Seals and porpoises are sometimes seen around Ynys Moelfre, the island off the village, and the Anglesey Coastal Path leads north to the big sandy beach at Lligwy Bay.
 
 ### Lifeboat station
 - [Moelfre RNLI Lifeboat Station](https://rnli.org/find-my-nearest/lifeboat-stations/moelfre-lifeboat-station) is a working station
