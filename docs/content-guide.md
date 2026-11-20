@@ -24,7 +24,6 @@ Parents visiting Anglesey with young children. Every sentence should help them d
 - British English.
 - No em or en dashes. Use commas, full stops or hyphens.
 - Plain words and short sentences. Say the fact, not how good it is.
-- No marketing words: stunning, breathtaking, hidden gem, nestled, perfect, must-see, iconic, something for everyone, incredible.
 - No filler: "it's worth noting", "whether you're... or...", "a great day out".
 
 ## Facts and sources
