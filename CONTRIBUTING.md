@@ -53,6 +53,8 @@ The body is a bullet list of practical details: what's there, prices, parking, d
 
 ## Sources
 
+The full writing and sourcing rules are in [docs/content-guide.md](docs/content-guide.md).
+
 Every fact you didn't see for yourself needs a source on the page. Add the page you got it from to `sources`, and open the link to check it still says that.
 
 ```md
