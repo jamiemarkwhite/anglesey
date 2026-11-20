@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import CrabArt, { type Scene } from '../components/CrabArt.astro';
 import PlaceCard from '../components/PlaceCard.astro';
-import { localePath, t, type Locale } from '../i18n/ui';
+import { languages, localePath, t, type Locale } from '../i18n/ui';
 import { getPlaces } from '../i18n/places';
 import { tideTableUrl } from '../activities';
 
@@ -19,9 +19,18 @@ const spots = (await getPlaces(locale))
 const tides = spots
   .filter((p) => p.data.tides)
   .map((p) => ({ place: p.data.title, href: tideTableUrl(p.data.tides!) }));
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: guide.title,
+  description: guide.description,
+  url: new URL(localePath(locale, '/crabbing'), Astro.site).href,
+  inLanguage: languages[locale].htmlLang,
+  author: { '@type': 'Person', name: 'Jamie White', url: 'https://jamiewhite.dev' },
+};
 ---
 
-<Base locale={locale} path="/crabbing" title={guide.title} description={guide.description}>
+<Base locale={locale} path="/crabbing" title={guide.pageTitle} description={guide.description} schema={schema}>
   <p><a class="back" href={localePath(locale, '/')}>← {strings.siteName}</a></p>
   <span class="tag">🦀 {guide.nav}</span>
   <h1 class="shadow place-title">{guide.title}</h1>

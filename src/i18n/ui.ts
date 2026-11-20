@@ -5,15 +5,16 @@ export const locales = ['en', 'cy'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
-export const languages: Record<Locale, { name: string; htmlLang: string }> = {
-  en: { name: 'English', htmlLang: 'en-GB' },
-  cy: { name: 'Cymraeg', htmlLang: 'cy' },
+export const languages: Record<Locale, { name: string; htmlLang: string; ogLocale: string }> = {
+  en: { name: 'English', htmlLang: 'en-GB', ogLocale: 'en_GB' },
+  cy: { name: 'Cymraeg', htmlLang: 'cy', ogLocale: 'cy_GB' },
 };
 
 export const ui = {
   en: {
     siteName: 'Anglesey',
-    homeTitle: 'Anglesey · things to do on Ynys Môn',
+    titleSuffix: 'Anglesey family guide',
+    homeTitle: 'Things to do on Anglesey with kids · Ynys Môn family guide',
     description:
       'Things to do on Anglesey (Ynys Môn) with young kids, from years of family trips: beaches, crabbing, castles, puffins and more.',
     tag: 'Ynys Môn guide',
@@ -66,6 +67,7 @@ export const ui = {
     crabbingGuide: {
       nav: 'Crabbing guide',
       title: 'A simple crabbing guide',
+      pageTitle: 'Crabbing on Anglesey with kids',
       description: 'How we go crabbing on Anglesey with the kids: what to bring, when to go and where.',
       intro: "Crabbing is one of our favourite things to do on Anglesey. Here's what works for us.",
       promo: 'New to crabbing? Read our simple crabbing guide',
@@ -103,6 +105,7 @@ export const ui = {
   },
   cy: {
     siteName: 'Ynys Môn',
+    titleSuffix: 'Ynys Môn',
     homeTitle: "Ynys Môn · pethau i'w gwneud ar yr ynys",
     description:
       "Pethau i'w gwneud ar Ynys Môn gyda phlant ifanc, o flynyddoedd o deithiau teulu: traethau, dal crancod, cestyll, palod a mwy.",
@@ -156,6 +159,7 @@ export const ui = {
     crabbingGuide: {
       nav: 'Canllaw dal crancod',
       title: 'Canllaw syml i ddal crancod',
+      pageTitle: 'Canllaw syml i ddal crancod',
       description: "Sut rydyn ni'n dal crancod ar Ynys Môn gyda'r plant: beth i'w gymryd, pryd i fynd a ble.",
       intro: "Dal crancod yw un o'n hoff bethau i'w wneud ar Ynys Môn. Dyma beth sy'n gweithio i ni.",
       promo: "Erioed wedi dal crancod? Darllenwch ein canllaw syml",
@@ -266,5 +270,5 @@ export function t(locale: Locale) {
 // Maps an unprefixed path such as `/places/moelfre` to its address in the given locale.
 export function localePath(locale: Locale, path: string) {
   if (locale === defaultLocale) return path;
-  return `/${locale}${path === '/' ? '/' : path}`;
+  return `/${locale}${path === '/' ? '' : path}`;
 }

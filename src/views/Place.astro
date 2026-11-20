@@ -4,7 +4,7 @@ import Base from '../layouts/Base.astro';
 import Credit from '../components/Credit.astro';
 import Photo from '../components/Photo.astro';
 import PlaceCard from '../components/PlaceCard.astro';
-import { categoryNames, localePath, t, type Locale } from '../i18n/ui';
+import { categoryNames, languages, localePath, t, type Locale } from '../i18n/ui';
 import type { LocalizedPlace } from '../i18n/places';
 import { tideStations, tideTableUrl } from '../activities';
 import { editPlaceTranslationUrl, editPlaceUrl, newPlaceTranslationUrl } from '../site';
@@ -23,6 +23,18 @@ const category = place.data.category;
 const categoryName = categoryNames[locale][category];
 const translationUrl = place.translated ? editPlaceTranslationUrl(place.id) : newPlaceTranslationUrl(place.id);
 const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
+const pageUrl = new URL(localePath(locale, `/places/${place.id}`), Astro.site).href;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'TouristAttraction',
+  name: place.data.title,
+  description: place.data.summary,
+  url: pageUrl,
+  sameAs: place.data.url,
+  geo: { '@type': 'GeoCoordinates', latitude: place.data.lat, longitude: place.data.lng },
+  touristType: 'Families with young children',
+  inLanguage: languages[locale].htmlLang,
+};
 ---
 
 <Base
@@ -30,6 +42,8 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
   path={`/places/${place.id}`}
   title={place.data.title}
   description={place.data.summary}
+  image={place.data.photo}
+  schema={schema}
   translationUrl={translationUrl}
   untranslated={!place.translated}
 >
@@ -40,6 +54,7 @@ const editUrl = locale === 'en' ? editPlaceUrl(place.id) : translationUrl;
     <p class="lede">{place.data.summary}</p>
     <Photo
       src={place.data.photo}
+      alt={place.data.title}
       emoji={place.data.emoji}
       class="hero"
       widths={[720, 1280]}
